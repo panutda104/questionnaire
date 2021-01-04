@@ -1,20 +1,19 @@
-<?php
+<?php session_start();
 include_once("config.php");
 $result = mysqli_query($con, "SELECT * FROM personal");
 $i = 0;
 while ($row = mysqli_fetch_array($result)) {
     $i += 1;
 }
-// echo "ZZZZZZ = " . $i . "<br />";
-$code = $i;
+$_SESSION['personal_code']='P000'.$i;
+$code = $_SESSION['personal_code'];
 $gender = $_POST['gender'];
 $occ = $_POST['job_now'];
 $time = $_POST['job_since'];
 $gpa = $_POST['gpax'];
 $study = $_POST['branch'];
 $sql = "INSERT INTO personal (personal_code,personal_gender,personal_occ,personal_time,personal_gpa,personal_study)
-VALUES ('P000$code','$gender','$occ','$time','$gpa','$study')";
-// echo "test = " . $sql;
+VALUES ('$code','$gender','$occ','$time','$gpa','$study')";
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));
 } else {
