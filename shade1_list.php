@@ -5,7 +5,7 @@ $i = 0;
 while ($row = mysqli_fetch_array($result)) {
     $i += 1;
 }
-$_SESSION['personal_code']='P000'.$i;
+$_SESSION['personal_code'] = 'P000' . $i;
 $code = $_SESSION['personal_code'];
 $gender = $_POST['gender'];
 $occ = $_POST['job_now'];
@@ -37,7 +37,9 @@ mysqli_close($con);
 </head>
 
 <body>
-    <section id="page1" class="page1">
+    <!-- <form action="shade1_list.php" method="post"> -->
+
+    <form id="page1" class="page1" action="shade2_list.php" method="post">
         <div class="shade">
             <div class="text_header_shade">
                 ส่วนที่ 2 เก็บรวบรวมข้อมูลทักษะ
@@ -53,7 +55,7 @@ mysqli_close($con);
 
                 <div class="range-wrap">
                     <div class="range-value" id="rangeV"></div>
-                    <input  name ="range" id="range" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range" id="range" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
@@ -123,7 +125,7 @@ mysqli_close($con);
                 <p id="text_content2_shade1">11 . คุณสามารถบอกให้ผู้อื่นทำบางสิ่งบางอย่างตามที่คุณต้องการได้ </p>
                 <div class="range-wrap11">
                     <div class="range-value11" id="rangeV11"></div>
-                    <input  name="range11" id="range11" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range11" id="range11" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
@@ -237,9 +239,9 @@ mysqli_close($con);
         </div>
 
         <button onclick="location.href='shade1_list.php'" class=" button_shade2 prev" onclick="plusSlides(-1)">ย้อนกลับ</button>
-        <button onclick="location.href='shade2_list.php'" class=" button_shade1 next" onclick="move() " onclick="plusSlides(1) "> ถัดไป</button>
+        <button type="submit" class=" button_shade1 next"> ถัดไป</button>
 
-    </section>
+    </form>
 
 
 

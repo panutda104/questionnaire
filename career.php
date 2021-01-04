@@ -1,3 +1,35 @@
+<?php session_start();
+include_once("config.php");
+$result = mysqli_query($con, "SELECT * FROM shade3_knowledge");
+$i = 0;
+while ($row = mysqli_fetch_array($result)) {
+    $i += 1;
+}
+$_SESSION['knowledge_code'] = 'S3_000' . $i;
+$knowledge_code = $_SESSION['knowledge_code'];
+$personal_code = $_SESSION['personal_code'];
+
+$range2 = $_POST['range2'];
+
+$sql = "INSERT INTO shade3_knowledge
+(
+    knowledge_code,
+    personal_code,
+    knowledge_1
+)
+VALUES ('
+$knowledge_code','
+$personal_code','
+$range11111111
+')";
+echo "CHECH SQL = ".$sql;
+if (!mysqli_query($con, $sql)) {
+    die(mysqli_error($con));
+} else {
+}
+mysqli_close($con);
+// echo "num = ".$_POST['range2'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 

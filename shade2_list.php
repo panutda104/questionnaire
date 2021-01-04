@@ -1,3 +1,36 @@
+<?php session_start();
+include_once("config.php");
+$result = mysqli_query($con, "SELECT * FROM shade1_psychology");
+$i = 0;
+while ($row = mysqli_fetch_array($result)) {
+    $i += 1;
+}
+$_SESSION['psychology_code'] = 'S1_000' . $i;
+$psychology_code = $_SESSION['psychology_code'];
+$personal_code = $_SESSION['personal_code'];
+
+$range2 = $_POST['range2'];
+
+$sql = "INSERT INTO shade1_psychology 
+(
+    psychology_code,
+    personal_code,
+    psychology_2
+)
+VALUES ('
+$psychology_code','
+$personal_code','
+$range2
+')";
+echo "CHECH SQL = ".$sql;
+
+if (!mysqli_query($con, $sql)) {
+    die(mysqli_error($con));
+} else {
+}
+mysqli_close($con);
+// echo "num = ".$_POST['range2'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
