@@ -1,3 +1,21 @@
+
+
+<?php
+include_once("config.php");
+$gender=$_POST['gender'];
+$occ=$_POST['job_now'];
+$time=$_POST['job_since'];
+$gpa=$_POST['gpax'];
+$study=$_POST['branch'];
+$sql="INSERT INTO personal (personal_gender,personal_occ,personal_time,personal_gpa,personal_study)
+VALUES ('$gender','$occ','$time','$gpa','$study')";
+
+if(!mysqli_query($con,$sql)){
+    die(mysqli_error($con));
+
+    }else {}
+    mysqli_close($con); 
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
