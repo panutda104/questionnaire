@@ -9,21 +9,66 @@ $_SESSION['attitude_code'] = 'S2_000' . $i;
 $attitude_code = $_SESSION['attitude_code'];
 $personal_code = $_SESSION['personal_code'];
 
-$range2 = $_POST['range2'];
+$range27 = $_POST['range27'];
+$range28 = $_POST['range28'];
+$range29 = $_POST['range29'];
+$range30 = $_POST['range30'];
+$range31 = $_POST['range31'];
+$range32 = $_POST['range32'];
+$range33 = $_POST['range33'];
+$range34 = $_POST['range34'];
+$range35 = $_POST['range35'];
+$range36 = $_POST['range36'];
+$range37 = $_POST['range37'];
+$range38 = $_POST['range38'];
+$range39 = $_POST['range39'];
+$range40 = $_POST['range40'];
+$range41 = $_POST['range41'];
+$range42 = $_POST['range42'];
+$range43 = $_POST['range43'];
+$range44 = $_POST['range44'];
+$range45 = $_POST['range45'];
+$range46 = $_POST['range46'];
+$range47 = $_POST['range47'];
+$range48 = $_POST['range48'];
+$range49 = $_POST['range49'];
+$range50 = $_POST['range50'];
+$range51 = $_POST['range51'];
+$range52 = $_POST['range52'];
+
 
 $sql = "INSERT INTO shade2_attitude
 (
     attitude_code,
     personal_code,
     attitude_1,
-    attitude_2
+    attitude_2,
+    attitude_3,
+    attitude_4,
+    attitude_5,
+    attitude_6,
+    attitude_7,
+    attitude_8,
+    attitude_9,
+    attitude_10,
+    attitude_11,
+    attitude_12,
+    attitude_13,
+    attitude_14,
+    attitude_15,
+    attitude_16,
+    attitude_17,
+    attitude_18,
+    attitude_19,
+    attitude_20,
+    attitude_21,
+    attitude_22,
+    attitude_23,
+    attitude_24,
+    attitude_25,
+    attitude_26
 )
-VALUES ('
-$attitude_code','
-$personal_code','
-$range','
-$range2
-')";
+VALUES ('$attitude_code','$personal_code','$range27','$range28','$range29','$range30','$range31','$range32','$range33','$range34','$range35','$range36','$range37','$range38','$range39','$range40','$range41','$range42','$range43','$range44','$range45','$range46','$range47','$range48','$range49','$range50','$range51','$range52')";
 echo "CHECH SQL = ".$sql;
 
 if (!mysqli_query($con, $sql)) {
