@@ -9,20 +9,76 @@ $_SESSION['knowledge_code'] = 'S3_000' . $i;
 $knowledge_code = $_SESSION['knowledge_code'];
 $personal_code = $_SESSION['personal_code'];
 
-$range2 = $_POST['range2'];
+$range53 = $_POST['range53'];
+$range54 = $_POST['range54'];
+$range55 = $_POST['range55'];
+$range56 = $_POST['range56'];
+$range57 = $_POST['range57'];
+$range58 = $_POST['range58'];
+$range59 = $_POST['range59'];
+$range60 = $_POST['range60'];
+$range61 = $_POST['range61'];
+$range62 = $_POST['range62'];
+$range63 = $_POST['range63'];
+$range64 = $_POST['range64'];
+$range65 = $_POST['range65'];
+$range66 = $_POST['range66'];
+$range67 = $_POST['range67'];
+$range68 = $_POST['range68'];
+$range69 = $_POST['range69'];
+$range70 = $_POST['range70'];
+$range71 = $_POST['range71'];
+$range72 = $_POST['range72'];
+$range73 = $_POST['range73'];
+$range74 = $_POST['range74'];
+$range75 = $_POST['range75'];
+$range76 = $_POST['range76'];
+$range77 = $_POST['range77'];
+$range78 = $_POST['range78'];
+$range79 = $_POST['range79'];
+$range80 = $_POST['range80'];
+$range81 = $_POST['range81'];
+$range82 = $_POST['range82'];
+$range83 = $_POST['range83'];
 
 $sql = "INSERT INTO shade3_knowledge
 (
     knowledge_code,
     personal_code,
-    knowledge_1
+    knowledge_1,
+    knowledge_2,
+    knowledge_3,
+    knowledge_4,
+    knowledge_5,
+    knowledge_6,
+    knowledge_7,
+    knowledge_8,
+    knowledge_9,
+    knowledge_10,
+    knowledge_11,
+    knowledge_12,
+    knowledge_13,
+    knowledge_14,
+    knowledge_15,
+    knowledge_16,
+    knowledge_17,
+    knowledge_18,
+    knowledge_19,
+    knowledge_20,
+    knowledge_21,
+    knowledge_22,
+    knowledge_23,
+    knowledge_24,
+    knowledge_25,
+    knowledge_26,
+    knowledge_27,
+    knowledge_28,
+    knowledge_29,
+    knowledge_30,
+    knowledge_31
 )
-VALUES ('
-$knowledge_code','
-$personal_code','
-$range11111111
-')";
-echo "CHECH SQL = ".$sql;
+VALUES ('$knowledge_code','$personal_code','$range53','$range54','$range55','$range56','$range57','$range58','$range59','$range60','$range61','$range62','$range63','$range64','$range65','$range66','$range67','$range68','$range69','$range70','$range71','$range72','$range73','$range74','$range75','$range76','$range77','$range78','$range79','$range80','$range81','$range82','$range83')";
+//echo "CHECH SQL = ".$sql;
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));
 } else {

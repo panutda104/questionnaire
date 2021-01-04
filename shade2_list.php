@@ -9,27 +9,74 @@ $_SESSION['psychology_code'] = 'S1_000' . $i;
 $psychology_code = $_SESSION['psychology_code'];
 $personal_code = $_SESSION['personal_code'];
 
+$range = $_POST['range'];
 $range2 = $_POST['range2'];
+$range3 = $_POST['range3'];
+$range4 = $_POST['range4'];
+$range5 = $_POST['range5'];
+$range6 = $_POST['range6'];
+$range7 = $_POST['range7'];
+$range8 = $_POST['range8'];
+$range9 = $_POST['range9'];
+$range10 = $_POST['range10'];
+$range11 = $_POST['range11'];
+$range12 = $_POST['range12'];
+$range13 = $_POST['range13'];
+$range14 = $_POST['range14'];
+$range15 = $_POST['range15'];
+$range16 = $_POST['range16'];
+$range17 = $_POST['range17'];
+$range18 = $_POST['range18'];
+$range19 = $_POST['range19'];
+$range20 = $_POST['range20'];
+$range21 = $_POST['range21'];
+$range22 = $_POST['range22'];
+$range23 = $_POST['range23'];
+$range24 = $_POST['range24'];
+$range25 = $_POST['range25'];
+$range26 = $_POST['range26'];
 
 $sql = "INSERT INTO shade1_psychology 
 (
     psychology_code,
     personal_code,
-    psychology_2
+    psychology_1,
+    psychology_2,
+    psychology_3,
+    psychology_4,
+    psychology_5,
+    psychology_6,
+    psychology_7,
+    psychology_8,
+    psychology_9,
+    psychology_10,
+    psychology_11,
+    psychology_12,
+    psychology_13,
+    psychology_14,
+    psychology_15,
+    psychology_16,
+    psychology_17,
+    psychology_18,
+    psychology_19,
+    psychology_20,
+    psychology_21,
+    psychology_22,
+    psychology_23,
+    psychology_24,
+    psychology_25,
+    psychology_26
+
 )
-VALUES ('
-$psychology_code','
-$personal_code','
-$range2
-')";
-echo "CHECH SQL = ".$sql;
+VALUES ('$psychology_code','$personal_code','$range','$range2','$range3','$range4','$range5','$range6','$range7','$range8','$range9','$range10','$range11','$range12','$range13','$range14','$range15','$range16','$range17','$range18','$range19','$range20','$range21','$range22','$range23','$range24','$range25','$range26')";
+//echo "CHECH SQL = ".$sql;
 
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));
 } else {
 }
 mysqli_close($con);
-// echo "num = ".$_POST['range2'];
+echo "num = ".$_POST['range2'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +95,7 @@ mysqli_close($con);
 </head>
 
 <body>
-<section id="page1" class="page1">
+<form id="page1" class="page1" action="shade3_list.php" method="post">
                 <div class="shade">
                     <div class="text_header_shade2">
                         ส่วนที่ 3  เก็บรวบรวมข้อมูลเจตคติ
@@ -241,17 +288,12 @@ mysqli_close($con);
                                 <input name="range52" id="range52" type="range" min="0" max="100" value="50" step="1">
                         </div>
                     </div>
-
-
-
-                    <!-- button -->
-                    
-                    
+                    <!-- button -->                   
                 </div>
                 <button onclick="location.href='shade2_list.php'" class=" button_shade2 prev" onclick="plusSlides(-1)" >ย้อนกลับ</button>   
-                <button onclick="location.href='shade3_list.php'" class=" button_shade1 next" onclick="move() " onclick="plusSlides(1) " > ถัดไป</button>
+                <button type="submit" class=" button_shade1 next"  > ถัดไป</button>
                 
-            </section>
+            </form>
      
 
 <!-- script Range27 -->

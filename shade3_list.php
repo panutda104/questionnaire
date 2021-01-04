@@ -95,7 +95,7 @@ mysqli_close($con);
 </head>
 
 <body>
-    <section id="page1" class="page1">
+    <form id="page1" class="page1" action="career.php" method="post">
         <div class="shade">
             <div class="text_header_shade3">
                 ส่วนที่ 4 เก็บรวบรวมข้อมูลความรู้
@@ -175,7 +175,7 @@ mysqli_close($con);
                 <p id="text_content2_shade3">62 . เศรษฐศาสตร์และการบัญชี (Economics and Accounting) </p>
                 <div class="range-wrap62">
                     <div class="range-value62" id="rangeV62"></div>
-                    <input name="range61" id="range62" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range62" id="range62" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
@@ -245,7 +245,7 @@ mysqli_close($con);
                 <p id="text_content2_shade3">72 . เชิงกล (Mechanical) </p>
                 <div class="range-wrap72">
                     <div class="range-value72" id="rangeV72"></div>
-                    <input name="72" id="range72" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range72" id="range72" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
@@ -280,7 +280,7 @@ mysqli_close($con);
                 <p id="text_content2_shade3">77 . การผลิตและการแปรรูป (Production and Processing) </p>
                 <div class="range-wrap77">
                     <div class="range-value77" id="rangeV77"></div>
-                    <input name="77" id="range77" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range77" id="range77" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
@@ -315,7 +315,7 @@ mysqli_close($con);
                 <p id="text_content2_shade3">82 . โทรคมนาคม (Telecommunications) </p>
                 <div class="range-wrap82">
                     <div class="range-value82" id="rangeV82"></div>
-                    <input name="range83" id="range82" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range82" id="range82" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
@@ -328,8 +328,9 @@ mysqli_close($con);
             <!-- button -->
 
             <button onclick="location.href='shade2_list.php'" class=" button_shade2 prev" onclick="plusSlides(-1)">ย้อนกลับ</button>
-            <button onclick="location.href='career.php'" class=" button_shade1 next" onclick="move() " onclick="plusSlides(1) "> ถัดไป</button>
+            <button type="submit" class=" button_shade1 next" onclick="move() " onclick="plusSlides(1) "> ถัดไป</button>
         </div>
+</form>
 
         <!-- script Range53 -->
         <script>
