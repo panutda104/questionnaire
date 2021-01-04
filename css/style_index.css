@@ -1,0 +1,43 @@
+.index{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 950px;
+    height: 1150px;    
+    margin-top: 20px;
+    margin-left: 280px;
+}
+
+.text_header_index{
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bolder;
+    margin-top: 160px;
+}
+
+#text_header_index{
+    font-size: 29px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+#text_content1_index{
+    font-size: 19px;
+    font-family: 'Mitr', sans-serif;
+    margin-left: 20px;
+}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
