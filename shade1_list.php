@@ -54,182 +54,182 @@ mysqli_close($con);
 
                 <div class="range-wrap">
                     <div class="range-value" id="rangeV"></div>
-                    <input id="range" type="range" min="0" max="100" value="50" step="1">
+                    <input  name ="range" id="range" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">2 . คุณสามารถเขียนบรรยายจากจิตนาการได้</p>
                 <div class="range-wrap2">
                     <div class="range-value2" id="rangeV2"></div>
-                    <input id="range2" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range2" id="range2" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">3 . คุณสามารถพึ่งพามโนภาพในการออกแบบได้</p>
                 <div class="range-wrap3">
                     <div class="range-value3" id="rangeV3"></div>
-                    <input id="range3" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range3" id="range3" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">4 . คุณสามารถทำงานกับสิ่งที่ปฏิบัติได้ทันที</p>
                 <div class="range-wrap4">
                     <div class="range-value4" id="rangeV4"></div>
-                    <input id="range4" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range4" id="range4" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">5 . คุณสามารถผสานการทำงานเข้ากับการเรียนรู้ได้ </p>
                 <div class="range-wrap5">
                     <div class="range-value5" id="rangeV5"></div>
-                    <input id="range5" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range5" id="range5" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">6 . คุณสามารถเรียนรู้ ทำงานหนัก และมีระเบียบวินัยได้ </p>
                 <div class="range-wrap6">
                     <div class="range-value6" id="rangeV6"></div>
-                    <input id="range6" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range6" id="range6" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">7 . คุณสามารถทำงานที่มีวิธีการเชิงตรรกะอย่างละเอียดได้ </p>
                 <div class="range-wrap7">
                     <div class="range-value7" id="rangeV7"></div>
-                    <input id="range7" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range7" id="range7" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">8 . คุณสามารถเป็นผู้นำได้ </p>
                 <div class="range-wrap8">
                     <div class="range-value8" id="rangeV8"></div>
-                    <input id="range8" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range8" id="range8" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">9 . คุณสามารถช่วยเหลือผู้อื่นในการแก้ไขสถานการณ์ความขัดแย้งได้ </p>
                 <div class="range-wrap9">
                     <div class="range-value9" id="rangeV9"></div>
-                    <input id="range9" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range9" id="range9" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">10 . คุณสามารถพูดคุยและถ่ายทอดข้อมูลให้กับผู้อื่นในที่ทำงานให้เข้าใจได้ </p>
                 <div class="range-wrap10">
                     <div class="range-value10" id="rangeV10"></div>
-                    <input id="range10" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range10" id="range10" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">11 . คุณสามารถบอกให้ผู้อื่นทำบางสิ่งบางอย่างตามที่คุณต้องการได้ </p>
                 <div class="range-wrap11">
                     <div class="range-value11" id="rangeV11"></div>
-                    <input id="range11" type="range" min="0" max="100" value="50" step="1">
+                    <input  name="range11" id="range11" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">12 . คุณสามารถทำงานในสภาพแวดล้อมทางธุรกิจได้ </p>
                 <div class="range-wrap12">
                     <div class="range-value12" id="rangeV12"></div>
-                    <input id="range12" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range12" id="range12" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">13 . คุณสามารถช่วยผู้อื่นในการแก้ปัญหาได้ </p>
                 <div class="range-wrap13">
                     <div class="range-value13" id="rangeV13"></div>
-                    <input id="range13" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range13" id="range13" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">14 . คุณสามารถมีส่วนร่วมในการแก้ปัญหาทางวิทยาศาสตร์ได้ </p>
                 <div class="range-wrap14">
                     <div class="range-value14" id="rangeV14"></div>
-                    <input id="range14" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range14" id="range14" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">15 . คุณสามารถเรียนรู้วิชาที่มีความเชื่อมโยงกับอาชีพที่อยากทำด้วยตนเองได้ </p>
                 <div class="range-wrap15">
                     <div class="range-value15" id="rangeV15"></div>
-                    <input id="range15" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range15" id="range15" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">16 . คุณสามารถใช้ทักษะแบบทำด้วยมือและแบบทำด้วยเครื่องจักรได้ </p>
                 <div class="range-wrap16">
                     <div class="range-value16" id="rangeV16"></div>
-                    <input id="range16" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range16" id="range16" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">17 . คุณสามารถเข้าไปมีส่วนร่วมในภาวะตึงเครียดและเสี่ยงอันตรายได้ </p>
                 <div class="range-wrap17">
                     <div class="range-value17" id="rangeV17"></div>
-                    <input id="range17" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range17" id="range17" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">18 . คุณสามารถทำงานกลางแจ้งได้ </p>
                 <div class="range-wrap18">
                     <div class="range-value18" id="rangeV18"></div>
-                    <input id="range18" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range18" id="range18" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">19 . คุณสามารถทำงานกับองค์กรและกลุ่มได้ </p>
                 <div class="range-wrap19">
                     <div class="range-value19" id="rangeV19"></div>
-                    <input id="range19" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range19" id="range19" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">20 . คุณสามารถทำงานเป็นทีมหรือกลุ่มใหญ่ได้ </p>
                 <div class="range-wrap20">
                     <div class="range-value20" id="rangeV20"></div>
-                    <input id="range20" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range20" id="range20" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">21 . คุณสามารถให้บริการที่เกี่ยวกับการพยาบาลหรือการดูแลสุขภาพได้ </p>
                 <div class="range-wrap21">
                     <div class="range-value21" id="rangeV21"></div>
-                    <input id="range21" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range21" id="range21" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">22 . คุณสามารถพึ่งพาและเชื่อมั่นเพื่อนร่วมงานในการทำงานได้ </p>
                 <div class="range-wrap22">
                     <div class="range-value22" id="rangeV22"></div>
-                    <input id="range22" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range22" id="range22" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">23 . คุณสามารถเข้าไปมีส่วนร่วมในประเด็นปัญหาสังคมได้ </p>
                 <div class="range-wrap23">
                     <div class="range-value23" id="rangeV23"></div>
-                    <input id="range23" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range23" id="range23" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">24 . คุณสามารถเข้าไปมีส่วนร่วมในเหตุการณ์ปัจจุบันได้ </p>
                 <div class="range-wrap24">
                     <div class="range-value24" id="rangeV24"></div>
-                    <input id="range24" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range24" id="range24" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">25 . คุณสามารถทำงานกับเด็กหรือคนหนุ่มสาวได้ </p>
                 <div class="range-wrap25">
                     <div class="range-value25" id="rangeV25"></div>
-                    <input id="range25" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range25" id="range25" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
             <div>
                 <p id="text_content2_shade1">26 . คุณสามารถสอนเด็ก วัยรุ่น หรือวัยผู้ใหญ่ได้ </p>
                 <div class="range-wrap26">
                     <div class="range-value26" id="rangeV26"></div>
-                    <input id="range26" type="range" min="0" max="100" value="50" step="1">
+                    <input name="range26" id="range26" type="range" min="0" max="100" value="50" step="1">
                 </div>
             </div>
 
