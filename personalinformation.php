@@ -1,3 +1,12 @@
+<?php
+// include_once("config.php");
+// $result =mysqli_query($con,"SELECT * FROM personal");
+// $i=0;
+// while($row=mysqli_fetch_array($result)){
+//   $i+=1;
+// }
+// echo "ZZZZZZ = ".$i."<br />";
+?>
 
 <!DOCTYPE html>
 <html lang="en">
