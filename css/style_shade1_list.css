@@ -68,7 +68,7 @@ input[type=range] {
     background: #03a9f4;
   }
   .range-wrap{
-    width: 500px;
+    width: 700px;
     position: relative;
   }
   .range-value{
@@ -76,7 +76,7 @@ input[type=range] {
     top: -50%;
   }
   .range-value span{
-    width: 30px;
+    width: 70px;
     height: 24px;
     line-height: 24px;
     text-align: center;
@@ -106,7 +106,7 @@ input[type=range] {
 
   /* Range2  */
   .range-wrap2{
-    width: 500px;
+    width: 700px;
     position: relative;
   }
   .range-value2{
@@ -145,7 +145,7 @@ input[type=range] {
     /* Range3  */
 
   .range-wrap3{
-    width: 500px;
+    width: 700px;
     position: relative;
   }
   .range-value3{
@@ -183,7 +183,7 @@ input[type=range] {
 
    /* Range4  */
 .range-wrap4{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value4{
@@ -221,7 +221,7 @@ input[type=range] {
 
  /* Range5  */
 .range-wrap5{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value5{
@@ -259,7 +259,7 @@ input[type=range] {
 
 /* Range6  */
 .range-wrap6{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value6{
@@ -297,7 +297,7 @@ input[type=range] {
 
 /* Range7  */
 .range-wrap7{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value7{
@@ -335,7 +335,7 @@ input[type=range] {
 
 /* Range8  */
 .range-wrap8{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value8{
@@ -373,7 +373,7 @@ input[type=range] {
 
 /* Range9  */
 .range-wrap9{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value9{
@@ -411,7 +411,7 @@ input[type=range] {
 
 /* Range10  */
 .range-wrap10{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value10{
@@ -449,7 +449,7 @@ input[type=range] {
 
 /* Range11  */
 .range-wrap11{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value11{
@@ -487,7 +487,7 @@ input[type=range] {
 
 /* Range12  */
 .range-wrap12{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value12{
@@ -525,7 +525,7 @@ input[type=range] {
 
 /* Range13  */
 .range-wrap13{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value13{
@@ -563,7 +563,7 @@ input[type=range] {
 
 /* Range14  */
 .range-wrap14{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value14{
@@ -601,7 +601,7 @@ input[type=range] {
 
 /* Range15  */
 .range-wrap15{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value15{
@@ -639,7 +639,7 @@ input[type=range] {
 
 /* Range16  */
 .range-wrap16{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value16{
@@ -677,7 +677,7 @@ input[type=range] {
 
 /* Range17  */
 .range-wrap17{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value17{
@@ -715,7 +715,7 @@ input[type=range] {
 
 /* Range18  */
 .range-wrap18{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value18{
@@ -753,7 +753,7 @@ input[type=range] {
 
 /* Range19  */
 .range-wrap19{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value19{
@@ -791,7 +791,7 @@ input[type=range] {
 
 /* Range20  */
 .range-wrap20{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value20{
@@ -829,7 +829,7 @@ input[type=range] {
 
 /* Range21  */
 .range-wrap21{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value21{
@@ -867,7 +867,7 @@ input[type=range] {
 
 /* Range22  */
 .range-wrap22{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value22{
@@ -905,7 +905,7 @@ input[type=range] {
 
 /* Range23  */
 .range-wrap23{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value23{
@@ -943,7 +943,7 @@ input[type=range] {
 
 /* Range24  */
 .range-wrap24{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value24{
@@ -981,7 +981,7 @@ input[type=range] {
 
 /* Range25  */
 .range-wrap25{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value25{
@@ -1019,7 +1019,7 @@ input[type=range] {
 
 /* Range26  */
 .range-wrap26{
-  width: 500px;
+  width: 700px;
   position: relative;
 }
 .range-value26{

@@ -55,7 +55,7 @@ mysqli_close($con);
 
                 <div class="range-wrap">
                     <div class="range-value" id="rangeV"></div>
-                    <input name="range" id="range" type="range" min="0" max="100" value="50" step="1">
+                    <input min="0" max="100" name="range" id="range" type="range"  value="50" step="1">
                 </div>
             </div>
             <div>

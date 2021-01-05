@@ -1,3 +1,17 @@
+<?php session_start();
+include_once("config.php");
+$result = mysqli_query($con, "SELECT * FROM career");
+$i = 0;
+$checkbox1 = $_POST['chkl'] ;  
+if ($_POST["Submit" ]=="Submit")  
+{  
+for ($i=0; $i<sizeof ($checkbox1);$i++) {  
+$query="INSERT INTO career (name) VALUES ('".$checkboxl[$i]. "')";  
+mysql_query($query) or die(mysql_error());  
+}  
+echo "Record is inserted";  
+}  
+?> 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,7 +53,7 @@
                         </div>
                 </div>
 
-                <button class=" button_shade2" onclick="plusSlides(-1)" >ส่ง</button>   
+                <button type="submit" class=" button_shade2" onclick="plusSlides(-1)" >ส่ง</button>   
             </section>
         </div>
 

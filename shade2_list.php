@@ -76,7 +76,7 @@ if (!mysqli_query($con, $sql)) {
 } else {
 }
 mysqli_close($con);
-echo "num = ".$_POST['range2'];
+//echo "num = ".$_POST['range2'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
