@@ -3,7 +3,7 @@ include_once("config.php");
 $result = mysqli_query($con, "SELECT * FROM career");
 $i = 0;
 $checkbox1 = $_POST['chkl'] ;  
-if ($_POST["Submit" ]=="submit")  
+if ($_POST["Submit" ]=="Submit")  
 {  
 for ($i=0; $i<sizeof ($checkbox1);$i++) {  
 $query="INSERT INTO career (name) VALUES ('".$checkboxl[$i]. "')";  
