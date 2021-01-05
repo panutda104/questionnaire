@@ -11,14 +11,9 @@ $personal_code = $_SESSION['personal_code'];
 
 $checked = $_POST['checkbox'];
 for ($j = 0; $j < count($checked); $j++) {
-    echo "Selected " . $checked[$j];
+    // echo "Selected " . $checked[$j];
 }
 
-// $count_check = COUNT($_POST['checkbox']);
-// echo $count_check;
-for ($j = 0; $j > $count_check; $j++) {
-    $checkbox[$j] = $_POST['checkbox'];
-}
 $sql = "INSERT INTO career(
     career_code,
     personal_code,
@@ -32,14 +27,25 @@ $sql = "INSERT INTO career(
     career_8,
     career_9,
     career_10
-    ) VALUES ('$career_code','$personal_code.','$checked[0]','$checked[1]','$checked[2]','$checked[3]','$checked[4]','$checked[5]','$checked[6]','$checked[7]','$checked[8]','$checked[9]');";
-echo $sql;
+    ) VALUES ('$career_code','$personal_code','$checked[0]','$checked[1]','$checked[2]','$checked[3]','$checked[4]','$checked[5]','$checked[6]','$checked[7]','$checked[8]','$checked[9]');";
+// echo $sql;
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));
 } else {
 }
 mysqli_close($con);
 ?>
+<style type="text/css">
+    .hiddenform {
+        display: none;
+        margin-left: 45%;
+    }
+</style>
+<script type="text/javascript">
+    function showForm(flag) {
+        document.getElementById('myDIV').style.display = flag === 1 ? 'block' : 'none';
+    }
+</script>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,25 +63,26 @@ mysqli_close($con);
 </head>
 
 <body>
-    <section id="page1" class="page1">
+    <form id="page1" class="page1" action="finish.php" method="POST">
         <div class="shade">
             <div class="text_header_shade">
                 ข้อเสนอแนะ
             </div>
         </div>
-
         <div class="shade1">
             <div class="text_shade1">
-                <textarea></textarea>
+                <textarea name="suggest_box"></textarea>
                 <p id="text_content1_shade1">การยินยอมให้เก็บข้อมูลและยืนยันให้บันทึกข้อมูล *</p>
 
-                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <input type="radio" name="checkbox_remember" onclick="showForm(1)">
                 <label for="vehicle1"> ข้าพเจ้าตกลงยินยอมให้เก็บ รวบรวม และประมวลผลข้อมูล 6 ส่วน ได้แก่ 1) ข้อมูลส่วนบุคคล ได้แก่ ข้อมูลเพศ ข้อมูลอาชีพ/ตำแหน่งงานในปัจจุบัน ข้อมูลระยะเวลาในการประกอบอาชีพ/ตำแหน่งงานนี้ ข้อมูลผลการเรียนเฉลี่ย (GPAX) ข้อมูลสาขาวิชาที่เรียน/จบการศึกษา 2) ข้อมูลทักษะ 3) ข้อมูลเจตคติ 4) ข้อมูลความรู้ 5) อาชีพที่เหมาะสม และ 6) ข้อเสนอแนะ ของข้าพเจ้า โดยผู้วิจัยจะเก็บรักษาข้อมูลนี้เป็นความลับและไม่แบ่งปันหรือเปิดเผยข้อมูลส่วนบุคคล ของข้าพเจ้าต่อบุคคลหรือหน่วยงานอื่น ข้าพเจ้ามีสิทธิในฐานะเจ้าของข้อมูลส่วนบุคคลตาม พรบ.คุ้มครองส่วนบุคคล พ.ศ.2562 และก่อนให้ความยินยอมข้าพเจ้าได้อ่านและเข้าใจข้อกำหนดและเงื่อนไขในการเปิดเผยข้อมูลส่วนบุคคลซึ่งระบุไว้ด้านบนของความยินยอมนี้อย่างชัดเจนแล้ว</label><br>
 
             </div>
         </div>
-        <button type="submit" class=" button_shade2" onclick="plusSlides(-1)">ส่ง</button>
-    </section>
+        <div id="myDIV" class="hiddenform">
+            <button type="submit" class=" button_shade2">ส่ง</button>
+        </div>
+    </form>
 
 </body>
 
