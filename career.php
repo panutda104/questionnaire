@@ -688,7 +688,7 @@ mysqli_close($con);
                      </div>
 
                 <button onclick="location.href='shade3_list.php'" class=" button_shade2 prev"  >ย้อนกลับ</button>   
-                <button onclick="location.href='suggestion.php'" class=" button_shade1 next"   > ถัดไป</button>
+                <button type="submit" name="Submit"  onclick="location.href='suggestion.php'" class=" button_shade1 next"   > ถัดไป</button>
             </section>
         </div>
 
