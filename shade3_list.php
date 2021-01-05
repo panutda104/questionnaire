@@ -69,7 +69,7 @@ $sql = "INSERT INTO shade2_attitude
     attitude_26
 )
 VALUES ('$attitude_code','$personal_code','$range27','$range28','$range29','$range30','$range31','$range32','$range33','$range34','$range35','$range36','$range37','$range38','$range39','$range40','$range41','$range42','$range43','$range44','$range45','$range46','$range47','$range48','$range49','$range50','$range51','$range52')";
-echo "CHECH SQL = ".$sql;
+//echo "CHECH SQL = ".$sql;
 
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));

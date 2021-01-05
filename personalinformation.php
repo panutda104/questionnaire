@@ -42,24 +42,24 @@
           <p id="text_header_shade1">ส่วนที่ 1: เก็บรวบรวมข้อมูลส่วนบุคคล</p>
           <p id="text_content1_shade11">เพศ: *</p>
           <input type="radio" id="male" name="gender" value="male">
-          <label for="male">ชาย</label><br>
+          <label id="text_content1_shade13" for="male">ชาย</label><br>
           <input type="radio" id="female" name="gender" value="female">
-          <label for="female">หญิง</label><br>
+          <label id="text_content1_shade13" for="female">หญิง</label><br>
 
           <p id="text_content1_shade12">อาชีพ/ตำแหน่งงานในปัจจุบัน: *</p>
           <input type="text" id="occ" name="job_now">
 
           <p id="text_content1_shade12">ระยะเวลาในการประกอบอาชีพ/ตำแหน่งงานนี้ *</p>
           <input type="radio" id="iocc" name="job_since" value="น้อยกว่า 1 ปี">
-          <label for="น้อยกว่า 1 ปี">น้อยกว่า 1 ปี</label><br>
+          <label id="text_content1_shade13" for="น้อยกว่า 1 ปี">น้อยกว่า 1 ปี</label><br>
           <input type="radio" id="iocc" name="job_since" value="1-3 ปี">
-          <label for="1-3 ปี">1-3 ปี</label><br>
+          <label id="text_content1_shade13"  for="1-3 ปี">1-3 ปี</label><br>
           <input type="radio" id="iocc" name="job_since" value="4-6 ปี">
-          <label for="4-6 ปี">4-6 ปี</label><br>
+          <label id="text_content1_shade13"  for="4-6 ปี">4-6 ปี</label><br>
           <input type="radio" id="iocc" name="job_since" value="7-9 ปี">
-          <label for="7-9 ปี">7-9 ปี</label><br>
+          <label id="text_content1_shade13" for="7-9 ปี">7-9 ปี</label><br>
           <input type="radio" id="iocc" name="job_since" value="10 ปี ขึ้นไป">
-          <label for="10 ปี ขึ้นไป">10 ปี ขึ้นไป</label><br>
+          <label id="text_content1_shade13" for="10 ปี ขึ้นไป">10 ปี ขึ้นไป</label><br>
 
           <p id="text_content1_shade12">ผลการเรียนเฉลี่ย (GPAX): *</p>
           <input type="text2" id="occ2" name="gpax">

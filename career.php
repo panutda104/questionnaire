@@ -114,58 +114,48 @@ mysqli_close($con);
     
                 <div class="shade1">
                     <div class="text_shade1">
-                        <p id="text_header_shade1">1. Administrative Support</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 1 Administrative Support</p> 
                         <div style="margin-top: 10px;" >
-                        <input type="checkbox">               
-                        <label class="container" >เลขานุการผู้บริหารและผู้ช่วยฝ่ายบริหาร (Executive Secretaries and Executive Administrative Assistants)                                               
-                        <span class="checkmark"></span>
-                        </label>
+                        <input type="checkbox" name="chkl" value="เลขานุการผู้บริหารและผู้ช่วยฝ่ายบริหาร">เลขานุการผู้บริหารและผู้ช่วยฝ่ายบริหาร (Executive Secretaries and Executive Administrative Assistants)    <br />         
                         </div>
 
                         <div style="margin-top: 10px;">
-                        <label>    
-                        <input type="checkbox" >
-                        <label class="container" >ช่างคอมพิวเตอร์ (Computer Operators)
-                        <span class="checkmark"></span>
-                        </label>
+                        <input type="checkbox" name="chkl" value="ช่างคอมพิวเตอร์ (Computer Operators)">ช่างคอมพิวเตอร์ (Computer Operators) <br/>              
                         </div>
 
                         <div style="margin-top: 10px;" > 
-                        <input type="checkbox" >
-                        <label class="container">ตัวแทนฝ่ายบริการลูกค้า (Customer Service Representatives)
-                        <span class="checkmark"></span>
-                        </label>
+                        <input type="checkbox" name="chkl" value="ตัวแทนฝ่ายบริการลูกค้า (Customer Service Representatives)">ตัวแทนฝ่ายบริการลูกค้า (Customer Service Representatives)<br/>
                         </div>
 
                         <div style="margin-top: 10px;">
-                        <input type="checkbox" >
+                        <input type="checkbox" name="chkl[ ]">
                         <label class="container">ผู้ช่วยห้องสมุด (Library Assistants)
                         <span class="checkmark"></span>
                         </label>
                         </div>
 
                         <div style="margin-top: 10px;">
-                        <input type="checkbox" >
+                        <input type="checkbox" name="chkl[ ]">
                         <label class="container">พนักงานจัดการไฟล์เอกสาร (File Clerks)
                         <span class="checkmark"></span>
                         </label>
                         </div>
 
                         <div style="margin-top: 10px;">
-                        <input type="checkbox" >
+                        <input type="checkbox" name="chkl[ ]">
                         <label class="container">พนักงานต้อนรับและให้ข้อมูล (Receptionists and Information Clerks)
                         </label>
                         </div>
 
                         <div style="margin-top: 10px;">
-                        <input type="checkbox" >
+                        <input type="checkbox" name="chkl[ ]">
                         <label class="container">พนักงานตอบจดหมาย/E-mail (Correspondence Clerks)
                         <span class="checkmark"></span>
                         </label>
                         </div>
 
                         <div style="margin-top: 10px;">
-                        <input type="checkbox" >
+                        <input type="checkbox" name="chkl[ ]" >
                         <label class="container">พนักงานบันทึกข้อมูล (Data Entry Keyers)
                         <span class="checkmark"></span>
                         </label>
@@ -189,7 +179,7 @@ mysqli_close($con);
 
                 <div class="shade1">
                     <div class="text_shade2">
-                        <p id="text_header_shade1">2. Business Information Management</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 2 Business Information Management</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >ผู้จัดการคอมพิวเตอร์และระบบสารสนเทศ (Computer and Information Systems Managers)                                              
@@ -222,7 +212,7 @@ mysqli_close($con);
 
                     <div class="shade1">
                     <div class="text_shade3">
-                        <p id="text_header_shade1">3. Data Handling</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 3 Data Handling</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >ผู้เก็บรวบรวมข้อมูล (Data Archivists)
@@ -276,7 +266,7 @@ mysqli_close($con);
 
                     <div class="shade1">
                     <div class="text_shade2">
-                        <p id="text_header_shade1">4. Data Science</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 4 Data Science</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >นักวิเคราะห์ธุรกิจอัจฉริยะ (Business Intelligence Analysts)
@@ -309,54 +299,7 @@ mysqli_close($con);
                     
                     <div class="shade1">
                     <div class="text_shade3">
-                        <p id="text_header_shade1">5. Operations Management</p> 
-                        <div style="margin-top: 10px;" >
-                        <input type="checkbox" >               
-                        <label class="container" >ผู้บริหารฝ่ายบัญชี (Account Executive)
-                        <span class="checkmark"></span>
-                        </label>
-                        </div>
-
-                        <div style="margin-top: 10px;">
-                        <label>    
-                        <input type="checkbox" >
-                        <label class="container" >ผู้ประสานงานการตลาด (Marketing Coordinator)
-                        <span class="checkmark"></span>
-                        </label>
-                        </div>
-
-                        <div style="margin-top: 10px;" > 
-                        <input type="checkbox" >
-                        <label class="container">นักค้นหากลยุทธ์ด้านการตลาด (Search Marketing Strategists)
-                        <span class="checkmark"></span>
-                        </label>
-                        </div>
-
-                        <div style="margin-top: 10px;">
-                        <input type="checkbox" >
-                        <label class="container">ร้านค้าออนไลน์ (Online Merchants)
-                        <span class="checkmark"></span>
-                        </label>
-                        </div>    
-                        
-                        <div style="margin-top: 10px;">
-                        <input type="checkbox" >
-                        <label class="container">นักค้นหายุทธศาสตร์การตลาด (Search Marketing Strategists)
-                        <span class="checkmark"></span>
-                        </label>
-                        </div> 
-
-                        <div style="margin-top: 10px;">
-                        <input type="checkbox" >
-                        <label class="container">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)
-                        <span class="checkmark"></span>
-                        </label>
-                        </div> 
-                     </div>
-
-                    <div class="shade1">
-                    <div class="text_shade3">
-                        <p id="text_header_shade1">5. Operations Management</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 5 Operations Management</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >ผู้บริหารฝ่ายบัญชี (Account Executive)
@@ -403,7 +346,7 @@ mysqli_close($con);
 
                      <div class="shade1">
                     <div class="text_shade3">
-                        <p id="text_header_shade1">6. Mobile Application</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 6 Mobile Application</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)
@@ -450,7 +393,7 @@ mysqli_close($con);
 
                      <div class="shade1">
                     <div class="text_shade4">
-                        <p id="text_header_shade1">7. Network Systems</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 7 Network Systems</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >นักวิเคราะห์เครือข่าย (Network Analyst)
@@ -539,7 +482,7 @@ mysqli_close($con);
 
                      <div class="shade1">
                     <div class="text_shade4">
-                        <p id="text_header_shade1">8. Programming and Software Development</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 8 Programming and Software Development</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >โปรแกรมเมอร์เกม (Game Programmer)
@@ -614,7 +557,7 @@ mysqli_close($con);
 
                     <div class="shade1">
                     <div class="text_shade4">
-                        <p id="text_header_shade1">9. Web and Digital Communications</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 9 Web and Digital Communications</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >เว็บมาสเตอร์ (Web Master)
@@ -696,7 +639,7 @@ mysqli_close($con);
 
                     <div class="shade1">
                     <div class="text_shade5">
-                        <p id="text_header_shade1">10. Research</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 10 Research</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >นักวิจัย (Researcher)
@@ -723,7 +666,7 @@ mysqli_close($con);
                     
                     <div class="shade1">
                     <div class="text_shade6">
-                        <p id="text_header_shade1">11. Journalism and Broadcasting</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 11 Journalism and Broadcasting</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >โฆษก/ผู้ประกาศวิทยุและโทรทัศน์ (Radio and Television Announcers)
@@ -877,7 +820,7 @@ mysqli_close($con);
 
                     <div class="shade1">
                     <div class="text_shade3">
-                        <p id="text_header_shade1">12. Performing Arts</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 12 Performing Arts</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >ช่างแต่งหน้า ละครและการแสดง (Makeup Artists, Theatrical and Performance)
@@ -932,7 +875,7 @@ mysqli_close($con);
                      
                     <div class="shade1">
                     <div class="text_shade7">
-                        <p id="text_header_shade1">13. Professional Support Services</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 13 Professional Support Services</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >ช่างเทคนิคห้องสมุด/เจ้าหน้าที่ห้องสมุด (Library Technicians)
@@ -993,7 +936,7 @@ mysqli_close($con);
 
                      <div class="shade1">
                     <div class="text_shade8">
-                        <p id="text_header_shade1">14. Teaching/Training</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 14 Teaching/Training</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >ครูสอนเทคนิคมัธยมต้น (Technical Education Teachers, Middle School)
@@ -1060,7 +1003,7 @@ mysqli_close($con);
 
                      <div class="shade1">
                     <div class="text_shade8">
-                        <p id="text_header_shade1">15. Visual Arts</p> 
+                        <p id="text_header_shade1">กลุ่มอาชีพที่ 15 Visual Arts</p> 
                         <div style="margin-top: 10px;" >
                         <input type="checkbox" >               
                         <label class="container" >นักออกแบบกราฟิก (Graphic Designers)
