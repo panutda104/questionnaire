@@ -41,33 +41,33 @@
         <div class="text_shade1">
           <p id="text_header_shade1">ส่วนที่ 1: เก็บรวบรวมข้อมูลส่วนบุคคล</p>
           <p id="text_content1_shade11">เพศ: *</p>
-          <input type="radio" id="male" name="gender" value="male">
+          <input type="radio" id="male" name="gender" value="male" required >
           <label id="text_content1_shade13" for="male">ชาย</label><br>
-          <input type="radio" id="female" name="gender" value="female">
+          <input type="radio" id="female" name="gender" value="female" required>
           <label id="text_content1_shade13" for="female">หญิง</label><br>
 
           <p id="text_content1_shade12">อาชีพ/ตำแหน่งงานในปัจจุบัน: *</p>
-          <input type="text" id="occ" name="job_now">
+          <input type="text" id="occ" name="job_now" required>
 
           <p id="text_content1_shade12">ระยะเวลาในการประกอบอาชีพ/ตำแหน่งงานนี้ *</p>
-          <input type="radio" id="iocc" name="job_since" value="น้อยกว่า 1 ปี">
+          <input type="radio" id="iocc" name="job_since" value="น้อยกว่า 1 ปี" required>
           <label id="text_content1_shade13" for="น้อยกว่า 1 ปี">น้อยกว่า 1 ปี</label><br>
-          <input type="radio" id="iocc" name="job_since" value="1-3 ปี">
+          <input type="radio" id="iocc" name="job_since" value="1-3 ปี" required>
           <label id="text_content1_shade13"  for="1-3 ปี">1-3 ปี</label><br>
-          <input type="radio" id="iocc" name="job_since" value="4-6 ปี">
+          <input type="radio" id="iocc" name="job_since" value="4-6 ปี" required>
           <label id="text_content1_shade13"  for="4-6 ปี">4-6 ปี</label><br>
-          <input type="radio" id="iocc" name="job_since" value="7-9 ปี">
+          <input type="radio" id="iocc" name="job_since" value="7-9 ปี" required>
           <label id="text_content1_shade13" for="7-9 ปี">7-9 ปี</label><br>
-          <input type="radio" id="iocc" name="job_since" value="10 ปี ขึ้นไป">
+          <input type="radio" id="iocc" name="job_since" value="10 ปี ขึ้นไป" required>
           <label id="text_content1_shade13" for="10 ปี ขึ้นไป">10 ปี ขึ้นไป</label><br>
 
           <p id="text_content1_shade12">ผลการเรียนเฉลี่ย (GPAX): *</p>
-          <input type="text2" id="occ2" name="gpax">
+          <input type="text2" id="occ2" name="gpax" required>
 
 
           <p id="text_content1_shade12">สาขาวิชาที่เรียน/จบการศึกษา: *</p>
           <!-- <div class="custom-select" style="width:200px;"> -->
-          <select name="branch">
+          <select name="branch" required>
             <option value="สาขาเกมและสื่ออินเทอร์แอคทีฟ">สาขาเกมและสื่ออินเทอร์แอคทีฟ</option>
             <option value="สาขาเทคโนโลยีเครือข่ายและระบบ">สาขาเทคโนโลยีเครือข่ายและระบบ</option>
             <option value="สาขาเทคโนโลยีเทคนิคศึกษา">สาขาเทคโนโลยีเทคนิคศึกษา สำหรับครูช่าง</option>
