@@ -326,9 +326,9 @@ mysqli_close($con);
                 </div>
             </div>
             <!-- button -->
-
-            <button onclick="location.href='shade2_list.php'" class=" button_shade2 prev" onclick="plusSlides(-1)">ย้อนกลับ</button>
-            <button type="submit" class=" button_shade1 next" onclick="move() " onclick="plusSlides(1) "> ถัดไป</button>
+            </div>
+            <button onclick="location.href='shade2_list.php'" class=" button_shade2" >ย้อนกลับ</button>
+            <button type="submit" class=" button_shade1" > ถัดไป</button>
         </div>
 </form>
 
