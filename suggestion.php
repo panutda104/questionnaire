@@ -1,4 +1,5 @@
 <?php session_start();
+error_reporting(E_ERROR | E_PARSE);
 include_once("config.php");
 $result = mysqli_query($con, "SELECT * FROM career");
 $i = 1;

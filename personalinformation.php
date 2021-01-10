@@ -13,7 +13,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css\style2_shade2.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -21,8 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-
-  <title>shade</title>
+  <title>personalinformation</title>
 </head>
 
 <body>
@@ -48,7 +47,8 @@
           <label id="text_content1_shade13" for="female">หญิง</label><br>
 
           <p id="text_content1_shade12">อาชีพ/ตำแหน่งงานในปัจจุบัน: *</p>
-          <input type="text" id="occ" name="job_now" required>
+          <input type="text" class="form-control"  id="occ" name="job_now" required style="border: 2px solid rgb(206 212 218);">
+
 
           <p id="text_content1_shade12">ระยะเวลาในการประกอบอาชีพ/ตำแหน่งงานนี้ *</p>
           <input type="radio" id="iocc" name="job_since" value="น้อยกว่า 1 ปี" required>
@@ -63,71 +63,75 @@
           <label id="text_content1_shade13" for="10 ปี ขึ้นไป">10 ปี ขึ้นไป</label><br>
 
           <p id="text_content1_shade12">ผลการเรียนเฉลี่ย (GPAX): *</p>
-          <input type="text2" id="occ2" name="gpax" required>
+          <input type="text2" class="form-control" id="occ2" name="gpax" required style="border: 2px solid rgb(206 212 218);">
 
 
           <p id="text_content1_shade12">สาขาวิชาที่เรียน/จบการศึกษา: *</p>
           <!-- <div class="custom-select" style="width:200px;"> -->
-          <select name="branch" required>
-            <option value="สาขาเกมและสื่ออินเทอร์แอคทีฟ">สาขาเกมและสื่ออินเทอร์แอคทีฟ</option>
-            <option value="สาขาเทคโนโลยีเครือข่ายและระบบ">สาขาเทคโนโลยีเครือข่ายและระบบ</option>
-            <option value="สาขาเทคโนโลยีเทคนิคศึกษา">สาขาเทคโนโลยีเทคนิคศึกษา สำหรับครูช่าง</option>
-            <option value="สาขาเทคโนโลยีการศึกษา สำหรับครูสามัญ">สาขาเทคโนโลยีการศึกษา สำหรับครูสามัญ</option>
-            <option value="สาขาเทคโนโลยีคอมพิวเตอร์">สาขาเทคโนโลยีคอมพิวเตอร์</option>
-            <option value="สาขาเทคโนโลยีดิจิทัล">สาขาเทคโนโลยีดิจิทัล</option>
-            <option value="สาขาเทคโนโลยีดิจิทัลทางสื่อสารมวลชน">สาขาเทคโนโลยีดิจิทัลทางสื่อสารมวลชน</option>
-            <option value="สาขาเทคโนโลยีมัลติมีเดียเเละเเอนิเมชั่น">สาขาเทคโนโลยีมัลติมีเดียเเละเเอนิเมชั่น</option>
-            <option value="สาขาเทคโนโลยีสารสนเทศ">สาขาเทคโนโลยีสารสนเทศ</option>
-            <option value="สาขาเทคโนโลยีสารสนเทศเพื่อระบบสุขภาพ">สาขาเทคโนโลยีสารสนเทศเพื่อระบบสุขภาพ</option>
-            <option value="สาขาเทคโนโลยีสารสนเทศและการจัดการ">สาขาเทคโนโลยีสารสนเทศและการจัดการ</option>
-            <option value="สาขาเทคโนโลยีสารสนเทศและการสื่อสาร">สาขาเทคโนโลยีสารสนเทศและการสื่อสาร</option>
-            <option value="สาขาเทคโนโลยีสารสนเทศและการสื่อสารเพื่อการศึกษา">สาขาเทคโนโลยีสารสนเทศและการสื่อสารเพื่อการศึกษา</option>
-            <option value="สาขาเทคโนโลยีสารสนเทศธุรกิจ">สาขาเทคโนโลยีสารสนเทศธุรกิจ</option>
-            <option value="สาขาเทคโนโลยีสารสนเทศศึกษา">สาขาเทคโนโลยีสารสนเทศศึกษา</option>
-            <option value="สาขาเทคโนโลยีสื่อดิจิทัล">สาขาเทคโนโลยีสื่อดิจิทัล</option>
-            <option value="สาขากราฟิกดีไซน์">สาขากราฟิกดีไซน์</option>
-            <option value="สาขาการจัดการเทคโนโลยีสารสนเทศ">สาขาการจัดการเทคโนโลยีสารสนเทศ</option>
-            <option value="สาขาการจัดการระบบสารสนเทศ">สาขาการจัดการระบบสารสนเทศ</option>
-            <option value="สาขาการจัดการสมัยใหม่และเทคโนโลยีสารสนเทศ">สาขาการจัดการสมัยใหม่และเทคโนโลยีสารสนเทศ</option>
-            <option value="สาขาการพัฒนาสื่อประสมและเกม">สาขาการพัฒนาสื่อประสมและเกม</option>
-            <option value="สาขาคอมพิวเตอร์ธุรกิจ">สาขาคอมพิวเตอร์ธุรกิจ</option>
-            <option value="สาขาคอมพิวเตอร์ธุรกิจและเทคโนโลยีสารสนเทศ">สาขาคอมพิวเตอร์ธุรกิจและเทคโนโลยีสารสนเทศ</option>
-            <option value="สาขาคอมพิวเตอร์ศึกษา">สาขาคอมพิวเตอร์ศึกษา</option>
-            <option value="สาขานิเทศศาสตร์">สาขานิเทศศาสตร์</option>
-            <option value="สาขาบริหารเทคโนโลยีสารสนเทศ">สาขาบริหารเทคโนโลยีสารสนเทศ</option>
-            <option value="สาขาภูมิสารสนเทศ">สาขาภูมิสารสนเทศ</option>
-            <option value="สาขาระบบเครือข่ายสื่อสาร">สาขาระบบเครือข่ายสื่อสาร</option>
-            <option value="สาขาระบบฐานข้อมูลและระบบเชิงปัญญา">สาขาระบบฐานข้อมูลและระบบเชิงปัญญา</option>
-            <option value="สาขาระบบธุรกิจอิเล็กทรอนิกส์">สาขาระบบธุรกิจอิเล็กทรอนิกส์</option>
-            <option value="สาขาระบบสารสนเทศ">สาขาระบบสารสนเทศ</option>
-            <option value="สาขาระบบสารสนเทศเพื่อการจัดการ">สาขาระบบสารสนเทศเพื่อการจัดการ</option>
-            <option value="สาขาระบบสื่อผสม">สาขาระบบสื่อผสม</option>
-            <option value="สาขาวิทยาการข้อมูลและการวิเคราะห์เชิงลึก">สาขาวิทยาการข้อมูลและการวิเคราะห์เชิงลึก</option>
-            <option value="สาขาวิทยาการคอมพิวเตอร์">สาขาวิทยาการคอมพิวเตอร์</option>
-            <option value="สาขาวิทยาการสารสนเทศ">สาขาวิทยาการสารสนเทศ</option>
-            <option value="สาขาระบบสารสนเทศ">สาขาระบบสารสนเทศ</option>
-            <option value="สาขาวิทยาศาสตร์คอมพิวเตอร์">สาขาวิทยาศาสตร์คอมพิวเตอร์</option>
-            <option value="สาขาวิศวกรรมเครือข่ายเเละอินเทอร์เน็ต">สาขาวิศวกรรมเครือข่ายเเละอินเทอร์เน็ต</option>
-            <option value="สาขาวิศวกรรมเครือข่ายและความปลอดภัย">สาขาวิศวกรรมเครือข่ายและความปลอดภัย</option>
-            <option value="สาขาวิศวกรรมข้อมูลขนาดใหญ่">สาขาวิศวกรรมข้อมูลขนาดใหญ่</option>
-            <option value="สาขาวิศวกรรมคอมพิวเตอร์">สาขาวิศวกรรมคอมพิวเตอร์</option>
-            <option value="สาขาวิศวกรรมซอฟต์แวร์">สาขาวิศวกรรมซอฟต์แวร์</option>
-            <option value="สาขาวิศวกรรมนวัตกรรมคอมพิวเตอร์">สาขาวิศวกรรมนวัตกรรมคอมพิวเตอร์</option>
-            <option value="สาขาวิศวกรรมมัลติมีเดียและระบบอินเทอร์เน็ต">สาขาวิศวกรรมมัลติมีเดียและระบบอินเทอร์เน็ต</option>
-            <option value="สาขาวิศวกรรมระบบและข้อมูล">สาขาวิศวกรรมระบบและข้อมูล</option>
-            <option value="สาขาวิศวกรรมสารสนเทศและการสื่อสาร">สาขาวิศวกรรมสารสนเทศและการสื่อสาร</option>
-            <option value="สาขาสารสนเทศการแพทย์">สาขาสารสนเทศการแพทย์</option>
-            <option value="สาขาสารสนเทศศาสตร์">สาขาสารสนเทศศาสตร์</option>
-            <option value="อื่นๆ:">อื่นๆ:</option>
+          <div class="form-group row">
+                    <div class="col-sm-12">
+                      <select name="branch" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;">
+                      <option value="-">-</option>
+                        <option value="สาขาเกมและสื่ออินเทอร์แอคทีฟ">สาขาเกมและสื่ออินเทอร์แอคทีฟ</option>
+                        <option value="สาขาเทคโนโลยีเครือข่ายและระบบ">สาขาเทคโนโลยีเครือข่ายและระบบ</option>
+                        <option value="สาขาเทคโนโลยีเทคนิคศึกษา">สาขาเทคโนโลยีเทคนิคศึกษา สำหรับครูช่าง</option>
+                        <option value="สาขาเทคโนโลยีการศึกษา สำหรับครูสามัญ">สาขาเทคโนโลยีการศึกษา สำหรับครูสามัญ</option>
+                        <option value="สาขาเทคโนโลยีคอมพิวเตอร์">สาขาเทคโนโลยีคอมพิวเตอร์</option>
+                        <option value="สาขาเทคโนโลยีดิจิทัล">สาขาเทคโนโลยีดิจิทัล</option>
+                        <option value="สาขาเทคโนโลยีดิจิทัลทางสื่อสารมวลชน">สาขาเทคโนโลยีดิจิทัลทางสื่อสารมวลชน</option>
+                        <option value="สาขาเทคโนโลยีมัลติมีเดียเเละเเอนิเมชั่น">สาขาเทคโนโลยีมัลติมีเดียเเละเเอนิเมชั่น</option>
+                        <option value="สาขาเทคโนโลยีสารสนเทศ">สาขาเทคโนโลยีสารสนเทศ</option>
+                        <option value="สาขาเทคโนโลยีสารสนเทศเพื่อระบบสุขภาพ">สาขาเทคโนโลยีสารสนเทศเพื่อระบบสุขภาพ</option>
+                        <option value="สาขาเทคโนโลยีสารสนเทศและการจัดการ">สาขาเทคโนโลยีสารสนเทศและการจัดการ</option>
+                        <option value="สาขาเทคโนโลยีสารสนเทศและการสื่อสาร">สาขาเทคโนโลยีสารสนเทศและการสื่อสาร</option>
+                        <option value="สาขาเทคโนโลยีสารสนเทศและการสื่อสารเพื่อการศึกษา">สาขาเทคโนโลยีสารสนเทศและการสื่อสารเพื่อการศึกษา</option>
+                        <option value="สาขาเทคโนโลยีสารสนเทศธุรกิจ">สาขาเทคโนโลยีสารสนเทศธุรกิจ</option>
+                        <option value="สาขาเทคโนโลยีสารสนเทศศึกษา">สาขาเทคโนโลยีสารสนเทศศึกษา</option>
+                        <option value="สาขาเทคโนโลยีสื่อดิจิทัล">สาขาเทคโนโลยีสื่อดิจิทัล</option>
+                        <option value="สาขากราฟิกดีไซน์">สาขากราฟิกดีไซน์</option>
+                        <option value="สาขาการจัดการเทคโนโลยีสารสนเทศ">สาขาการจัดการเทคโนโลยีสารสนเทศ</option>
+                        <option value="สาขาการจัดการระบบสารสนเทศ">สาขาการจัดการระบบสารสนเทศ</option>
+                        <option value="สาขาการจัดการสมัยใหม่และเทคโนโลยีสารสนเทศ">สาขาการจัดการสมัยใหม่และเทคโนโลยีสารสนเทศ</option>
+                        <option value="สาขาการพัฒนาสื่อประสมและเกม">สาขาการพัฒนาสื่อประสมและเกม</option>
+                        <option value="สาขาคอมพิวเตอร์ธุรกิจ">สาขาคอมพิวเตอร์ธุรกิจ</option>
+                        <option value="สาขาคอมพิวเตอร์ธุรกิจและเทคโนโลยีสารสนเทศ">สาขาคอมพิวเตอร์ธุรกิจและเทคโนโลยีสารสนเทศ</option>
+                        <option value="สาขาคอมพิวเตอร์ศึกษา">สาขาคอมพิวเตอร์ศึกษา</option>
+                        <option value="สาขานิเทศศาสตร์">สาขานิเทศศาสตร์</option>
+                        <option value="สาขาบริหารเทคโนโลยีสารสนเทศ">สาขาบริหารเทคโนโลยีสารสนเทศ</option>
+                        <option value="สาขาภูมิสารสนเทศ">สาขาภูมิสารสนเทศ</option>
+                        <option value="สาขาระบบเครือข่ายสื่อสาร">สาขาระบบเครือข่ายสื่อสาร</option>
+                        <option value="สาขาระบบฐานข้อมูลและระบบเชิงปัญญา">สาขาระบบฐานข้อมูลและระบบเชิงปัญญา</option>
+                        <option value="สาขาระบบธุรกิจอิเล็กทรอนิกส์">สาขาระบบธุรกิจอิเล็กทรอนิกส์</option>
+                        <option value="สาขาระบบสารสนเทศ">สาขาระบบสารสนเทศ</option>
+                        <option value="สาขาระบบสารสนเทศเพื่อการจัดการ">สาขาระบบสารสนเทศเพื่อการจัดการ</option>
+                        <option value="สาขาระบบสื่อผสม">สาขาระบบสื่อผสม</option>
+                        <option value="สาขาวิทยาการข้อมูลและการวิเคราะห์เชิงลึก">สาขาวิทยาการข้อมูลและการวิเคราะห์เชิงลึก</option>
+                        <option value="สาขาวิทยาการคอมพิวเตอร์">สาขาวิทยาการคอมพิวเตอร์</option>
+                        <option value="สาขาวิทยาการสารสนเทศ">สาขาวิทยาการสารสนเทศ</option>
+                        <option value="สาขาระบบสารสนเทศ">สาขาระบบสารสนเทศ</option>
+                        <option value="สาขาวิทยาศาสตร์คอมพิวเตอร์">สาขาวิทยาศาสตร์คอมพิวเตอร์</option>
+                        <option value="สาขาวิศวกรรมเครือข่ายเเละอินเทอร์เน็ต">สาขาวิศวกรรมเครือข่ายเเละอินเทอร์เน็ต</option>
+                        <option value="สาขาวิศวกรรมเครือข่ายและความปลอดภัย">สาขาวิศวกรรมเครือข่ายและความปลอดภัย</option>
+                        <option value="สาขาวิศวกรรมข้อมูลขนาดใหญ่">สาขาวิศวกรรมข้อมูลขนาดใหญ่</option>
+                        <option value="สาขาวิศวกรรมคอมพิวเตอร์">สาขาวิศวกรรมคอมพิวเตอร์</option>
+                        <option value="สาขาวิศวกรรมซอฟต์แวร์">สาขาวิศวกรรมซอฟต์แวร์</option>
+                        <option value="สาขาวิศวกรรมนวัตกรรมคอมพิวเตอร์">สาขาวิศวกรรมนวัตกรรมคอมพิวเตอร์</option>
+                        <option value="สาขาวิศวกรรมมัลติมีเดียและระบบอินเทอร์เน็ต">สาขาวิศวกรรมมัลติมีเดียและระบบอินเทอร์เน็ต</option>
+                        <option value="สาขาวิศวกรรมระบบและข้อมูล">สาขาวิศวกรรมระบบและข้อมูล</option>
+                        <option value="สาขาวิศวกรรมสารสนเทศและการสื่อสาร">สาขาวิศวกรรมสารสนเทศและการสื่อสาร</option>
+                        <option value="สาขาสารสนเทศการแพทย์">สาขาสารสนเทศการแพทย์</option>
+                        <option value="สาขาสารสนเทศศาสตร์">สาขาสารสนเทศศาสตร์</option>
+                        <option value="อื่นๆ:">อื่นๆ:</option>
 
-          </select>
+                      </select>
+                      </div>
+            </div>
           <!-- </div> -->
 
-          <p id="text_content2_shade1">คลิกปุ่ม "ถัดไป" เพื่อเริ่มทำแบบทดสอบ</p>
+          <p id="text_content2_shade1" style="margin-top: 120px;">คลิกปุ่ม "ถัดไป" เพื่อเริ่มทำแบบทดสอบ </p>
         </div>
       </div>
-      <button onclick="location.href='questionnaire.php'" class=" button_shade2 prev">ย้อนกลับ</button>
-      <button class=" button_shade1 next"> ถัดไป</button>
+      <button class="button_shade1" style="margin-top: 50px;"> ถัดไป</button>
       <!-- </section> -->
     </div>
   </form>

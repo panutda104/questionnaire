@@ -704,8 +704,8 @@ mysqli_close($con);
                                       </div>
                                     </div>
 
-                                    <button onclick="location.href='shade3_list.php'" class=" button_shade2 prev">ย้อนกลับ</button>
-                                    <button type="submit" class=" button_shade1 next"> ถัดไป</button>
+                    
+                                    <button type="submit" class=" button_shade1"> ถัดไป</button>
     </form>
   </div>
 
