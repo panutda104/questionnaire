@@ -15,7 +15,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css\style2_shade2.css">
+  <link rel="stylesheet" href="css\style_personalinformation.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -26,13 +26,9 @@
 
 <body>
   <form action="shade1_list.php" method="post">
-
-    <div class="slideshow-container">
-      <!-- <section id="page1" class="page1"> -->
-
       <div class="shade">
         <div class="text_header_shade">
-          แบบสอบถาม
+            แบบสอบถาม
         </div>
         <p id="text_content1_shade1">เรื่อง การเก็บรวมรวบข้อมูลอาชีพที่เหมาะสมกับทักษะ ความรู้ และเจตคติ ของผู้ประกอบอาชีพด้านเทคโนโลยีดิจิทัลหรือนิเทศศาสตร์ดิจิทัล</p>
       </div>
@@ -42,13 +38,16 @@
           <p id="text_header_shade1">ส่วนที่ 1: เก็บรวบรวมข้อมูลส่วนบุคคล</p>
           <p id="text_content1_shade11">เพศ: *</p>
           <input type="radio" id="male" name="gender" value="male" required >
-          <label id="text_content1_shade13" for="male">ชาย</label><br>
+          <label id="text_content1_shade13" for="male" >ชาย</label><br>
           <input type="radio" id="female" name="gender" value="female" required>
-          <label id="text_content1_shade13" for="female">หญิง</label><br>
-
+          <label id="text_content1_shade13" for="female">หญิง</label>
+          
+          <br><br>
+          
           <p id="text_content1_shade12">อาชีพ/ตำแหน่งงานในปัจจุบัน: *</p>
           <input type="text" class="form-control"  id="occ" name="job_now" required style="border: 2px solid rgb(206 212 218);">
 
+          <br>
 
           <p id="text_content1_shade12">ระยะเวลาในการประกอบอาชีพ/ตำแหน่งงานนี้ *</p>
           <input type="radio" id="iocc" name="job_since" value="น้อยกว่า 1 ปี" required>
@@ -62,9 +61,12 @@
           <input type="radio" id="iocc" name="job_since" value="10 ปี ขึ้นไป" required>
           <label id="text_content1_shade13" for="10 ปี ขึ้นไป">10 ปี ขึ้นไป</label><br>
 
+          <br>
+
           <p id="text_content1_shade12">ผลการเรียนเฉลี่ย (GPAX): *</p>
           <input type="text2" class="form-control" id="occ2" name="gpax" required style="border: 2px solid rgb(206 212 218);">
 
+          <br>
 
           <p id="text_content1_shade12">สาขาวิชาที่เรียน/จบการศึกษา: *</p>
           <!-- <div class="custom-select" style="width:200px;"> -->
@@ -125,21 +127,16 @@
 
                       </select>
                       </div>
-            </div>
-          <!-- </div> -->
-
-          <p id="text_content2_shade1" style="margin-top: 120px;">คลิกปุ่ม "ถัดไป" เพื่อเริ่มทำแบบทดสอบ </p>
+            </div><br>
+          <p id="text_content2_shade1">คลิกปุ่ม "ถัดไป" เพื่อเริ่มทำแบบทดสอบ </p>
         </div>
       </div>
-      <button class="button_shade1" style="margin-top: 50px;"> ถัดไป</button>
+      <center><input type='submit' class="button" type="submit" value="ถัดไป">
       <!-- </section> -->
     </div>
   </form>
 
 </body>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+
 
 </html>
