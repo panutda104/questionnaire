@@ -1,98 +1,89 @@
+.text_shade1{
+  border-radius: 25px;
+  border: 2px solid #808080;
+  padding: 20px; 
+  width: auto;
+  height: auto;    
+  margin-top: 40px;
+  margin: auto;
+}
 
-@media screen and (min-width: 800px)  {
-  .text_shade1{
-      border-radius: 25px;
-      border: 2px solid #808080;
-      padding: 20px; 
-      width: 900px;
-      height: 1000px;    
-      margin-top: 40px;
-      margin: auto;
-  }
-  }
-  .container {
-      border-radius: 5px;
-      background-color: #f2f2f2;
-      padding: 20px;
-    }
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
     
 .shade1{
-    border-radius: 25px;
-    border: 2px solid #808080;
-    padding: 20px; 
-    width: 900px;
-    height: 3000px;    
-    margin-top: 20px;
-    margin-left: 280px;
+  border-radius: 25px;
+  border: 2px solid #808080;
+  padding: 20px; 
+  width: 55%;
+  height: auto;    
+  margin-top: 20px;
+  margin: auto;
+  /* margin-left: 280px; */
 }
-
 
 .text_header_shade{
-    font-size: 30px;
-    font-family: 'Mitr', sans-serif;
-    font-weight: bolder;
-    margin-top: 60px;
-    margin-left: 460px;
+  font-size: 30px;
+  font-family: 'Mitr', sans-serif;
+  font-weight: bolder;
+  margin-top: 60px;
+  text-align: center;
+  /* margin-left: 460px; */
 }
-
 
 #text_header_shade1{
-    font-size: 29px;
-    font-family: 'Mitr', sans-serif;
-    font-weight: bolder;
-    margin-top: 0px;
-    margin-left: 20px;
+  font-size: 29px;
+  font-family: 'Mitr', sans-serif;
+  font-weight: bolder;
+  margin-top: 0px;
+  margin-left: 20px;
 }
-
 
 #text_content1_shade1{
-    font-size: 19px;
-    font-family: 'Mitr', sans-serif;
-    margin-left: 20px;
+  font-size: 16px;
+  font-family: 'Mitr', sans-serif;
+  margin-left: 20px;
 }
 
+#text_content1_shade1_1{
+  font-size: 19px;
+  font-family: 'Mitr', sans-serif;
+  margin-left: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
 
-
-  .button_shade1 {
-      margin-top: 18px;
-      padding: 8px 30px;
-      margin-left: 650px;
-      width: 120px;
-      border-radius: 10px;
-      font-size: 14px;
-      font-family: 'Mitr', sans-serif;
-      background-color: white;
-      border: 2px solid #4CAF50;
-  }
-  
-  
-  .button_shade2 {
-      margin-top: 70px;
-      margin-left: 19rem;
-      padding: 8px 30px;
-      border-radius: 10px;
-      font-size: 14px;
-      font-family: 'Mitr', sans-serif;
-      background-color: white; 
-      border: 2px solid #4CAF50;
-  }
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Mitr', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
 #text_content2_shade1{
-    font-size: 19px;
-    font-family: 'Mitr', sans-serif;
-    margin-left: 60px;
+  font-size: 19px;
+  font-family: 'Mitr', sans-serif;
+  /* margin-left: 60px; */
 }
   
-
 /* Range  */
-
 input[type=range] {
     -webkit-appearance: none;
     margin: 20px 50px;
     width: 100%;
   }
-
-
 
   input[type=range]:focus {
     outline: none;
@@ -155,7 +146,7 @@ input[type=range] {
     margin-top: -1px;
   }
 
-  /* Range2  */
+/* Range2  */
   .range-wrap2{
     width: 700px;
     position: relative;
@@ -193,9 +184,7 @@ input[type=range] {
     margin-top: -1px;
   }
 
-
-    /* Range3  */
-
+/* Range3  */
   .range-wrap3{
     width: 700px;
     position: relative;
@@ -233,7 +222,7 @@ input[type=range] {
     margin-top: -1px;
   }
 
-   /* Range4  */
+/* Range4  */
 .range-wrap4{
   width: 700px;
   position: relative;
@@ -271,7 +260,7 @@ input[type=range] {
   margin-top: -1px;
 }
 
- /* Range5  */
+/* Range5  */
 .range-wrap5{
   width: 700px;
   position: relative;
@@ -1105,4 +1094,25 @@ input[type=range] {
   left: 50%;
   margin-left: -5px;
   margin-top: -1px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }

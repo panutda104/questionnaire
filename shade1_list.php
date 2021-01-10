@@ -48,8 +48,9 @@ mysqli_close($con);
 
         <div class="shade1">
             <div>
+                    <p id="text_content1_shade1_1">คำถามเชิงจิตวิทยาวัดทักษะของนักศึกษา </p>
                 <i>
-                    <p id="text_content1_shade1">คำถามเชิงจิตวิทยาวัดทักษะของนักศึกษา กำหนดเกณฑ์การให้คะแนนระดับความสามารถเป็น scale 0 ถึง 100</p>
+                    <p id="text_content1_shade1">กำหนดเกณฑ์การให้คะแนนระดับความสามารถเป็น scale 0 ถึง 100</p>
                 </i>
                 <p id="text_content2_shade1">1 . คุณสามารถเขียนบรรยายเพื่อเล่าเรื่องจากประสบการณ์ของตนเองได้</p>
 
@@ -237,7 +238,7 @@ mysqli_close($con);
             <!-- button -->
 
         </div>
-        <button type="submit" class=" button_shade1"> ถัดไป</button>
+        <center><input type='submit' class="button" type="submit" value="ถัดไป">
 
     </form>
 
