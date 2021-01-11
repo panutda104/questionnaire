@@ -2,10 +2,10 @@
     border-radius: 25px;
     border: 2px solid #808080;
     padding: 20px; 
-    width: 900px;
-    height: 3100px;    
+    width: 55%;
+    height: auto;    
     margin-top: 20px;
-    margin-left: 280px;
+    margin: auto;
 }
 
 .text_header_shade2 {
@@ -13,27 +13,55 @@
     font-family: 'Mitr', sans-serif;
     font-weight: bolder;
     margin-top: 60px;
-    margin-left: 460px;
+    text-align: center;
+    /* margin-left: 460px; */
 }
 #text_header_shade2{
     font-size: 29px;
     font-family: 'Mitr', sans-serif;
     font-weight: bolder;
-    margin-top: 0px;
-    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    /* margin-left: 20px; */
 }
 
-#text_content1_shade2{
-    font-size: 19px;
-    font-family: 'Mitr', sans-serif;
-    margin-left: 20px;
+#text_content1_shade1{
+  font-size: 16px;
+  font-family: 'Mitr', sans-serif;
+  margin-left: 20px;
+}
+
+#text_content1_shade1_1{
+  font-size: 19px;
+  font-family: 'Mitr', sans-serif;
+  margin-left: 20px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 #text_content2_shade2{
     font-size: 19px;
     font-family: 'Mitr', sans-serif;
-    margin-left: 60px;
+    padding: 10px;
+    /* margin-left: 60px; */
 }
+
+.button1 {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Mitr', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 
 /* Range27  */
 input[type=range] {
@@ -66,12 +94,12 @@ input[type=range] {
     background: #03a9f4;
   }
   .range-wrap27{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value27{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value27 span{
     width: 30px;
@@ -86,7 +114,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value27 span:before{
     content: "";
@@ -104,12 +132,12 @@ input[type=range] {
 
   /* Range28  */
   .range-wrap28{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value28{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value28 span{
     width: 30px;
@@ -124,7 +152,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value28 span:before{
     content: "";
@@ -142,12 +170,12 @@ input[type=range] {
 
   /* Range29  */
   .range-wrap29{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value29{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value29 span{
     width: 30px;
@@ -162,7 +190,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value29 span:before{
     content: "";
@@ -180,12 +208,12 @@ input[type=range] {
 
   /* Range30  */
   .range-wrap30{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value30{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value30 span{
     width: 30px;
@@ -200,7 +228,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value30 span:before{
     content: "";
@@ -218,12 +246,12 @@ input[type=range] {
 
   /* Range31  */
   .range-wrap31{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value31{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value31 span{
     width: 30px;
@@ -238,7 +266,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value31 span:before{
     content: "";
@@ -256,12 +284,12 @@ input[type=range] {
 
   /* Range32  */
   .range-wrap32{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value32{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value32 span{
     width: 30px;
@@ -276,7 +304,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value32 span:before{
     content: "";
@@ -294,12 +322,12 @@ input[type=range] {
 
   /* Range33  */
   .range-wrap33{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value33{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value33 span{
     width: 30px;
@@ -314,7 +342,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value33 span:before{
     content: "";
@@ -332,12 +360,12 @@ input[type=range] {
 
   /* Range34  */
   .range-wrap34{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value34{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value34 span{
     width: 30px;
@@ -352,7 +380,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value34 span:before{
     content: "";
@@ -370,12 +398,12 @@ input[type=range] {
 
   /* Range35  */
   .range-wrap35{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value35{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value35 span{
     width: 30px;
@@ -390,7 +418,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value35 span:before{
     content: "";
@@ -408,12 +436,12 @@ input[type=range] {
 
   /* Range36  */
   .range-wrap36{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value36{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value36 span{
     width: 30px;
@@ -428,7 +456,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value36 span:before{
     content: "";
@@ -446,12 +474,12 @@ input[type=range] {
 
   /* Range37  */
   .range-wrap37{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value37{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value37 span{
     width: 30px;
@@ -466,7 +494,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value37 span:before{
     content: "";
@@ -484,12 +512,12 @@ input[type=range] {
 
   /* Range38  */
   .range-wrap38{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value38{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value38 span{
     width: 30px;
@@ -504,7 +532,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value38 span:before{
     content: "";
@@ -522,12 +550,12 @@ input[type=range] {
 
   /* Range39  */
   .range-wrap39{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value39{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value39 span{
     width: 30px;
@@ -542,7 +570,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value39 span:before{
     content: "";
@@ -560,12 +588,12 @@ input[type=range] {
 
   /* Range40  */
   .range-wrap40{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value40{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value40 span{
     width: 30px;
@@ -580,7 +608,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value40 span:before{
     content: "";
@@ -598,12 +626,12 @@ input[type=range] {
 
   /* Range41  */
   .range-wrap41{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value41{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value41 span{
     width: 30px;
@@ -618,7 +646,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value41 span:before{
     content: "";
@@ -636,12 +664,12 @@ input[type=range] {
 
   /* Range42  */
   .range-wrap42{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value42{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value42 span{
     width: 30px;
@@ -656,7 +684,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value42 span:before{
     content: "";
@@ -674,12 +702,12 @@ input[type=range] {
 
   /* Range43  */
   .range-wrap43{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value43{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value43 span{
     width: 30px;
@@ -694,7 +722,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value43 span:before{
     content: "";
@@ -712,12 +740,12 @@ input[type=range] {
 
   /* Range44  */
   .range-wrap44{
-    width: 700px;
+   width: 100%;
     position: relative;
   }
   .range-value44{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value44 span{
     width: 30px;
@@ -732,7 +760,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value44 span:before{
     content: "";
@@ -750,12 +778,12 @@ input[type=range] {
 
   /* Range45 */
 .range-wrap45{
-  width: 700px;
+ width: 100%;
   position: relative;
 }
 .range-value45{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value45 span{
   width: 30px;
@@ -770,7 +798,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value45 span:before{
   content: "";
@@ -788,12 +816,12 @@ input[type=range] {
 
 /* Range46 */
 .range-wrap46{
-  width: 700px;
+ width: 100%;
   position: relative;
 }
 .range-value46{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value46 span{
   width: 30px;
@@ -808,7 +836,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value46 span:before{
   content: "";
@@ -826,12 +854,12 @@ input[type=range] {
 
 /* Range47 */
 .range-wrap47{
-  width: 700px;
+ width: 100%;
   position: relative;
 }
 .range-value47{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value47 span{
   width: 30px;
@@ -846,7 +874,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value47 span:before{
   content: "";
@@ -864,12 +892,12 @@ input[type=range] {
 
 /* Range48 */
 .range-wrap48{
-  width: 700px;
+ width: 100%;
   position: relative;
 }
 .range-value48{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value48 span{
   width: 30px;
@@ -884,7 +912,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value48 span:before{
   content: "";
@@ -902,12 +930,12 @@ input[type=range] {
 
 /* Range49 */
 .range-wrap49{
-  width: 700px;
+ width: 100%;
   position: relative;
 }
 .range-value49{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value49 span{
   width: 30px;
@@ -922,7 +950,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value49 span:before{
   content: "";
@@ -940,12 +968,12 @@ input[type=range] {
 
 /* Range50 */
 .range-wrap50{
-  width: 700px;
+ width: 100%;
   position: relative;
 }
 .range-value50{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value50 span{
   width: 30px;
@@ -960,7 +988,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value50 span:before{
   content: "";
@@ -978,12 +1006,12 @@ input[type=range] {
 
 /* Range51 */
 .range-wrap51{
-  width: 700px;
+ width: 100%;
   position: relative;
 }
 .range-value51{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value51 span{
   width: 30px;
@@ -998,7 +1026,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value51 span:before{
   content: "";
@@ -1016,12 +1044,12 @@ input[type=range] {
 
 /* Range52 */
 .range-wrap52{
-  width: 700px;
+ width: 100%;
   position: relative;
 }
 .range-value52{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value52 span{
   width: 30px;
@@ -1036,7 +1064,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value52 span:before{
   content: "";
@@ -1051,55 +1079,24 @@ input[type=range] {
   margin-left: -5px;
   margin-top: -1px;
 }
-@media only screen and (min-width: 600px) {
-  .button_shade1 {
-      margin-top: 18px;
-      padding: 8px 30px;
-      margin-left: 650px;
-      width: 120px;
-      border-radius: 10px;
-      font-size: 14px;
-      font-family: 'Mitr', sans-serif;
-      background-color: white;
-      border: 2px solid #4CAF50;
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
   }
-  }
-  
-  @media only screen and (min-width: 600px) {
-  .button_shade2 {
-      margin-top: 70px;
-      margin-left: 19rem;
-      padding: 8px 30px;
-      border-radius: 10px;
-      font-size: 14px;
-      font-family: 'Mitr', sans-serif;
-      background-color: white; 
-      border: 2px solid #4CAF50;
-  }
-  }
-@media only screen and (min-width: 600px) {
-.button_shade1 {
-        margin-top: 18px;
-        padding: 8px 30px;
-        margin-left: 650px;
-        width: 120px;
-        border-radius: 10px;
-        font-size: 14px;
-        font-family: 'Mitr', sans-serif;
-        background-color: white;
-        border: 2px solid #4CAF50;
-    }
-    }
-    
-@media only screen and (min-width: 600px) {
-.button_shade2 {
-        margin-top: 70px;
-        margin-left: 19rem;
-        padding: 8px 30px;
-        border-radius: 10px;
-        font-size: 14px;
-        font-family: 'Mitr', sans-serif;
-        background-color: white; 
-        border: 2px solid #4CAF50;
-    }
-    }
+}

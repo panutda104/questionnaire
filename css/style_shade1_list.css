@@ -2,7 +2,7 @@
   border-radius: 25px;
   border: 2px solid #808080;
   padding: 20px; 
-  width: auto;
+  width: 55%;
   height: auto;    
   margin-top: 40px;
   margin: auto;
@@ -75,7 +75,7 @@
 #text_content2_shade1{
   font-size: 19px;
   font-family: 'Mitr', sans-serif;
-  /* margin-left: 60px; */
+  padding: 10px;
 }
   
 /* Range  */
@@ -95,6 +95,7 @@ input[type=range] {
     animate: 0.2s;
     background: #03a9f4;
     border-radius: 25px;
+    
   }
   input[type=range]::-webkit-slider-thumb {
     height: 20px;
@@ -110,12 +111,12 @@ input[type=range] {
     background: #03a9f4;
   }
   .range-wrap{
-    width: 700px;
+    width: 100%;
     position: relative;
   }
   .range-value{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value span{
     width: 30px;
@@ -130,7 +131,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value span:before{
     content: "";
@@ -148,12 +149,12 @@ input[type=range] {
 
 /* Range2  */
   .range-wrap2{
-    width: 700px;
+    width: 100%;
     position: relative;
   }
   .range-value2{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value2 span{
     width: 30px;
@@ -168,7 +169,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value2 span:before{
     content: "";
@@ -186,12 +187,12 @@ input[type=range] {
 
 /* Range3  */
   .range-wrap3{
-    width: 700px;
+    width: 100%;
     position: relative;
   }
   .range-value3{
     position: absolute;
-    top: -50%;
+    top: -170%;
   }
   .range-value3 span{
     width: 30px;
@@ -206,7 +207,7 @@ input[type=range] {
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 6px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   .range-value3 span:before{
     content: "";
@@ -224,12 +225,12 @@ input[type=range] {
 
 /* Range4  */
 .range-wrap4{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value4{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value4 span{
   width: 30px;
@@ -244,7 +245,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value4 span:before{
   content: "";
@@ -262,12 +263,12 @@ input[type=range] {
 
 /* Range5  */
 .range-wrap5{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value5{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value5 span{
   width: 30px;
@@ -282,7 +283,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value5 span:before{
   content: "";
@@ -300,12 +301,12 @@ input[type=range] {
 
 /* Range6  */
 .range-wrap6{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value6{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value6 span{
   width: 30px;
@@ -320,7 +321,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value6 span:before{
   content: "";
@@ -338,12 +339,12 @@ input[type=range] {
 
 /* Range7  */
 .range-wrap7{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value7{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value7 span{
   width: 30px;
@@ -358,7 +359,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value7 span:before{
   content: "";
@@ -376,12 +377,12 @@ input[type=range] {
 
 /* Range8  */
 .range-wrap8{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value8{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value8 span{
   width: 30px;
@@ -396,7 +397,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value8 span:before{
   content: "";
@@ -414,12 +415,12 @@ input[type=range] {
 
 /* Range9  */
 .range-wrap9{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value9{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value9 span{
   width: 30px;
@@ -434,7 +435,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value9 span:before{
   content: "";
@@ -452,12 +453,12 @@ input[type=range] {
 
 /* Range10  */
 .range-wrap10{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value10{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value10 span{
   width: 30px;
@@ -472,7 +473,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value10 span:before{
   content: "";
@@ -490,12 +491,12 @@ input[type=range] {
 
 /* Range11  */
 .range-wrap11{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value11{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value11 span{
   width: 30px;
@@ -510,7 +511,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value11 span:before{
   content: "";
@@ -528,12 +529,12 @@ input[type=range] {
 
 /* Range12  */
 .range-wrap12{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value12{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value12 span{
   width: 30px;
@@ -548,7 +549,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value12 span:before{
   content: "";
@@ -566,12 +567,12 @@ input[type=range] {
 
 /* Range13  */
 .range-wrap13{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value13{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value13 span{
   width: 30px;
@@ -586,7 +587,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value13 span:before{
   content: "";
@@ -604,12 +605,12 @@ input[type=range] {
 
 /* Range14  */
 .range-wrap14{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value14{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value14 span{
   width: 30px;
@@ -624,7 +625,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value14 span:before{
   content: "";
@@ -642,12 +643,12 @@ input[type=range] {
 
 /* Range15  */
 .range-wrap15{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value15{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value15 span{
   width: 30px;
@@ -662,7 +663,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value15 span:before{
   content: "";
@@ -680,12 +681,12 @@ input[type=range] {
 
 /* Range16  */
 .range-wrap16{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value16{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value16 span{
   width: 30px;
@@ -700,7 +701,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value16 span:before{
   content: "";
@@ -718,12 +719,12 @@ input[type=range] {
 
 /* Range17  */
 .range-wrap17{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value17{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value17 span{
   width: 30px;
@@ -738,7 +739,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value17 span:before{
   content: "";
@@ -756,12 +757,12 @@ input[type=range] {
 
 /* Range18  */
 .range-wrap18{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value18{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value18 span{
   width: 30px;
@@ -776,7 +777,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value18 span:before{
   content: "";
@@ -794,12 +795,12 @@ input[type=range] {
 
 /* Range19  */
 .range-wrap19{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value19{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value19 span{
   width: 30px;
@@ -814,7 +815,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value19 span:before{
   content: "";
@@ -832,12 +833,12 @@ input[type=range] {
 
 /* Range20  */
 .range-wrap20{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value20{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value20 span{
   width: 30px;
@@ -852,7 +853,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value20 span:before{
   content: "";
@@ -870,12 +871,12 @@ input[type=range] {
 
 /* Range21  */
 .range-wrap21{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value21{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value21 span{
   width: 30px;
@@ -890,7 +891,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value21 span:before{
   content: "";
@@ -908,12 +909,12 @@ input[type=range] {
 
 /* Range22  */
 .range-wrap22{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value22{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value22 span{
   width: 30px;
@@ -928,7 +929,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value22 span:before{
   content: "";
@@ -946,12 +947,12 @@ input[type=range] {
 
 /* Range23  */
 .range-wrap23{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value23{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value23 span{
   width: 30px;
@@ -966,7 +967,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value23 span:before{
   content: "";
@@ -984,12 +985,12 @@ input[type=range] {
 
 /* Range24  */
 .range-wrap24{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value24{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value24 span{
   width: 30px;
@@ -1004,7 +1005,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value24 span:before{
   content: "";
@@ -1022,12 +1023,12 @@ input[type=range] {
 
 /* Range25  */
 .range-wrap25{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value25{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value25 span{
   width: 30px;
@@ -1042,7 +1043,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value25 span:before{
   content: "";
@@ -1060,12 +1061,12 @@ input[type=range] {
 
 /* Range26  */
 .range-wrap26{
-  width: 700px;
+  width: 100%;
   position: relative;
 }
 .range-value26{
   position: absolute;
-  top: -50%;
+  top: -170%;
 }
 .range-value26 span{
   width: 30px;
@@ -1080,7 +1081,7 @@ input[type=range] {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 6px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .range-value26 span:before{
   content: "";
