@@ -72,7 +72,7 @@
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                      <select name="branch" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;">
+                      <select name="branch" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;">
                       <option value="-">-</option>
                         <option value="สาขาเกมและสื่ออินเทอร์แอคทีฟ">สาขาเกมและสื่ออินเทอร์แอคทีฟ</option>
                         <option value="สาขาเทคโนโลยีเครือข่ายและระบบ">สาขาเทคโนโลยีเครือข่ายและระบบ</option>
