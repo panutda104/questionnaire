@@ -151,8 +151,8 @@ mysqli_close($con);
         <p id="text_content1_shade1">ให้เลือกอาชีพที่ท่านคิดว่าเหมาะสมกับทักษะ ความรู้ และเจตคติของท่านมากที่สุด จำนวน 10 อาชีพ</p>
       </div>
 
-      <div class="shade1">
-        <div class="text_shade1" id="container">
+      <div class="shade1" >
+        <div class="text_shade1" id="container" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
           <p id="text_header_shade1">กลุ่มอาชีพที่ 1 Administrative Support</p>
           <input type="checkbox" id="checkbox[]" name="checkbox[]" value="เลขานุการผู้บริหารและผู้ช่วยฝ่ายบริหาร">เลขานุการผู้บริหารและผู้ช่วยฝ่ายบริหาร (Executive Secretaries and Executive Administrative Assistants) <br />
 
@@ -177,7 +177,7 @@ mysqli_close($con);
 
 
         <div class="shade1">
-          <div class="text_shade2">
+          <div class="text_shade2" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
             <p id="text_header_shade1">กลุ่มอาชีพที่ 2 Business Information Management</p>
             <div style="margin-top: 10px;">
               <input type="checkbox" name="checkbox[]" value="ผู้จัดการคอมพิวเตอร์และระบบสารสนเทศ (Computer and Information Systems Managers)">ผู้จัดการคอมพิวเตอร์และระบบสารสนเทศ (Computer and Information Systems Managers)<br />
@@ -197,7 +197,7 @@ mysqli_close($con);
           </div>
 
           <div class="shade1">
-            <div class="text_shade3">
+            <div class="text_shade3" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
               <p id="text_header_shade1">กลุ่มอาชีพที่ 3 Data Handling</p>
               <div style="margin-top: 10px;">
                 <input type="checkbox" name="checkbox[]" value="ผู้เก็บรวบรวมข้อมูล (Data Archivists)">ผู้เก็บรวบรวมข้อมูล (Data Archivists) <br />
@@ -229,7 +229,7 @@ mysqli_close($con);
             </div>
 
             <div class="shade1">
-              <div class="text_shade2">
+              <div class="text_shade2" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                 <p id="text_header_shade1">กลุ่มอาชีพที่ 4 Data Science</p>
                 <div style="margin-top: 10px;">
                   <input type="checkbox" name="checkbox[]" value="นักวิเคราะห์ธุรกิจอัจฉริยะ (Business Intelligence Analysts)">นักวิเคราะห์ธุรกิจอัจฉริยะ (Business Intelligence Analysts) <br />
@@ -249,7 +249,7 @@ mysqli_close($con);
               </div>
 
               <div class="shade1">
-                <div class="text_shade3">
+                <div class="text_shade3" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                   <p id="text_header_shade1">กลุ่มอาชีพที่ 5 Operations Management</p>
                   <div style="margin-top: 10px;">
                     <input type="checkbox" name="checkbox[]" value="ผู้บริหารฝ่ายบัญชี (Account Executive)"> ผู้บริหารฝ่ายบัญชี (Account Executive)<br />
@@ -277,7 +277,7 @@ mysqli_close($con);
                 </div>
 
                 <div class="shade1">
-                  <div class="text_shade3">
+                  <div class="text_shade3" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                     <p id="text_header_shade1">กลุ่มอาชีพที่ 6 Mobile Application</p>
                     <div style="margin-top: 10px;">
                       <input type="checkbox" name="checkbox[]" value="นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)<br />
@@ -288,7 +288,7 @@ mysqli_close($con);
                     </div>
 
                     <div style="margin-top: 10px;">
-                      <input type="checkbox" name="checkbox[]" value="นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)"<br />
+                      <input type="checkbox" name="checkbox[]" value="นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)<br />
                     </div>
 
                     <div style="margin-top: 10px;">
@@ -305,7 +305,7 @@ mysqli_close($con);
                   </div>
 
                   <div class="shade1">
-                    <div class="text_shade4">
+                    <div class="text_shade4" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                       <p id="text_header_shade1">กลุ่มอาชีพที่ 7 Network Systems</p>
                       <div style="margin-top: 10px;">
                         <input type="checkbox" name="checkbox[]" value="นักวิเคราะห์เครือข่าย (Network Analyst)">นักวิเคราะห์เครือข่าย (Network Analyst) <br />
@@ -357,7 +357,7 @@ mysqli_close($con);
                     </div>
 
                     <div class="shade1">
-                      <div class="text_shade4">
+                      <div class="text_shade44" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                         <p id="text_header_shade1">กลุ่มอาชีพที่ 8 Programming and Software Development</p>
                         <div style="margin-top: 10px;">
                           <input type="checkbox" name="checkbox[]" value="โปรแกรมเมอร์เกม (Game Programmer)">โปรแกรมเมอร์เกม (Game Programmer)<br />
@@ -401,7 +401,7 @@ mysqli_close($con);
                       </div>
 
                       <div class="shade1">
-                        <div class="text_shade4">
+                        <div class="text_shade4" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                           <p id="text_header_shade1">กลุ่มอาชีพที่ 9 Web and Digital Communications</p>
                           <div style="margin-top: 10px;">
                             <input type="checkbox" name="checkbox[]" value="เว็บมาสเตอร์ (Web Master)">เว็บมาสเตอร์ (Web Master) <br />
@@ -424,7 +424,7 @@ mysqli_close($con);
                           </div>
 
                           <div style="margin-top: 10px;">
-                            <input type="checkbox" name="checkbox[]" value=">นักออกแบบเว็บไซต์ (Web Designer)">>นักออกแบบเว็บไซต์ (Web Designer)<br />
+                            <input type="checkbox" name="checkbox[]" value=">นักออกแบบเว็บไซต์ (Web Designer)">นักออกแบบเว็บไซต์ (Web Designer)<br />
                           </div>
 
                           <div style="margin-top: 10px;">
@@ -449,7 +449,7 @@ mysqli_close($con);
                         </div>
 
                         <div class="shade1">
-                          <div class="text_shade5">
+                          <div class="text_shade5" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                             <p id="text_header_shade1">กลุ่มอาชีพที่ 10 Research</p>
                             <div style="margin-top: 10px;">
                               <input type="checkbox" name="checkbox[]" value="นักวิจัย (Researcher)">นักวิจัย (Researcher)<br />
@@ -466,7 +466,7 @@ mysqli_close($con);
 
 
                           <div class="shade1">
-                            <div class="text_shade6">
+                            <div class="text_shade6" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                               <p id="text_header_shade1">กลุ่มอาชีพที่ 11 Journalism and Broadcasting</p>
                               <div style="margin-top: 10px;">
                                 <input type="checkbox" name="checkbox[]" value="โฆษก/ผู้ประกาศวิทยุและโทรทัศน์ (Radio and Television Announcers)">โฆษก/ผู้ประกาศวิทยุและโทรทัศน์ (Radio and Television Announcers)<br />
@@ -556,7 +556,7 @@ mysqli_close($con);
                             </div>
 
                             <div class="shade1">
-                              <div class="text_shade3">
+                              <div class="text_shade3" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                                 <p id="text_header_shade1">กลุ่มอาชีพที่ 12 Performing Arts</p>
                                 <div style="margin-top: 10px;">
                                   <input type="checkbox" name="checkbox[]" value="ช่างแต่งหน้า ละครและการแสดง (Makeup Artists, Theatrical and Performance)">ช่างแต่งหน้า ละครและการแสดง (Makeup Artists, Theatrical and Performance)<br />
@@ -589,7 +589,7 @@ mysqli_close($con);
 
 
                               <div class="shade1">
-                                <div class="text_shade7">
+                                <div class="text_shade7" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                                   <p id="text_header_shade1">กลุ่มอาชีพที่ 13 Professional Support Services</p>
                                   <div style="margin-top: 10px;">
                                     <input type="checkbox" name="checkbox[]" value="ช่างเทคนิคห้องสมุด/เจ้าหน้าที่ห้องสมุด (Library Technicians)">ช่างเทคนิคห้องสมุด/เจ้าหน้าที่ห้องสมุด (Library Technicians)<br />
@@ -625,7 +625,7 @@ mysqli_close($con);
                                 </div>
 
                                 <div class="shade1">
-                                  <div class="text_shade8">
+                                  <div class="text_shade8" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                                     <p id="text_header_shade1">กลุ่มอาชีพที่ 14 Teaching/Training</p>
                                     <div style="margin-top: 10px;">
                                       <input type="checkbox" name="checkbox[]" value="ครูสอนเทคนิคมัธยมต้น (Technical Education Teachers, Middle School)">ครูสอนเทคนิคมัธยมต้น (Technical Education Teachers, Middle School)<br />
@@ -644,7 +644,7 @@ mysqli_close($con);
                                     </div>
 
                                     <div style="margin-top: 10px;">
-                                      <input type="checkbox" name="checkbox[]" value="ผู้ช่วยสอนระดับบัณฑิตศึกษา (Graduate Teaching Assistants)"><br />
+                                      <input type="checkbox" name="checkbox[]" value="ผู้ช่วยสอนระดับบัณฑิตศึกษา (Graduate Teaching Assistants)">ผู้ช่วยสอนระดับบัณฑิตศึกษา (Graduate Teaching Assistants)<br />
                                     </div>
 
                                     <div style="margin-top: 10px;">
@@ -665,10 +665,14 @@ mysqli_close($con);
                                   </div>
 
                                   <div class="shade1">
-                                    <div class="text_shade8">
+                                    <div class="text_shade8" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                                       <p id="text_header_shade1">กลุ่มอาชีพที่ 15 Visual Arts</p>
                                       <div style="margin-top: 10px;">
                                         <input type="checkbox" name="checkbox[]" value="นักออกแบบกราฟิก (Graphic Designers)">นักออกแบบกราฟิก (Graphic Designers)<br />
+                                      </div>
+
+                                      <div style="margin-top: 10px;">
+                                        <input type="checkbox" name="checkbox[]" value="นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer)">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer)<br />
                                       </div>
 
                                       <div style="margin-top: 10px;">

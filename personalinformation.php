@@ -14,6 +14,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css\style_personalinformation.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -72,9 +73,8 @@
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                      <select name="branch" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;">
-                      <option value="-">-</option>
-                        <option value="สาขาเกมและสื่ออินเทอร์แอคทีฟ">สาขาเกมและสื่ออินเทอร์แอคทีฟ</option>
+                    <select name="branch" id="branch" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;">
+                         <option value="สาขาเกมและสื่ออินเทอร์แอคทีฟ">สาขาเกมและสื่ออินเทอร์แอคทีฟ</option>
                         <option value="สาขาเทคโนโลยีเครือข่ายและระบบ">สาขาเทคโนโลยีเครือข่ายและระบบ</option>
                         <option value="สาขาเทคโนโลยีเทคนิคศึกษา">สาขาเทคโนโลยีเทคนิคศึกษา สำหรับครูช่าง</option>
                         <option value="สาขาเทคโนโลยีการศึกษา สำหรับครูสามัญ">สาขาเทคโนโลยีการศึกษา สำหรับครูสามัญ</option>
@@ -123,11 +123,14 @@
                         <option value="สาขาวิศวกรรมสารสนเทศและการสื่อสาร">สาขาวิศวกรรมสารสนเทศและการสื่อสาร</option>
                         <option value="สาขาสารสนเทศการแพทย์">สาขาสารสนเทศการแพทย์</option>
                         <option value="สาขาสารสนเทศศาสตร์">สาขาสารสนเทศศาสตร์</option>
-                        <option value="อื่นๆ:">อื่นๆ:</option>
-
-                      </select>
-                      </div>
-            </div><br>
+                        <option value="3">อื่นๆ</option>
+                    </select><br />
+                </div>
+                </div>
+                <div id="box">
+                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
+                    <input type="text"  class="form-control"  name="txt_box" id="txt_box" />
+                </div>
           <p id="text_content2_shade1">คลิกปุ่ม "ถัดไป" เพื่อเริ่มทำแบบทดสอบ </p>
         </div>
       </div>
@@ -137,6 +140,25 @@
   </form>
 
 </body>
-
-
 </html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+$("#box").hide();
+
+$("#branch").change(function(){
+	var branch = $("#branch").val();
+	if(branch == 3){
+		$("#box").show();
+		$("#txt_box").val("").focus();
+	}else{
+		$("#box").hide();
+		$("#txt_box").val("");
+	}
+	
+});
+
+});
+
+</script>

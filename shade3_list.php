@@ -104,223 +104,223 @@ mysqli_close($con);
 
         <div class="shade3">
             <div>
-                <p id="text_content1_shade1_1">คำถามเก็บรวบรวมข้อมูลความรู้ของนักศึกษา </p>
+                <p id="text_content1_shade1_1">คำถามเก็บรวบรวมข้อมูลความรู้</p>
                 <i>
-                    <p id="text_content1_shade1">กำหนดเกณฑ์การให้คะแนนระดับความสามารถเป็น scale 0 ถึง 100</p>
+                    <p id="text_content1_shade1">คำชี้แจง: โปรดให้คะแนนที่ตรงกับระดับความรู้ของท่านมากที่สุด โดยลากแถบเลื่อน (Slider Scales) กำหนดเกณฑ์ 0 หมายถึง ไม่มีความรู้ จนถึง 100 หมายถึง มีความรู้มากที่สุด</p>
                 </i>
             </div>
             <div>
-                <p id="text_content2_shade3">53 . การบริหารและการจัดการ (Administration and Management) </p>
+                <p id="text_content2_shade3">1 . การบริหารและการจัดการ (Administration and Management) </p>
                 <div class="range-wrap53">
                     <div class="range-value53" id="rangeV53"></div>
                     <input name="range53" id="range53" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">54 . ชีววิทยา (Biology) </p>
+                <p id="text_content2_shade3">2 . ชีววิทยา (Biology) </p>
                 <div class="range-wrap54">
                     <div class="range-value54" id="rangeV54"></div>
                     <input name="range54" id="range54" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">55 . อาคารและการก่อสร้าง (Building and Construction) </p>
+                <p id="text_content2_shade3">3 . อาคารและการก่อสร้าง (Building and Construction) </p>
                 <div class="range-wrap55">
                     <div class="range-value55" id="rangeV55"></div>
                     <input name="range55" id="range55" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">56 . เคมี (Chemistry) </p>
+                <p id="text_content2_shade3">4 . เคมี (Chemistry) </p>
                 <div class="range-wrap56">
                     <div class="range-value56" id="rangeV56"></div>
                     <input name="range56" id="range56" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">57 . งานด้านเสมียนหรือธุรการ (Clerical) </p>
+                <p id="text_content2_shade3">5 . งานด้านเสมียนหรือธุรการ (Clerical) </p>
                 <div class="range-wrap57">
                     <div class="range-value57" id="rangeV57"></div>
                     <input name="range57" id="range57" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">58 . การสื่อสารและสื่อ (Communications and Media) </p>
+                <p id="text_content2_shade3">6 . การสื่อสารและสื่อ (Communications and Media) </p>
                 <div class="range-wrap58">
                     <div class="range-value58" id="rangeV58"></div>
                     <input name="range58" id="range58" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">59 . คอมพิวเตอร์และอิเล็กทรอนิกส์ (Computers and Electronics) </p>
+                <p id="text_content2_shade3">7 . คอมพิวเตอร์และอิเล็กทรอนิกส์ (Computers and Electronics) </p>
                 <div class="range-wrap59">
                     <div class="range-value59" id="rangeV59"></div>
                     <input name="range59" id="range59" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">60 . ลูกค้าและบริการส่วนบุคคล (Customer and Personal Service) </p>
+                <p id="text_content2_shade3">8 . ลูกค้าและบริการส่วนบุคคล (Customer and Personal Service) </p>
                 <div class="range-wrap60">
                     <div class="range-value60" id="rangeV60"></div>
                     <input name="range60" id="range60" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">61 . ออกแบบ (Design) </p>
+                <p id="text_content2_shade3">9 . ออกแบบ (Design) </p>
                 <div class="range-wrap61">
                     <div class="range-value61" id="rangeV61"></div>
                     <input name="range61" id="range61" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">62 . เศรษฐศาสตร์และการบัญชี (Economics and Accounting) </p>
+                <p id="text_content2_shade3">10 . เศรษฐศาสตร์และการบัญชี (Economics and Accounting) </p>
                 <div class="range-wrap62">
                     <div class="range-value62" id="rangeV62"></div>
                     <input name="range62" id="range62" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">63 . การศึกษาและการฝึกอบรม (Education and Training) </p>
+                <p id="text_content2_shade3">11 . การศึกษาและการฝึกอบรม (Education and Training) </p>
                 <div class="range-wrap63">
                     <div class="range-value63" id="rangeV63"></div>
                     <input name="range63" id="range63" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">64 . วิศวกรรมและเทคโนโลยี (Engineering and Technology) </p>
+                <p id="text_content2_shade3">12 . วิศวกรรมและเทคโนโลยี (Engineering and Technology) </p>
                 <div class="range-wrap64">
                     <div class="range-value64" id="rangeV64"></div>
                     <input name="range64" id="range64" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">65 . ภาษาอังกฤษ (English Language) </p>
+                <p id="text_content2_shade3">13 . ภาษาอังกฤษ (English Language) </p>
                 <div class="range-wrap65">
                     <div class="range-value65" id="rangeV65"></div>
                     <input name="range65" id="range65" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">66 . การผลิตอาหาร (Food Production) </p>
+                <p id="text_content2_shade3">14 . การผลิตอาหาร (Food Production) </p>
                 <div class="range-wrap66">
                     <div class="range-value66" id="rangeV66"></div>
                     <input name="range66" id="range66" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">67 . ภาษาต่างประเทศ (Foreign Language) </p>
+                <p id="text_content2_shade3">15 . ภาษาต่างประเทศ (Foreign Language) </p>
                 <div class="range-wrap67">
                     <div class="range-value67" id="rangeV67"></div>
                     <input name="range67" id="range67" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">68 . ภูมิศาสตร์ (Geography) </p>
+                <p id="text_content2_shade3">16 . ภูมิศาสตร์ (Geography) </p>
                 <div class="range-wrap68">
                     <div class="range-value68" id="rangeV68"></div>
                     <input name="range68" id="range68" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">69 . ประวัติศาสตร์และโบราณคดี (History and Archeology) </p>
+                <p id="text_content2_shade3">17 . ประวัติศาสตร์และโบราณคดี (History and Archeology) </p>
                 <div class="range-wrap69">
                     <div class="range-value69" id="rangeV69"></div>
                     <input name="range69" id="range69" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">70 . กฎหมายและการปกครอง (Law and Government) </p>
+                <p id="text_content2_shade3">18 . กฎหมายและการปกครอง (Law and Government) </p>
                 <div class="range-wrap70">
                     <div class="range-value70" id="rangeV70"></div>
                     <input name="range70" id="range70" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">71 . คณิตศาสตร์ (Mathematics) </p>
+                <p id="text_content2_shade3">19 . คณิตศาสตร์ (Mathematics) </p>
                 <div class="range-wrap71">
                     <div class="range-value71" id="rangeV71"></div>
                     <input name="range71" id="range71" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">72 . เชิงกล (Mechanical) </p>
+                <p id="text_content2_shade3">20 . เชิงกล (Mechanical) </p>
                 <div class="range-wrap72">
                     <div class="range-value72" id="rangeV72"></div>
                     <input name="range72" id="range72" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">73 . ยาและทันตกรรม (Medicine and Dentistry) </p>
+                <p id="text_content2_shade3">21 . ยาและทันตกรรม (Medicine and Dentistry) </p>
                 <div class="range-wrap73">
                     <div class="range-value73" id="rangeV73"></div>
                     <input name="range73" id="range73" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">74 . บุคลากรและทรัพยากรมนุษย์ (Personnel and Human Resources) </p>
+                <p id="text_content2_shade3">22 . บุคลากรและทรัพยากรมนุษย์ (Personnel and Human Resources) </p>
                 <div class="range-wrap74">
                     <div class="range-value74" id="rangeV74"></div>
                     <input name="range74" id="range74" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">75 . ปรัชญาและเทววิทยา (Philosophy and Theology) </p>
+                <p id="text_content2_shade3">23 . ปรัชญาและเทววิทยา (Philosophy and Theology) </p>
                 <div class="range-wrap75">
                     <div class="range-value75" id="rangeV75"></div>
                     <input name="range75" id="range75" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">76 . ฟิสิกส์ (Physics) </p>
+                <p id="text_content2_shade3">24 . ฟิสิกส์ (Physics) </p>
                 <div class="range-wrap76">
                     <div class="range-value76" id="rangeV76"></div>
                     <input name="range76" id="range76" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">77 . การผลิตและการแปรรูป (Production and Processing) </p>
+                <p id="text_content2_shade3">25 . การผลิตและการแปรรูป (Production and Processing) </p>
                 <div class="range-wrap77">
                     <div class="range-value77" id="rangeV77"></div>
                     <input name="range77" id="range77" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">78 . จิตวิทยา (attitude) </p>
+                <p id="text_content2_shade3">26 . จิตวิทยา (attitude) </p>
                 <div class="range-wrap78">
                     <div class="range-value78" id="rangeV78"></div>
                     <input name="range78" id="range78" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">79 . ความปลอดภัยสาธารณะและความปลอดภัย (Public Safety and Security) </p>
+                <p id="text_content2_shade3">27 . ความปลอดภัยสาธารณะและความปลอดภัย (Public Safety and Security) </p>
                 <div class="range-wrap79">
                     <div class="range-value79" id="rangeV79"></div>
                     <input name="range79" id="range79" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">80 . การขายและการตลาด (Sales and Marketing) </p>
+                <p id="text_content2_shade3">28 . การขายและการตลาด (Sales and Marketing) </p>
                 <div class="range-wrap80">
                     <div class="range-value80" id="rangeV80"></div>
                     <input name="range80" id="range80" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">81 . สังคมวิทยาและมานุษยวิทยา (Sociology and Anthropology) </p>
+                <p id="text_content2_shade3">29 . สังคมวิทยาและมานุษยวิทยา (Sociology and Anthropology) </p>
                 <div class="range-wrap81">
                     <div class="range-value81" id="rangeV81"></div>
                     <input name="range81" id="range81" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">82 . โทรคมนาคม (Telecommunications) </p>
+                <p id="text_content2_shade3">30 . โทรคมนาคม (Telecommunications) </p>
                 <div class="range-wrap82">
                     <div class="range-value82" id="rangeV82"></div>
                     <input name="range82" id="range82" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">83 . การขนส่ง (Transportation) </p>
+                <p id="text_content2_shade3">31 . การขนส่ง (Transportation) </p>
                 <div class="range-wrap83">
                     <div class="range-value83" id="rangeV83"></div>
                     <input name="range83" id="range83" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">

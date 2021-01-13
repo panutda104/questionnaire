@@ -3,7 +3,7 @@
     border: 2px solid #808080;
     padding: 20px; 
     width: 900px;
-    height: 400px;    
+    height: 480px;    
     margin-top: 20px;
     margin-left: 280px;
 }
@@ -15,6 +15,13 @@
     margin-top: 60px;
     margin-left: 650px;
 }
+.text_header_shade11{
+    font-size: 18px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+
 
 #text_header_shade1{
     font-size: 29px;
@@ -27,6 +34,7 @@
 #text_content1_shade1{
     font-size: 19px;
     font-family: 'Mitr', sans-serif;
+    font-weight: bolder;
     margin-left: 20px;
 }
 
