@@ -12,8 +12,9 @@ $occ = $_POST['job_now'];
 $time = $_POST['job_since'];
 $gpa = $_POST['gpax'];
 $study = $_POST['branch'];
-$sql = "INSERT INTO personal (personal_code,personal_gender,personal_occ,personal_time,personal_gpa,personal_study)
-VALUES ('$code','$gender','$occ','$time','$gpa','$study')";
+$other=$_POST['txtbox'];
+$sql = "INSERT INTO personal (personal_code,personal_gender,personal_occ,personal_time,personal_gpa,personal_study,personal_other)
+VALUES ('$code','$gender','$occ','$time','$gpa','$study','$other')";
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));
 } else {

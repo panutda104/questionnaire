@@ -127,9 +127,10 @@
                     </select><br />
                 </div>
                 </div>
+
                 <div id="box">
                 <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txt_box" id="txt_box" />
+                    <input type="text"  class="form-control"  name="txtbox" id="txtbox" />
                 </div>
           <p id="text_content2_shade1">คลิกปุ่ม "ถัดไป" เพื่อเริ่มทำแบบทดสอบ </p>
         </div>
@@ -151,10 +152,10 @@ $("#branch").change(function(){
 	var branch = $("#branch").val();
 	if(branch == 3){
 		$("#box").show();
-		$("#txt_box").val("").focus();
+		$("#txtbox").val("").focus();
 	}else{
 		$("#box").hide();
-		$("#txt_box").val("");
+		$("#txtbox").val("");
 	}
 	
 });
