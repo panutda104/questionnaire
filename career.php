@@ -100,17 +100,12 @@ mysqli_close($con);
           alert('คุณสามารถเลือกได้สูงสุด 10 อาชีพ');
           //	$(frm).find('input[type=checkbox]').attr('disabled',true);
         }       
-        else(len < 1){
-          $(this).attr('checked', false);
-          alert(' 10 อาชีพ');
-
-        }
       });
     });
   });
-
- 
-
+  function _count(){
+  
+}
   // function check(obj) {
   //   len = obj.length;
   //   cnt = 0;
@@ -126,7 +121,7 @@ mysqli_close($con);
   //   } else {
   //     return true;
   //   }
-   }
+   //}
 </script>
 
 
