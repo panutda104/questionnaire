@@ -49,7 +49,7 @@ mysqli_close($con);
         <div class="text_header_shade">คุณได้ทำแบบสอบถามเรียบร้อยแล้ว</div>
         <img src="images\finish.png  " width="300" height="300">
       </div>
-      <button  class=" button_shade1 next" > ออก</button>
+      <button  class="button_shade1" > ออก</button>
   </form>
 </body>
 

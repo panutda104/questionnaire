@@ -19,7 +19,6 @@
     font-size: 18px;
     font-family: 'Mitr', sans-serif;
     font-weight: bolder;
-    margin-top: 60px;
 }
 
 
@@ -35,7 +34,6 @@
     font-size: 19px;
     font-family: 'Mitr', sans-serif;
     font-weight: bolder;
-    margin-left: 20px;
 }
 
 #text_content2_shade1{
@@ -61,11 +59,12 @@
 .button_shade2 {
     margin: auto;
     padding: 8px 30px;
+    color: #ffffff;
     border-radius: 10px;
     font-size: 14px;
     font-family: 'Mitr', sans-serif;
-    background-color: white; 
-    border: 2px solid #4CAF50;
+    background-color: #4CAF50;
+    border: 2px solid #ffffff;
     margin-top: 100px;
 }
 

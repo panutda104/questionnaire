@@ -96,18 +96,20 @@ mysqli_close($con);
       $(this).find('input[type=checkbox]').click(function() {
         var len = $(frm).find('input[type=checkbox]:checked').length;
         if (len > 10) {
-
           $(this).attr('checked', false);
           alert('คุณสามารถเลือกได้สูงสุด 10 อาชีพ');
           //	$(frm).find('input[type=checkbox]').attr('disabled',true);
+        }       
+        else(len < 1){
+          $(this).attr('checked', false);
+          alert(' 10 อาชีพ');
+
         }
       });
     });
   });
 
-  function _count() {
-
-  }
+ 
 
   // function check(obj) {
   //   len = obj.length;
@@ -124,8 +126,9 @@ mysqli_close($con);
   //   } else {
   //     return true;
   //   }
-  // }
+   }
 </script>
+
 
 <head>
   <meta charset="UTF-8">
@@ -154,7 +157,7 @@ mysqli_close($con);
       <div class="shade1" >
         <div class="text_shade1" id="container" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
           <p id="text_header_shade1">กลุ่มอาชีพที่ 1 Administrative Support</p>
-          <input type="checkbox" id="checkbox[]" name="checkbox[]" value="เลขานุการผู้บริหารและผู้ช่วยฝ่ายบริหาร">เลขานุการผู้บริหารและผู้ช่วยฝ่ายบริหาร (Executive Secretaries and Executive Administrative Assistants) <br />
+          <input type="checkbox" id="checkbox[]"  name="checkbox[]" value="เลขานุการผู้บริหารและผู้ช่วยฝ่ายบริหาร">เลขานุการผู้บริหารและผู้ช่วยฝ่ายบริหาร (Executive Secretaries and Executive Administrative Assistants) <br />
 
           <input type="checkbox" id="checkbox[]" name="checkbox[]" value="ช่างคอมพิวเตอร์ (Computer Operators)">ช่างคอมพิวเตอร์ (Computer Operators) <br />
 
