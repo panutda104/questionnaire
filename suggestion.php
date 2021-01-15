@@ -37,9 +37,8 @@ if (!mysqli_query($con, $sql)) {
 mysqli_close($con);
 ?>
 <style type="text/css">
-    .hiddenform {
+    .hiddenform2 {
         display: none;
-        margin-left: 45%;
     }
 </style>
 <script type="text/javascript">
@@ -75,19 +74,24 @@ mysqli_close($con);
         </div>
         <div class="shade1">
             <div class="text_shade1">
-            <div class="text_header_shade11" style="font-size: 20px; font-family: 'Mitr', sans-serif; font-weight: bolder;">
-                ข้อเสนอแนะเพิ่มเติม
-            </div>
+                <div class="text_header_shade11" style="font-size: 20px; font-family: 'Mitr', sans-serif; font-weight: bolder;">
+                    ข้อเสนอแนะเพิ่มเติม
+                </div>
+
                 <textarea name="suggest_box"></textarea>
+
                 <p id="text_content1_shade1">การยินยอมให้เก็บข้อมูลและยืนยันให้บันทึกข้อมูล</p>
 
                 <input type="radio" name="checkbox_remember" onclick="showForm(1)">
+
                 <label for="vehicle1" style="font-family: 'Mitr', sans-serif;"> ข้าพเจ้าตกลงยินยอมให้เก็บ รวบรวม และประมวลผลข้อมูล 6 ส่วน ได้แก่ 1) ข้อมูลส่วนบุคคล ได้แก่ ข้อมูลเพศ ข้อมูลอาชีพ/ตำแหน่งงานในปัจจุบัน ข้อมูลระยะเวลาในการประกอบอาชีพ/ตำแหน่งงานนี้ ข้อมูลผลการเรียนเฉลี่ย (GPAX) ข้อมูลสาขาวิชาที่เรียน/จบการศึกษา 2) ข้อมูลทักษะ 3) ข้อมูลเจตคติ 4) ข้อมูลความรู้ 5) อาชีพที่เหมาะสม และ 6) ข้อเสนอแนะ ของข้าพเจ้า โดยผู้วิจัยจะเก็บรักษาข้อมูลนี้เป็นความลับและไม่แบ่งปันหรือเปิดเผยข้อมูลส่วนบุคคลของข้าพเจ้าต่อบุคคลหรือหน่วยงานอื่น ข้าพเจ้ามีสิทธิในฐานะเจ้าของข้อมูลส่วนบุคคลตาม พรบ.คุ้มครองส่วนบุคคล พ.ศ.2562 และก่อนให้ความยินยอมข้าพเจ้าได้อ่านและเข้าใจข้อกำหนดและเงื่อนไขในการเปิดเผยข้อมูลส่วนบุคคลซึ่งระบุไว้ด้านบนของความยินยอมนี้อย่างชัดเจนแล้ว</label><br>
 
+            
+        
+                <div id="myDIV" class="hiddenform2">
+                    <center><button type="submit" class=" button_shade2">ส่งแบบสอบถาม</button>
+                </div>
             </div>
-        </div>
-        <div id="myDIV" class="hiddenform">
-            <button type="submit" class=" button_shade2">ส่งแบบสอบถาม</button>
         </div>
     </form>
 

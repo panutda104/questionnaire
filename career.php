@@ -145,13 +145,13 @@ mysqli_close($con);
 </head>
 
 <body>
-  <div class="slideshow-container">
+  
     <form id="page1" class="page1" onsubmit="return check(this)" action="suggestion.php" method="POST">
       <div class="shade">
-        <div class="text_header_shade">
-          อาชีพที่เหมาะสม 10 อาชีพ
-        </div>
-        <p id="text_content1_shade1">ให้เลือกอาชีพที่ท่านคิดว่าเหมาะสมกับทักษะ ความรู้ และเจตคติของท่านมากที่สุด จำนวน 10 อาชีพ</p>
+            <p id="text_content1_shade1_1">อาชีพที่เหมาะสม 10 อาชีพ </p>
+            <i>
+                <p id="text_content1_shade1">ให้เลือกอาชีพที่ท่านคิดว่าเหมาะสมกับทักษะ ความรู้ และเจตคติของท่านมากที่สุด จำนวน 10 อาชีพ</p>
+            </i>
       </div>
 
       <div class="shade1" >
@@ -178,6 +178,7 @@ mysqli_close($con);
           <input type="checkbox" id="checkbox[]" name="checkbox[]" value="พนักงานสำนักงานทั่วไป (Office Clerks, General)">พนักงานสำนักงานทั่วไป (Office Clerks, General)<br />
         </div>
 
+        <br>
 
         <div class="shade1">
           <div class="text_shade2" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
@@ -231,6 +232,8 @@ mysqli_close($con);
               </div>
             </div>
 
+            <br>
+
             <div class="shade1">
               <div class="text_shade2" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                 <p id="text_header_shade1">กลุ่มอาชีพที่ 4 Data Science</p>
@@ -250,6 +253,8 @@ mysqli_close($con);
                   <input type="checkbox" name="checkbox[]" value="วิศวกรข้อมูล (Data Engineer)">วิศวกรข้อมูล (Data Engineer)<br />
                 </div>
               </div>
+
+              <br>
 
               <div class="shade1">
                 <div class="text_shade3" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
@@ -279,6 +284,8 @@ mysqli_close($con);
                   </div>
                 </div>
 
+                <br>
+
                 <div class="shade1">
                   <div class="text_shade3" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                     <p id="text_header_shade1">กลุ่มอาชีพที่ 6 Mobile Application</p>
@@ -306,6 +313,8 @@ mysqli_close($con);
                       <input type="checkbox" name="checkbox[]" value="ผู้ออกแบบ UI/UX (UI/UX Designer)">ผู้ออกแบบ UI/UX (UI/UX Designer)<br />
                     </div>
                   </div>
+
+                  <br>
 
                   <div class="shade1">
                     <div class="text_shade4" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
@@ -359,6 +368,8 @@ mysqli_close($con);
                       </div>
                     </div>
 
+                    <br>
+
                     <div class="shade1">
                       <div class="text_shade44" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                         <p id="text_header_shade1">กลุ่มอาชีพที่ 8 Programming and Software Development</p>
@@ -402,6 +413,8 @@ mysqli_close($con);
                           <input type="checkbox" name="checkbox[]" value="วิศวกรระบบคอมพิวเตอร์/สถาปนิก (Computer Systems Engineers/Architects)">วิศวกรระบบคอมพิวเตอร์/สถาปนิก (Computer Systems Engineers/Architects)<br />
                         </div>
                       </div>
+
+                      <br>
 
                       <div class="shade1">
                         <div class="text_shade4" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
@@ -451,6 +464,8 @@ mysqli_close($con);
                           </div>
                         </div>
 
+                        <br>
+
                         <div class="shade1">
                           <div class="text_shade5" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                             <p id="text_header_shade1">กลุ่มอาชีพที่ 10 Research</p>
@@ -467,6 +482,7 @@ mysqli_close($con);
                             </div>
                           </div>
 
+                          <br>
 
                           <div class="shade1">
                             <div class="text_shade6" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
@@ -558,6 +574,8 @@ mysqli_close($con);
                               </div>
                             </div>
 
+                            <br>
+
                             <div class="shade1">
                               <div class="text_shade3" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
                                 <p id="text_header_shade1">กลุ่มอาชีพที่ 12 Performing Arts</p>
@@ -590,6 +608,7 @@ mysqli_close($con);
                                 </div>
                               </div>
 
+                              <br>
 
                               <div class="shade1">
                                 <div class="text_shade7" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
@@ -626,6 +645,8 @@ mysqli_close($con);
                                     <input type="checkbox" name="checkbox[]" value="ล่ามและนักแปล (Interpreters and Translators)">ล่ามและนักแปล (Interpreters and Translators)<br />
                                   </div>
                                 </div>
+
+                                <br>
 
                                 <div class="shade1">
                                   <div class="text_shade8" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
@@ -666,6 +687,8 @@ mysqli_close($con);
                                       <input type="checkbox" name="checkbox[]" value="อาจารย์สายอาชีวศึกษา (Vocational Education Teachers, Postsecondary)">อาจารย์สายอาชีวศึกษา (Vocational Education Teachers, Postsecondary)<br />
                                     </div>
                                   </div>
+
+                                  <br>
 
                                   <div class="shade1">
                                     <div class="text_shade8" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
@@ -712,9 +735,9 @@ mysqli_close($con);
                                     </div>
 
                     
-                                    <button type="submit" class=" button_shade1"> ถัดไป</button>
+                                    <center><input type='submit' class="button1" type="submit" value="ถัดไป">
     </form>
-  </div>
+
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

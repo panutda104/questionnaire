@@ -42,14 +42,17 @@ mysqli_close($con);
 
 <body>
   <form id="page1" class="page1" action="index.php">
-    <div class="shade">
-    </div>
     <div class="shade1">
       <div class="text_shade1">
         <div class="text_header_shade">คุณได้ทำแบบสอบถามเรียบร้อยแล้ว</div>
-        <img src="images\finish.png  " width="300" height="300">
+
+        <div class="img_finish">
+            <center><img src="images\finish.png">
+        </div>
+
       </div>
-      <button  class="button_shade1" > ออก</button>
+        <center><button  class="button_finish">ออก</button>
+    </div>
   </form>
 </body>
 
