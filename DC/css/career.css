@@ -1,0 +1,233 @@
+.text_shade1{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 60%;
+    height: auto;    
+    margin-top: 20px;
+    margin: auto;
+}
+
+.text_shade2{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 60%;
+    height: auto;    
+    margin-top: 20px;
+    margin: auto;
+}
+
+.text_shade3{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 60%;
+    height: auto;    
+    margin-top: 20px;
+    margin: auto;
+}
+
+.text_shade4{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 60%;
+    height: auto;    
+    margin-top: 20px;
+    margin: auto;
+}
+
+.text_shade44{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 60%;
+    height: auto;    
+    margin-top: 20px;
+    margin: auto;
+}
+
+.text_shade5{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 60%;
+    height: auto;    
+    margin-top: 20px;
+    margin: auto;
+}
+
+.text_shade6{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 60%;
+    height: auto;    
+    margin-top: 20px;
+    margin: auto;
+}
+
+.text_shade7{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 60%;
+    height: auto;    
+    margin-top: 20px;
+    margin: auto;
+}
+
+.text_shade8{
+    border-radius: 25px;
+    border: 2px solid #808080;
+    padding: 20px; 
+    width: 60%;
+    height: auto;    
+    margin-top: 20px;
+    margin: auto;
+}
+
+.button1 {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Mitr', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+input[type=text] {
+    width: 790px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ced4da;
+    border-radius: 9px;
+    /* margin-left: 150px; */
+}
+
+  input[type=text2] {
+    width: 790px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ced4da;
+    border-radius: 9px;
+    /* margin-left: 150px; */
+}
+
+#text_header_shade1{
+    font-size: 23px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#text_content1_shade11{
+    font-size: 22px;
+    font-family: 'Mitr', sans-serif;
+    margin-left: 20px;
+}
+
+#text_content1_shade1{
+    font-size: 22px;
+    font-family: 'Mitr', sans-serif;
+    /* margin-left: 20px; */
+    text-align: center;
+  }
+  
+#text_content1_shade1_1{
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    /* margin-left: 20px; */
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#text_content1_shade12{
+    font-size: 22px;
+    font-family: 'Mitr', sans-serif;
+    /* margin-left: 20px; */
+    margin-top: 40px;
+}
+
+#male{
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    /* margin-left: 100px; */
+
+}
+
+#iocc{
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    /* margin-left: 100px; */
+    margin-top: 15px;
+
+}
+#iocc2{
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    /* margin-left: 100px; */
+    margin-top: 15px;
+
+}
+
+.iocc{
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    margin-left: 100px;
+    margin-top: 15px;
+
+}
+#female{
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+#text_content2_shade1{
+    font-size: 14px;
+    font-family: 'Mitr', sans-serif;
+    font-style: oblique;
+    margin-top: 170px;
+    margin-left: 20px;
+}
+
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}

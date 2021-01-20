@@ -285,7 +285,7 @@ mysqli_close($con);
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">26 . จิตวิทยา (attitude) </p>
+                <p id="text_content2_shade3">26 . จิตวิทยา (Attitude) </p>
                 <div class="range-wrap78">
                     <div class="range-value78" id="rangeV78"></div>
                     <input name="range78" id="range78" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
@@ -312,22 +312,7 @@ mysqli_close($con);
                     <input name="range81" id="range81" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
-            <div>
-                <p id="text_content2_shade3">30 . โทรคมนาคม (Telecommunications) </p>
-                <div class="range-wrap82">
-                    <div class="range-value82" id="rangeV82"></div>
-                    <input name="range82" id="range82" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
-                </div>
-            </div>
-            <div>
-                <p id="text_content2_shade3">31 . การขนส่ง (Transportation) </p>
-                <div class="range-wrap83">
-                    <div class="range-value83" id="rangeV83"></div>
-                    <input name="range83" id="range83" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
-                </div>
-            </div>
-                <br><br>
-            </div>
+          
             <center><input type='submit' class="button2" type="submit" value="ถัดไป">
         </div>
 </form>
@@ -796,37 +781,5 @@ mysqli_close($con);
             range81.addEventListener('input', setValue81);
         </script>
 
-        <!-- script Range82 -->
-        <script>
-            const
-                range82 = document.getElementById('range82'),
-                rangeV82 = document.getElementById('rangeV82'),
-                setValue82 = () => {
-                    const
-                        newValue82 = Number((range82.value - range82.min) * 100 / (range82.max - range82.min)),
-                        newPosition82 = 10 - (newValue82 * 0.2);
-                    rangeV82.innerHTML = `<span>${range82.value}</span>`;
-                    rangeV82.style.left = `calc(${newValue82}% + (${newPosition82}px))`;
-                };
-            document.addEventListener("DOMContentLoaded", setValue82);
-            range82.addEventListener('input', setValue82);
-        </script>
-
-        <!-- script Range83 -->
-        <script>
-            const
-                range83 = document.getElementById('range83'),
-                rangeV83 = document.getElementById('rangeV83'),
-                setValue83 = () => {
-                    const
-                        newValue83 = Number((range83.value - range83.min) * 100 / (range83.max - range83.min)),
-                        newPosition83 = 10 - (newValue83 * 0.2);
-                    rangeV83.innerHTML = `<span>${range83.value}</span>`;
-                    rangeV83.style.left = `calc(${newValue83}% + (${newPosition83}px))`;
-                };
-            document.addEventListener("DOMContentLoaded", setValue83);
-            range83.addEventListener('input', setValue83);
-        </script>
-
-
+      
 </html>

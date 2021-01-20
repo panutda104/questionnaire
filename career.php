@@ -38,8 +38,7 @@ $range78 = $_POST['range78'];
 $range79 = $_POST['range79'];
 $range80 = $_POST['range80'];
 $range81 = $_POST['range81'];
-$range82 = $_POST['range82'];
-$range83 = $_POST['range83'];
+
 
 $sql = "INSERT INTO shade3_knowledge
 (
@@ -73,11 +72,10 @@ $sql = "INSERT INTO shade3_knowledge
     knowledge_26,
     knowledge_27,
     knowledge_28,
-    knowledge_29,
-    knowledge_30,
-    knowledge_31
+    knowledge_29
+
 )
-VALUES ('$knowledge_code','$personal_code','$range53','$range54','$range55','$range56','$range57','$range58','$range59','$range60','$range61','$range62','$range63','$range64','$range65','$range66','$range67','$range68','$range69','$range70','$range71','$range72','$range73','$range74','$range75','$range76','$range77','$range78','$range79','$range80','$range81','$range82','$range83')";
+VALUES ('$knowledge_code','$personal_code','$range53','$range54','$range55','$range56','$range57','$range58','$range59','$range60','$range61','$range62','$range63','$range64','$range65','$range66','$range67','$range68','$range69','$range70','$range71','$range72','$range73','$range74','$range75','$range76','$range77','$range78','$range79','$range80','$range81')";
 //echo "CHECH SQL = ".$sql;
 if (!mysqli_query($con, $sql)) {
   die(mysqli_error($con));

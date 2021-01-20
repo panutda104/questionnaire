@@ -1,69 +1,82 @@
-<style type="text/css">
-  .hiddenform {
-    display: none;
-  }
-</style>
-<script type="text/javascript">
-  function showForm(flag) {
-    document.getElementById('myDIV').style.display = flag === 1 ? 'block' : 'none';
-  }
-</script>
 <!DOCTYPE html>
-<html lang="en" style="padding: 55px;">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css\style_index.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
 
-  <title>index</title>
-</head>
+  <head>
+    <?php session_start();
+    require_once("config.php");
+    error_reporting(E_ERROR | E_PARSE);
+    include_once("header.php");
+    ?>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css\dt.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  </head>
+
+  <center>
 
 <body>
-  <form id="page1" class="page1" action="personalinformation.php" method="POST">
-    <div class="index">
-      <div class="text_header_index">
-        แบบสอบถาม เรื่อง การเก็บรวมรวบข้อมูลอาชีพที่เหมาะสมกับทักษะ ความรู้ และเจตคติ
-        ของผู้ประกอบอาชีพด้านเทคโนโลยีดิจิทัลหรือนิเทศศาสตร์ดิจิทัล
-      </div>
-      <br>
-      <div>
-        <p id="text_header">คำชี้แจง</p>
-        <br>
-        <br>
-          <label class = "text1">	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  เนื่องด้วยข้าพเจ้า นางสาวสุภลักษณ์ สีสุกอง กำลังดำเนินการวิจัย เรื่อง การพัฒนาแบบจำลองการแนะนำวิชาชีพด้านดิจิทัลสำหรับหลักสูตรฐานสมรรถนะรายบุคคล โดยมีวัตถุประสงค์ของการวิจัยเพื่อออกแบบและพัฒนาแบบจำลองการแนะนำวิชาชีพด้านดิจิทัลสำหรับหลักสูตรฐานสมรรถนะรายบุคคล สำหรับประโยชน์ที่คาดว่าจะได้รับจากการวิจัยนี้คือ ได้ทราบปัจจัยที่ส่งผลต่อการเลือกวิชาชีพด้านดิจิทัลสำหรับหลักสูตรฐานสมรรถนะรายบุคคล และได้แบบจำลองการแนะนำวิชาชีพด้านดิจิทัลสำหรับหลักสูตรฐานสมรรถนะรายบุคคล</label>
-        <br>
-          <label class = "text1"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; จึงเรียนมาเพื่อขอความอนุเคราะห์ในการตอบแบบสอบถาม  เพื่อประโยชน์ทางการศึกษาดังกล่าว  โดยขอให้ท่านตอบตามความเป็นจริง  เพราะคำตอบของท่านมีความสำคัญต่อการวิเคราะห์ข้อมูลเป็นอย่างยิ่ง ข้าพเจ้าขอรับรองว่าจะเก็บรักษาข้อมูลในการตอบแบบสอบถามของท่านไว้เป็นความลับ  และผลการวิจัยจะนำเสนอในลักษณะภาพรวม  ไม่ระบุชื่อ/ข้อมูลส่วนตัวของท่าน  จึงไม่เกิดผลกระทบต่อการปฏิบัติงานของท่านแต่ประการใด/ไม่มีผลกระทบต่อการเรียนของท่าน</label>
-        <br>
-          <label  class = "text1"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  ข้าพเจ้าหวังเป็นอย่างยิ่งว่าจะได้รับความร่วมมือจากท่านเป็นอย่างดี  และขอขอบพระคุณเป็นอย่างสูงมา ณ โอกาสนี้ หากท่านมีข้อสงสัยเกี่ยวกับงานวิจัย โปรดติดต่อได้ที่ </label>
-          <label  class = "text2"> นางสาวสุภลักษณ์ สีสุกอง สาขาวิชาเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีสุรนารี ตำบลสุรนารี อำเภอเมือง จังหวัดนครราชสีมา หมายเลขโทรศัพท์ 094-3649754 </label>
-        <br>
-          <label  class = "text3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; หากท่านมีปัญหาสงสัยเกี่ยวกับสิทธิของท่านขณะเข้าร่วมการวิจัยนี้  ต้องการทราบข้อมูลเพิ่มเติม  โปรดสอบถามได้ที่ </label>
-          <label  class = "text1"> “สำนักงานคณะกรรมการจริยธรรมการวิจัยในมนุษย์ มหาวิทยาลัยเทคโนโลยีสุรนารี โทร. 044--224757  </label>
-        <br>
-        <br>
-        <br>
-        <br>
-   
-        <p id="text_header_index">
-          การยินยอมเข้าร่วมวิจัย
-        </p>
-        <i>
-        <p id="text_content1_index">
-        <input type="radio" name="checkbox_remember" onclick="showForm(1)"> ข้าพเจ้าได้อ่านแบบคำชี้แจงเกี่ยวกับการเข้าร่วมการเป็นผู้ตอบแบบสอบถามในโครงการวิจัย เรื่อง “การพัฒนาแบบจำลองการแนะนำวิชาชีพด้านดิจิทัลสำหรับหลักสูตรฐานสมรรถนะรายบุคคล” ซึ่งประกอบด้วย วัตถุประสงค์ของการวิจัย ประโยชน์โดยตรงที่จะได้รับจากการเข้าร่วมโครงการวิจัยในครั้งนี้ ขั้นตอนการปฏิบัติตัว ตลอดจนการรับรองจากผู้วิจัยที่จะเก็บรักษาข้อมูลในการตอบแบบสอบถามของข้าพเจ้าไว้เป็นความลับ และ ไม่ระบุชื่อหรือข้อมูลส่วนตัวเป็นรายบุคคลต่อสาธารณชน โดยผลการวิจัยจะนำเสนอในลักษณะภาพรวมที่เป็นการสรุปผลการวิจัยเพื่อประโยชน์ทางวิชาการเท่านั้น ข้าพเจ้าได้อ่านและเข้าใจตามคำอธิบายข้างต้นแล้ว จึงได้ลงนามยินยอมเข้าร่วมโครงการวิจัยนี้ด้วยความสมัครใจ
-        </i>
-        </p>
-        <div id="myDIV" class="hiddenform">
-          <center><input type='submit' class="button" type="submit" value="ยินยอมเข้าร่วมวิจัย">
-        </div>
-
-      </div>
+  <?php
+  include("body.php");
+  ?>
+  <div>
+      <img src="./images/DIGITECH-header.png" alt="center"style="width: 25%;margin-top: 80px;" />
+  </div>
+  <div class="text_shade22" >
+      โครงการจัดรูปแบบการบริหารวิชาการด้าน<br/>
+      เทคโนโลยีดิจิทัลรูปใหม่
+  <div>
+    <br/>
+    <div style="font-size: 18px;text-align: center;" >
+    เป็นการจัดการศึกษารูปแบบใหม่ที่เน้นให้ผู้เรียนสามารถเลือกเรียนตามกลุ่มวิชาชีพที่สนใจ พัฒนาทักษะที่จําเป็นให้ผู้เรียนสามารถทํางานได้จริงและ<br/>ส่งเสริมการเรียนรู้ตลอดชีวิต
     </div>
-  </form>
+    <hr class="style2">
+
+    <div style="background-color: #efefef;height: 1000px; margin-top: 70px; ">
+    <div>Degree Track</div>
+    <p style="font-size: 22px;margin-top: 40px; text-align: center;" >หลักสูตรระดับปริญญาตรีด้านเทคโนโลยีดิจิทัลรูปแบบใหม่ ภายใต้ชื่อกลุ่มหลักสูตรศาสตร์และศิลป์ดิจิทัล โดยจัดการเรียนการสอนใน<br/>
+        รูปแบบมอดูลหรือชุดวิชา (Modular Program) ทําให้ผู้เรียนได้รับทักษะและความรู้แบบเบ็ดเสร็จ สามารถเลือกเรียนตามกลุ่ม<br/>
+        วิชาชีพที่สนใจ (Personalization)</p>
+
+    <table border="0" style="width:70%; margin-top: 70px;"   >
+        <tr>
+          <th> <img src="./images/dt_cover.svg" alt="center"style="width: 40%; display: block;margin-left: auto;margin-right: auto; " /></th>
+          <th><img src="./images/dc_cover.svg" alt="center"style="width: 40%; display: block;margin-left: auto;margin-right: auto; " /></th> 
+        </tr>
+        <tr>
+          <td><p style="text-align: center;font-size: 26px;margin-top: 30px;">สาขาวิชาเทคโนโลยีดิจิทัล</p>
+              <p style="font-size: 20px;text-align: center;">ศึกษาเกี่ยวกับการบริหารเทคโนโลยีดิจิทัลการพัฒนา<br/>
+              ซอฟต์แวร์ การจัดการข้อมูลและวิทยาศาสตร์ข้อมูล เพื่อ<br/>
+              คิดวิเคราะห์ วางแผนการทำงานอย่างเป็นระบบและบูรณา<br/>
+              การความรู้ เพื่อสร้างสรรค์นวัตกรรมดิจิทัล</p></td>
+          <td><p style="text-align: center;font-size: 26px;margin-top: 30px;">สาขาวิชานิเทศศาสตร์ดิจิทัล</p>
+              <p style="font-size: 20px;text-align: center;">ศึกษาเกี่ยวกับเทคโนโลยีดิจิทัลเพื่อบูรณาการกับองค์<br/>
+              ความรู้ทางด้านนิเทศศาสตร์ดิจิทัล เพื่อคิดสร้างสรรค์<br/>
+              วางแผน เตรียมการผลิต ผลิต เผยแพร่ ประเมินผล และ<br/>
+              วิเคราะห์วิพากษ์ผลงานสื่อดิจิทัล</p></td>
+        </tr>
+        <tr>
+          <th><button type="button" onclick="location.href='dt.php'" class="button is-success animated bounceIn" style="border-radius: 20px;width: 200px; height: 50px;font-size: 18px;background-color: #0a428f;border: white;display: block;margin-left: auto;margin-right: auto;margin-top: 20px;">
+            ดูหลักสูตร</button></th>
+          <th><button type="button" onclick="location.href='DC/dc/DC.php'" class="button is-success animated bounceIn" style="border-radius: 20px;width: 200px; height: 50px;font-size: 18px;background-color: #0a428f;border: white;display: block;margin-left: auto;margin-right: auto;margin-top: 20px;">
+            ดูหลักสูตร</button></th>
+        </tr>
+</table>
+<div><hr class="style2"></div>
+    </div>
+
+
+</body>
+<?php
+include("footer.php");
+?>
 
 </html>
