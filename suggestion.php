@@ -10,26 +10,18 @@ $_SESSION['career_code'] = 'C_000' . $i;
 $career_code = $_SESSION['career_code'];
 $personal_code = $_SESSION['personal_code'];
 
-$checked = $_POST['checkbox'];
-for ($j = 0; $j < count($checked); $j++) {
-    // echo "Selected " . $checked[$j];
-}
-
-$sql = "INSERT INTO career(
-    career_code,
-    personal_code,
-    career_1,
-    career_2,
-    career_3,
-    career_4,
-    career_5,
-    career_6,
-    career_7,
-    career_8,
-    career_9,
-    career_10
-    ) VALUES ('$career_code','$personal_code','$checked[0]','$checked[1]','$checked[2]','$checked[3]','$checked[4]','$checked[5]','$checked[6]','$checked[7]','$checked[8]','$checked[9]');";
-// echo $sql;
+$study1 = $_POST['branch1'];
+$study2 = $_POST['branch2'];
+$study3 = $_POST['branch3'];
+$study4 = $_POST['branch4'];
+$study5 = $_POST['branch5'];
+$study6 = $_POST['branch6'];
+$study7 = $_POST['branch7'];
+$study8 = $_POST['branch8'];
+$study9 = $_POST['branch9'];
+$study10 = $_POST['branch10'];
+$sql = "INSERT INTO career ( career_code, personal_code,career_1,career_2, career_3,career_4,career_5,career_6,career_7,career_8,career_9,career_10)
+VALUES ('$career_code','$personal_code','$study1','$study2','$study3','$study4','$study5','$study6','$study7','$study8','$study9','$study10')";
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));
 } else {
