@@ -61,7 +61,7 @@ mysqli_close($con);
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade1">2 . คุณสามารถเขียนบรรยายจากจิตนาการได้</p>
+                <p id="text_content2_shade1">2 . คุณสามารถเขียนบรรยายจากจินตนาการได้</p>
                 <div class="range-wrap2">
                     <div class="range-value2" id="rangeV2"></div>
                     <input name="range2" id="range2" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
