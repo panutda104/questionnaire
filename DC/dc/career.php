@@ -178,7 +178,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -198,7 +197,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
                 </div>            
@@ -235,7 +233,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -255,7 +252,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
                 </div>               
@@ -292,7 +288,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -312,7 +307,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
                 </div>            
@@ -349,7 +343,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -369,7 +362,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
                 </div>              
@@ -406,7 +398,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -426,7 +417,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
                 </div>            
@@ -463,7 +453,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -483,7 +472,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
                 </div>              
@@ -519,7 +507,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -539,7 +526,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
                 </div>                 
@@ -576,7 +562,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -596,7 +581,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
                 </div>            
@@ -633,7 +617,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -653,7 +636,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
                 </div>           
@@ -690,7 +672,6 @@ mysqli_close($con);
                         <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -710,7 +691,6 @@ mysqli_close($con);
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
                         <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
-                        <option value="3">อื่นๆ</option>
                     </select>
                     <br />
                 </div>
