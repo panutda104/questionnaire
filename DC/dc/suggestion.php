@@ -19,19 +19,10 @@ $study7 = $_POST['branch7'];
 $study8 = $_POST['branch8'];
 $study9 = $_POST['branch9'];
 $study10 = $_POST['branch10'];
-$other1=$_POST['txtbox'];
-$other2=$_POST['txtbox2'];
-$other3=$_POST['txtbox'];
-$other4=$_POST['txtbox'];
-$other5=$_POST['txtbox'];
-$other6=$_POST['txtbox'];
-$other7=$_POST['txtbox'];
-$other8=$_POST['txtbox'];
-$other9=$_POST['txtbox'];
-$other10=$_POST['txtbox'];
 
-$sql = "INSERT INTO career ( career_code, personal_code,career_1,career_2, career_3,career_4,career_5,career_6,career_7,career_8,career_9,career_10,career_other)
-VALUES ('$career_code','$personal_code','$study1','$study2','$study3','$study4','$study5','$study6','$study7','$study8','$study9','$study10','$other1')";
+
+$sql = "INSERT INTO career ( career_code, personal_code,career_1,career_2, career_3,career_4,career_5,career_6,career_7,career_8,career_9,career_10)
+VALUES ('$career_code','$personal_code','$study1','$study2','$study3','$study4','$study5','$study6','$study7','$study8','$study9','$study10')";
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));
 } else {

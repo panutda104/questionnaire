@@ -197,11 +197,7 @@ mysqli_close($con);
                         <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
-                </div>   
-                <div id="box">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txtbox" id="txtbox" />
-                </div>              
+                </div>            
                <br>
               </div>
 
@@ -254,11 +250,7 @@ mysqli_close($con);
                         <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
-                </div>   
-                <div id="box2">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text2"  class="form-control"  name="txtbox2" id="txtbox2" />
-                </div>              
+                </div>               
                <br>
               </div>
 
@@ -311,11 +303,7 @@ mysqli_close($con);
                         <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
-                </div>   
-                <div id="box3">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txtbox2" id="txtbox2" />
-                </div>              
+                </div>            
                 <br>
               </div>
 
@@ -368,11 +356,7 @@ mysqli_close($con);
                         <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
-                </div>  
-                <div id="box4">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txtbox2" id="txtbox2" />
-                </div>                
+                </div>              
                  <br>
               </div>
 
@@ -425,10 +409,6 @@ mysqli_close($con);
                         <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
-                </div>      
-                <div id="box5">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txtbox2" id="txtbox2" />
                 </div>            
                 <br>
               </div>
@@ -482,11 +462,7 @@ mysqli_close($con);
                         <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
-                </div>     
-                <div id="box6">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txtbox2" id="txtbox2" />
-                </div>             
+                </div>              
                 <br>
               </div>
 
@@ -539,11 +515,7 @@ mysqli_close($con);
                         <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
-                </div>    
-                <div id="box7">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txtbox2" id="txtbox2" />
-                </div>              
+                </div>                 
                  <br>
               </div>
 
@@ -596,11 +568,7 @@ mysqli_close($con);
                         <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
-                </div>        
-                <div id="box8">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txtbox2" id="txtbox2" />
-                </div>          
+                </div>            
                 <br>
               </div>
 
@@ -653,11 +621,7 @@ mysqli_close($con);
                         <option value="3">อื่นๆ</option>
                     </select><br />
                 </div>
-                </div> 
-                <div id="box9">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txtbox2" id="txtbox2" />
-                </div>             
+                </div>           
                  <br>
               </div>
 
@@ -712,10 +676,6 @@ mysqli_close($con);
                     <br />
                 </div>
                 </div> 
-                <div id="box10">
-                <label style="font-size: 22px;font-family: 'Mitr', sans-serif;">โปรดระบุ: * </label>
-                    <input type="text"  class="form-control"  name="txtbox2" id="txtbox2" />
-                </div>               
                 <br>
               </div>
 
@@ -726,172 +686,3 @@ mysqli_close($con);
 </body>
 </html>
 
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box").hide();
-$("#branch1").change(function(){
-	var branch1 = $("#branch1").val();
-	if(branch1 == 3){
-		$("#box").show();
-		$("#txtbox").val("").focus();
-	}else{
-		$("#box").hide();
-		$("#txtbox").val("");
-	}	
-});
-});
-</script>
-
- <!-- box2-->
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box2").hide();
-$("#branch2").change(function(){
-	var branch2 = $("#branch2").val();
-	if(branch2 == 3){
-		$("#box2").show();
-		$("#txtbox2").val("").focus();
-	}else{
-		$("#box2").hide();
-		$("#txtbox2").val("");
-	}	
-});
-});
-</script>
-
-<!-- box3-->
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box3").hide();
-$("#branch3").change(function(){
-	var branch3 = $("#branch3").val();
-	if(branch3 == 3){
-		$("#box3").show();
-		$("#txtbox2").val("").focus();
-	}else{
-		$("#box3").hide();
-		$("#txtbox2").val("");
-	}	
-});
-});
-</script>
-
-<!-- box4-->
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box4").hide();
-$("#branch4").change(function(){
-	var branch4 = $("#branch4").val();
-	if(branch4 == 3){
-		$("#box4").show();
-		$("#txtbox2").val("").focus();
-	}else{
-		$("#box4").hide();
-		$("#txtbox2").val("");
-	}	
-});
-});
-</script>
-
-<!-- box5-->
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box5").hide();
-$("#branch5").change(function(){
-	var branch5 = $("#branch5").val();
-	if(branch5 == 3){
-		$("#box5").show();
-		$("#txtbox2").val("").focus();
-	}else{
-		$("#box5").hide();
-		$("#txtbox2").val("");
-	}	
-});
-});
-</script>
-
-<!-- box6-->
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box6").hide();
-$("#branch6").change(function(){
-	var branch6 = $("#branch6").val();
-	if(branch6 == 3){
-		$("#box6").show();
-		$("#txtbox2").val("").focus();
-	}else{
-		$("#box5").hide();
-		$("#txtbox2").val("");
-	}	
-});
-});
-</script>
-
-
-<!-- box7-->
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box7").hide();
-$("#branch7").change(function(){
-	var branch7 = $("#branch7").val();
-	if(branch7 == 3){
-		$("#box7").show();
-		$("#txtbox2").val("").focus();
-	}else{
-		$("#box7").hide();
-		$("#txtbox2").val("");
-	}	
-});
-});
-</script>
-
-<!-- box8-->
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box8").hide();
-$("#branch8").change(function(){
-	var branch8 = $("#branch8").val();
-	if(branch8 == 3){
-		$("#box8").show();
-		$("#txtbox2").val("").focus();
-	}else{
-		$("#box8").hide();
-		$("#txtbox2").val("");
-	}	
-});
-});
-</script>
-
-<!-- box9-->
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box9").hide();
-$("#branch9").change(function(){
-	var branch9 = $("#branch9").val();
-	if(branch9 == 3){
-		$("#box9").show();
-		$("#txtbox2").val("").focus();
-	}else{
-		$("#box9").hide();
-		$("#txtbox2").val("");
-	}	
-});
-});
-</script>
-
-<!-- box10-->
-<script type="text/javascript">
-$(document).ready(function(){
-$("#box10").hide();
-$("#branch10").change(function(){
-	var branch10 = $("#branch10").val();
-	if(branch10 == 3){
-		$("#box10").show();
-		$("#txtbox2").val("").focus();
-	}else{
-		$("#box10").hide();
-		$("#txtbox2").val("");
-	}	
-});
-});
-</script>
