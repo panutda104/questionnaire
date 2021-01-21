@@ -312,9 +312,10 @@ mysqli_close($con);
                     <input name="range81" id="range81" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
                 </div>
             </div>
-          
-            <center><input type='submit' class="button2" type="submit" value="ถัดไป">
+            <br>
         </div>
+        <center><input type='submit' class="button2" type="submit" value="ถัดไป">
+        
 </form>
 
         <!-- script Range53 -->
