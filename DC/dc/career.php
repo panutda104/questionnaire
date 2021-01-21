@@ -1,6 +1,6 @@
 <?php session_start();
 include_once("config.php");
-$result = mysqli_query($con, "SELECT * FROM shade3_knowledge");
+$result = mysqli_query($con, "SELECT * FROM dc_shade3_knowledge");
 $i = 0;
 while ($row = mysqli_fetch_array($result)) {
   $i += 1;
@@ -40,7 +40,7 @@ $range80 = $_POST['range80'];
 $range81 = $_POST['range81'];
 
 
-$sql = "INSERT INTO shade3_knowledge
+$sql = "INSERT INTO dc_shade3_knowledge
 (
     knowledge_code,
     personal_code,
