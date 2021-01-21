@@ -154,8 +154,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch1" id="branch1" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -209,8 +209,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch2" id="branch2" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -264,8 +264,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch3" id="branch3" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -319,8 +319,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch4" id="branch4" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -374,8 +374,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch5" id="branch5" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -429,8 +429,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch6" id="branch6" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -484,8 +484,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch7" id="branch7" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -539,8 +539,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch8" id="branch8" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -594,8 +594,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch9" id="branch9" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -649,8 +649,8 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch10" id="branch10" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="-">-</option>
-                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
