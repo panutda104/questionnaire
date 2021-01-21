@@ -1,6 +1,6 @@
 <?php session_start();
 include_once("config.php");
-$result = mysqli_query($con, "SELECT * FROM personal");
+$result = mysqli_query($con, "SELECT * FROM dt_personal");
 $i = 0;
 while ($row = mysqli_fetch_array($result)) {
     $i += 1;
@@ -13,7 +13,7 @@ $time = $_POST['job_since'];
 $gpa = $_POST['gpax'];
 $study = $_POST['branch'];
 $other=$_POST['txtbox'];
-$sql = "INSERT INTO personal (personal_code,personal_gender,personal_occ,personal_time,personal_gpa,personal_study,personal_other)
+$sql = "INSERT INTO dt_personal (personal_code,personal_gender,personal_occ,personal_time,personal_gpa,personal_study,personal_other)
 VALUES ('$code','$gender','$occ','$time','$gpa','$study','$other')";
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));

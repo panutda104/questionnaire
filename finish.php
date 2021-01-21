@@ -1,6 +1,6 @@
 <?php session_start();
 include_once("config.php");
-$result = mysqli_query($con, "SELECT * FROM suggestion");
+$result = mysqli_query($con, "SELECT * FROM dt_suggestion");
 $i = 1;
 while ($row = mysqli_fetch_array($result)) {
     $i += 1;
@@ -10,7 +10,7 @@ $suggestion_code = $_SESSION['suggestion_code'];
 $personal_code = $_SESSION['personal_code'];
 $suggest = $_POST['suggest_box'];
 
-$sql = "INSERT INTO suggestion(
+$sql = "INSERT INTO dt_suggestion(
   suggestion_code,
   personal_code,
   suggestion

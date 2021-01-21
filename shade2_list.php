@@ -1,6 +1,6 @@
 <?php session_start();
 include_once("config.php");
-$result = mysqli_query($con, "SELECT * FROM shade1_psychology");
+$result = mysqli_query($con, "SELECT * FROM dt_shade1_psychology");
 $i = 0;
 while ($row = mysqli_fetch_array($result)) {
     $i += 1;
@@ -36,7 +36,7 @@ $range24 = $_POST['range24'];
 $range25 = $_POST['range25'];
 $range26 = $_POST['range26'];
 
-$sql = "INSERT INTO shade1_psychology 
+$sql = "INSERT INTO dt_shade1_psychology 
 (
     psychology_code,
     personal_code,
