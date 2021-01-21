@@ -178,6 +178,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -190,6 +191,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
@@ -231,6 +233,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -243,6 +246,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
@@ -284,6 +288,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -296,6 +301,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
@@ -337,6 +343,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -349,6 +356,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
@@ -390,6 +398,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -402,6 +411,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
@@ -443,6 +453,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -455,6 +466,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
@@ -496,6 +508,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -508,6 +521,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
@@ -549,6 +563,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -561,6 +576,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
@@ -602,6 +618,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -614,6 +631,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
@@ -655,6 +673,7 @@ mysqli_close($con);
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
+                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
                         <option value="สร้างสรรค์">สร้างสรรค์</option>
                         <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
@@ -667,6 +686,7 @@ mysqli_close($con);
                         <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
                         <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
                         <option value="นักออกแบบ UX">นักออกแบบ UX</option>
+                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
                         <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
                         <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
                         <option value="นักวิจัย">นักวิจัย</option>
