@@ -153,9 +153,9 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch1" id="branch1" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
+                    <select name="branch1" id="branch1" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px " oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')">
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -175,8 +175,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -203,14 +205,14 @@ mysqli_close($con);
                <br>
               </div>
 
-  <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;">
+  <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
           <p id="text_header_shade1">ลำดับที่ 2:</p>
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch2" id="branch2" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
+                    <select name="branch2" id="branch2" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -230,8 +232,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -263,9 +267,9 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch3" id="branch3" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
+                    <select name="branch3" id="branch3" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')" >
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -285,8 +289,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -318,9 +324,9 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch4" id="branch4" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
+                    <select name="branch4" id="branch4" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')">
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -340,8 +346,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -373,9 +381,9 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch5" id="branch5" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
+                    <select name="branch5" id="branch5" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')">
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -395,8 +403,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -428,9 +438,9 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch6" id="branch6" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
+                    <select name="branch6" id="branch6" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')">
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -450,8 +460,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -483,9 +495,8 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch7" id="branch7" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
-                    <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <select name="branch7" id="branch7" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')" >
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -505,8 +516,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -538,9 +551,9 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch8" id="branch8" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
+                    <select name="branch8" id="branch8" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')" >
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -560,8 +573,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -593,9 +608,9 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch9" id="branch9" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
+                    <select name="branch9" id="branch9" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')">
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -615,8 +630,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
@@ -648,9 +665,9 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch10" id="branch10" class="form-control" required style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px">
+                    <select name="branch10" id="branch10" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif;width: 900px; height: 40px; font-size: 18px"oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')">
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
+                    <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
                         <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
                         <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -670,8 +687,10 @@ mysqli_close($con);
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
                         <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
                         <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
+                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
                         <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
                         <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
+                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
                         <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
                         <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
                         <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
