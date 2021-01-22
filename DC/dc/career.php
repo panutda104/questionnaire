@@ -133,6 +133,8 @@ mysqli_close($con);
   <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 
   <title>DC-career</title>
 
@@ -308,7 +310,7 @@ mysqli_close($con);
 </doby>
      
  
-    <script src="js/jquery.unduplicated.js"></script>  
+    <script src="../../js/jquery.unduplicated.js"></script>  
       <script>  
         $(function(){
             
