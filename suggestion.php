@@ -1,39 +1,39 @@
 <?php session_start();
-error_reporting(E_ERROR | E_PARSE);
-include_once("config.php");
-$result = mysqli_query($con, "SELECT * FROM dt_career");
-$i = 1;
-while ($row = mysqli_fetch_array($result)) {
-    $i += 1;
-}
-$_SESSION['career_code'] = 'C_000' . $i;
-$career_code = $_SESSION['career_code'];
-$personal_code = $_SESSION['personal_code'];
+    error_reporting(E_ERROR | E_PARSE);
+    include_once("config.php");
+    $result = mysqli_query($con, "SELECT * FROM dt_career");
+    $i = 1;
+    while ($row = mysqli_fetch_array($result)) {
+        $i += 1;
+    }
+    $_SESSION['career_code'] = 'C_000' . $i;
+    $career_code = $_SESSION['career_code'];
+    $personal_code = $_SESSION['personal_code'];
 
-$study1 = $_POST['branch1'];
-//echo ".gifg".$_POST['branch2'];
-$study2 = $_POST['branch2'];
-$study3 = $_POST['branch3'];
-$study4 = $_POST['branch4'];
-$study5 = $_POST['branch5'];
-$study6 = $_POST['branch6'];
-$study7 = $_POST['branch7'];
-$study8 = $_POST['branch8'];
-$study9 = $_POST['branch9'];
-$study10 = $_POST['branch10'];
-$sql = "INSERT INTO dt_career ( career_code, personal_code,career_1,career_2, career_3,career_4,career_5,career_6,career_7,career_8,career_9,career_10)
-VALUES ('$career_code','$personal_code','$study1','$study2','$study3','$study4','$study5','$study6','$study7','$study8','$study9','$study10')";
-if ($stat =='branch1')
-$disabled = 'disabled';
-else
-$disabled = '';
+    $study1 = $_POST['branch1'];
+    //echo ".gifg".$_POST['branch2'];
+    $study2 = $_POST['branch2'];
+    $study3 = $_POST['branch3'];
+    $study4 = $_POST['branch4'];
+    $study5 = $_POST['branch5'];
+    $study6 = $_POST['branch6'];
+    $study7 = $_POST['branch7'];
+    $study8 = $_POST['branch8'];
+    $study9 = $_POST['branch9'];
+    $study10 = $_POST['branch10'];
+    $sql = "INSERT INTO dt_career ( career_code, personal_code,career_1,career_2, career_3,career_4,career_5,career_6,career_7,career_8,career_9,career_10)
+    VALUES ('$career_code','$personal_code','$study1','$study2','$study3','$study4','$study5','$study6','$study7','$study8','$study9','$study10')";
+    if ($stat =='branch1')
+    $disabled = 'disabled';
+    else
+    $disabled = '';
 
-if (!mysqli_query($con, $sql)) {
-    die(mysqli_error($con));
-} else {
-}
+    if (!mysqli_query($con, $sql)) {
+        die(mysqli_error($con));
+    } else {
+    }
 
-mysqli_close($con);
+    mysqli_close($con);
 ?>
 <style type="text/css">
     .hiddenform2 {
@@ -45,7 +45,6 @@ mysqli_close($con);
         document.getElementById('myDIV').style.display = flag === 1 ? 'block' : 'none';
     }
 </script>
-
 
 <!DOCTYPE html>
 <html lang="en">

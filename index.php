@@ -25,7 +25,7 @@
 
 <body>
   <?php
-  include("body.php");
+    include("body.php");
   ?>
   <div>
       <img src="./images/DIGITECH-header.png" alt="center"style="width: 25%;margin-top: 80px;" />
@@ -36,15 +36,16 @@
   <div>
     <br/>
     <div style="font-size: 18px;text-align: center;" >
-    เป็นการจัดการศึกษารูปแบบใหม่ที่เน้นให้ผู้เรียนสามารถเลือกเรียนตามกลุ่มวิชาชีพที่สนใจ พัฒนาทักษะที่จําเป็นให้ผู้เรียนสามารถทํางานได้จริงและ<br/>ส่งเสริมการเรียนรู้ตลอดชีวิต
+        เป็นการจัดการศึกษารูปแบบใหม่ที่เน้นให้ผู้เรียนสามารถเลือกเรียนตามกลุ่มวิชาชีพที่สนใจ พัฒนาทักษะที่จําเป็นให้ผู้เรียนสามารถทํางานได้จริงและ<br/>ส่งเสริมการเรียนรู้ตลอดชีวิต
     </div>
+
     <hr class="style2">
 
     <div style="background-color: #efefef;height: 1000px; margin-top: 70px; ">
-    <div>Degree Track</div>
-    <p style="font-size: 22px;margin-top: 40px; text-align: center;" >หลักสูตรระดับปริญญาตรีด้านเทคโนโลยีดิจิทัลรูปแบบใหม่ ภายใต้ชื่อกลุ่มหลักสูตรศาสตร์และศิลป์ดิจิทัล โดยจัดการเรียนการสอนใน<br/>
-        รูปแบบมอดูลหรือชุดวิชา (Modular Program) ทําให้ผู้เรียนได้รับทักษะและความรู้แบบเบ็ดเสร็จ สามารถเลือกเรียนตามกลุ่ม<br/>
-        วิชาชีพที่สนใจ (Personalization)</p>
+      <div>Degree Track</div>
+        <p style="font-size: 22px;margin-top: 40px; text-align: center;" >หลักสูตรระดับปริญญาตรีด้านเทคโนโลยีดิจิทัลรูปแบบใหม่ ภายใต้ชื่อกลุ่มหลักสูตรศาสตร์และศิลป์ดิจิทัล โดยจัดการเรียนการสอนใน<br/>
+          รูปแบบมอดูลหรือชุดวิชา (Modular Program) ทําให้ผู้เรียนได้รับทักษะและความรู้แบบเบ็ดเสร็จ สามารถเลือกเรียนตามกลุ่ม<br/>
+          วิชาชีพที่สนใจ (Personalization)</p>
 
     <table border="0" style="width:70%; margin-top: 70px;"   >
         <tr>
@@ -69,14 +70,15 @@
           <th><button type="button" onclick="location.href='DC/dc/DC.php'" class="button is-success animated bounceIn" style="border-radius: 20px;width: 200px; height: 50px;font-size: 18px;background-color: #0a428f;border: white;display: block;margin-left: auto;margin-right: auto;margin-top: 20px;">
             ดูหลักสูตร</button></th>
         </tr>
-</table>
-<div><hr class="style2"></div>
+    </table>
+
+    <div><hr class="style2"></div>
     </div>
 
 
 </body>
 <?php
-include("footer.php");
+  include("footer.php");
 ?>
 
 </html>
