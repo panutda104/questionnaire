@@ -132,8 +132,14 @@ mysqli_close($con);
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
-
+  <style>
+    	select, p, span {
+        	font: 17px Calibri;
+        }
+    </style>
   <title>shade</title>
 </head>
 
@@ -153,7 +159,7 @@ mysqli_close($con);
           <!-- <div class="custom-select" style="width:200px;"> -->
           <div class="form-group row">
                     <div class="col-sm-12">
-                    <select name="branch1" id="branch1" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px " oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')">
+                    <select name="branch1" id="branch1" class="css_s2 form-control input-sm" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px " oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')"  >
                     <option value="">- กรุณาเลือก -</option>
                     <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
                         <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
@@ -201,41 +207,6 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch2" id="branch2" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                    <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
                     </select><br />
                 </div>
                 </div>               
@@ -249,41 +220,6 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch3" id="branch3" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                    <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
                     </select><br />
                 </div>
                 </div>               
@@ -296,41 +232,7 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch4" id="branch4" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                    <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
+                   
                     </select><br />
                 </div>
                 </div>               
@@ -343,41 +245,7 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch5" id="branch5" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                    <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
+                   
                     </select><br />
                 </div>
                 </div>               
@@ -390,41 +258,7 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch6" id="branch6" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                    <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
+                   
                     </select><br />
                 </div>
                 </div>               
@@ -437,41 +271,7 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch7" id="branch7" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                    <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
+                   
                     </select><br />
                 </div>
                 </div>               
@@ -484,41 +284,7 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch8" id="branch8" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                    <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
+                   
                     </select><br />
                 </div>
                 </div>               
@@ -531,41 +297,7 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch9" id="branch9" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                    <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
+                   
                     </select><br />
                 </div>
                 </div>               
@@ -578,41 +310,7 @@ mysqli_close($con);
           <div class="form-group row">
                     <div class="col-sm-12">
                     <select name="branch10" id="branch10" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                    <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
+                   
                     </select><br />
                 </div>
                 </div>               
@@ -620,6 +318,26 @@ mysqli_close($con);
               </div>
                    
               <center><input type='submit' class="button1" type="submit" value="ถัดไป">
-    </form>
-</body>
+    </form>  
+    </doby>
+     
+ 
+    <script src="jquery.unduplicated.js"></script>
+<script>  
+$(function(){
+     
+    // กรณีไม่ได้ กำหนดค่าเริ่มต้น
+    $(".form-control").unduplicated(); 
+     
+    // กรณีกำหนดค่าเริ่มต้น
+  //$(".css_s").unduplicated({
+         //   initialVal:[2,3,1,4]
+      //  });*/
+ 
+    // กรณีกำหนดค่าเริ่มต้น
+    $(".branch1").unduplicated({
+            initialVal:['การตลาด','การบัญชี','การโรงแรม','การเงิน']
+        });
+});
+</script>
 </html>

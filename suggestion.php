@@ -11,6 +11,7 @@ $career_code = $_SESSION['career_code'];
 $personal_code = $_SESSION['personal_code'];
 
 $study1 = $_POST['branch1'];
+//echo ".gifg".$_POST['branch2'];
 $study2 = $_POST['branch2'];
 $study3 = $_POST['branch3'];
 $study4 = $_POST['branch4'];
@@ -22,10 +23,16 @@ $study9 = $_POST['branch9'];
 $study10 = $_POST['branch10'];
 $sql = "INSERT INTO dt_career ( career_code, personal_code,career_1,career_2, career_3,career_4,career_5,career_6,career_7,career_8,career_9,career_10)
 VALUES ('$career_code','$personal_code','$study1','$study2','$study3','$study4','$study5','$study6','$study7','$study8','$study9','$study10')";
+if ($stat =='branch1')
+$disabled = 'disabled';
+else
+$disabled = '';
+
 if (!mysqli_query($con, $sql)) {
     die(mysqli_error($con));
 } else {
 }
+
 mysqli_close($con);
 ?>
 <style type="text/css">
