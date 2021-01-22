@@ -54,7 +54,7 @@ mysqli_close($con);
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
 
-    <title>shade</title>
+    <title>DC-suggestion</title>
 </head>
 
 <body>

@@ -129,18 +129,20 @@ mysqli_close($con);
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css\career.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+  
   <style>
     	select, p, span {
         	font: 17px Calibri;
         }
     </style>
-  <title>shade</title>
+  <title>DT-career</title>
+
 </head>
 
 <body>
@@ -156,12 +158,11 @@ mysqli_close($con);
       <div class="shade1" >
         <div class="text_shade1" id="container" style="font-size: 16px;font-family: 'Mitr', sans-serif;">
           <p id="text_header_shade1">ลำดับที่ 1 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
-                    <select name="branch1" id="branch1" class="css_s2 form-control input-sm" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px " oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')"  >
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <select name="branch1" id="branch1" class="css_s2 form-control input-sm" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px " oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')"  >
                     <option value="">- กรุณาเลือก -</option>
-                    <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
                         <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
                         <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
                         <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
@@ -195,149 +196,134 @@ mysqli_close($con);
                         <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
                         <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
                         <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
-                    </select><br />
-                </div>
-                </div>            
-               <br>
+                </select><br />
               </div>
+            </div>            
+               <br>
+      </div>
 
               <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
-          <p id="text_header_shade1">ลำดับที่ 2 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
+                  <p id="text_header_shade1">ลำดับที่ 2 :</p>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                     <select name="branch2" id="branch2" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
                     </select><br />
-                </div>
+                  </div>
                 </div>               
-               <br>
+                <br>
               </div>
 
 
-               <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
-          <p id="text_header_shade1">ลำดับที่ 3 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
+              <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
+                  <p id="text_header_shade1">ลำดับที่ 3 :</p>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                     <select name="branch3" id="branch3" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
                     </select><br />
-                </div>
+                  </div>
                 </div>               
-               <br>
+                <br>
               </div>
 
               <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
-          <p id="text_header_shade1">ลำดับที่ 4 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
+                  <p id="text_header_shade1">ลำดับที่ 4 :</p>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                     <select name="branch4" id="branch4" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                   
                     </select><br />
-                </div>
+                  </div>
                 </div>               
-               <br>
+                <br>
               </div>
 
               <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
-          <p id="text_header_shade1">ลำดับที่ 5 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
+                  <p id="text_header_shade1">ลำดับที่ 5 :</p>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                     <select name="branch5" id="branch5" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                   
                     </select><br />
-                </div>
+                  </div>
                 </div>               
-               <br>
+                <br>
               </div>
 
               <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
-          <p id="text_header_shade1">ลำดับที่ 6 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
+                  <p id="text_header_shade1">ลำดับที่ 6 :</p>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                     <select name="branch6" id="branch6" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                   
                     </select><br />
-                </div>
+                  </div>
                 </div>               
-               <br>
+                <br>
               </div>
 
               <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
-          <p id="text_header_shade1">ลำดับที่ 7 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
+                  <p id="text_header_shade1">ลำดับที่ 7 :</p>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                     <select name="branch7" id="branch7" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                   
                     </select><br />
-                </div>
+                  </div>
                 </div>               
-               <br>
+                <br>
               </div>
 
               <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
-          <p id="text_header_shade1">ลำดับที่ 8 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
+                  <p id="text_header_shade1">ลำดับที่ 8 :</p>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                     <select name="branch8" id="branch8" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                   
                     </select><br />
-                </div>
+                  </div>
                 </div>               
-               <br>
+                <br>
               </div>
 
               <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
-          <p id="text_header_shade1">ลำดับที่ 9 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
+                  <p id="text_header_shade1">ลำดับที่ 9 :</p>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                     <select name="branch9" id="branch9" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                   
                     </select><br />
-                </div>
+                  </div>
                 </div>               
-               <br>
+                <br>
               </div>
 
               <div class="text_shade1" id="container" style="font-size: 16px;font-family:  'Mitr', sans-serif; margin-top: 30px;"  >
-          <p id="text_header_shade1">ลำดับที่ 10 :</p>
-          <!-- <div class="custom-select" style="width:200px;"> -->
-          <div class="form-group row">
-                    <div class="col-sm-12">
+                  <p id="text_header_shade1">ลำดับที่ 10 :</p>
+                <div class="form-group row">
+                  <div class="col-sm-12">
                     <select name="branch10" id="branch10" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
-                   
                     </select><br />
-                </div>
+                  </div>
                 </div>               
-               <br>
+                <br>
               </div>
                    
               <center><input type='submit' class="button1" type="submit" value="ถัดไป">
     </form>  
-    </doby>
+</doby>
      
  
-    <script src="jquery.unduplicated.js"></script>
-<script>  
-$(function(){
-     
-    // กรณีไม่ได้ กำหนดค่าเริ่มต้น
-    $(".form-control").unduplicated(); 
-     
-    // กรณีกำหนดค่าเริ่มต้น
-  //$(".css_s").unduplicated({
-         //   initialVal:[2,3,1,4]
-      //  });*/
- 
-    // กรณีกำหนดค่าเริ่มต้น
-    $(".branch1").unduplicated({
-            initialVal:['การตลาด','การบัญชี','การโรงแรม','การเงิน']
+    <script src="js/jquery.unduplicated.js"></script>  
+      <script>  
+        $(function(){
+            
+            // กรณีไม่ได้ กำหนดค่าเริ่มต้น
+            $(".form-control").unduplicated(); 
+            
+            // กรณีกำหนดค่าเริ่มต้น
+          //$(".css_s").unduplicated({
+                //   initialVal:[2,3,1,4]
+              //  });*/
+        
+            // กรณีกำหนดค่าเริ่มต้น
+            $(".branch1").unduplicated({
+                    initialVal:['การตลาด','การบัญชี','การโรงแรม','การเงิน']
+                });
         });
-});
-</script>
+      </script>
+      
 </html>
