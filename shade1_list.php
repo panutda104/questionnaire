@@ -49,7 +49,7 @@ mysqli_close($con);
 
         <div class="shade1">
             <div>
-                <p id="text_content1_shade1_1">คำถามเชิงจิตวิทยาเก็บรวบรวมข้อมูลทักษะของนักศึกษา </p>
+                <p id="text_content1_shade1_1">คำถามเชิงจิตวิทยาเก็บรวบรวมข้อมูลทักษะ </p>
                 <i>
                     <p id="text_content1_shade1">คำชี้แจง: โปรดให้คะแนนที่ตรงกับระดับความสามารถของท่านมากที่สุด โดยลากแถบเลื่อน (Slider Scales) กำหนดเกณฑ์ 0 หมายถึง ไม่มีความสามารถ จนถึง 100 หมายถึง มีความสามารถมากที่สุด</p>
                 </i>
@@ -59,12 +59,13 @@ mysqli_close($con);
                     <div class="range-value" id="rangeV"></div>
                     <input min="0" max="100" name="range" id="range" type="range" value="0" step="1" style="margin: auto;" style="margin: auto;">
                 </div>
+                <hr />
             </div>
             <div>
                 <p id="text_content2_shade1">2 . คุณสามารถเขียนบรรยายจากจินตนาการได้</p>
                 <div class="range-wrap2">
                     <div class="range-value2" id="rangeV2"></div>
-                    <input name="range2" id="range2" required="fff"  type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
+                    <input name="range2" id="range2" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                 </div>
             </div>
             <div>
@@ -256,12 +257,10 @@ mysqli_close($con);
                     newPosition = 10 - (newValue * 0.2);
                 rangeV.innerHTML = `<span>${range.value}</span>`;
                 rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
-                rangeV1.style.left = `calc(${newValue1}% + (${newPosition1}px))`;
-                // doneena.innerHTML = `${range1.value}`;
                 if (range.value == 100) {
-                    doneena1.innerHTML = `คุณสามารถสื่อสารโดยการเขียนบรรยายเพื่อเล่าเรื่องจากประสบการณ์ของตนเองตามความเหมาะสมกับความต้องการของผู้อ่านได้อย่างมีประสิทธิภาพมาก`; /////// let to show value at S1_list
-                } else if (range1.value == 0) {
-                    doneena1.innerHTML = `คุณไม่สามารถสื่อสารโดยการเขียนบรรยายเพื่อเล่าเรื่องจากประสบการณ์ของตนเองตามความเหมาะสมกับความต้องการของผู้อ่าน`;
+                    doneena1.innerHTML = `คุณสามารถการสื่อสารอย่างมีประสิทธิภาพในการเขียนตามความเหมาะสมกับความต้องการของผู้อ่านได้ดี`; /////// let to show value at S1_list
+                } else if (range.value == 0) {
+                    doneena1.innerHTML = `คุณไม่สามารถการสื่อสารอย่างมีประสิทธิภาพในการเขียนตามความเหมาะสมกับความต้องการของผู้อ่านได้`;
 
                 } else {
                     doneena1.innerHTML = '';

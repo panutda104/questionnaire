@@ -285,7 +285,7 @@ mysqli_close($con);
                 </div>
             </div>
             <div>
-                <p id="text_content2_shade3">26 . จิตวิทยา (Attitude) </p>
+                <p id="text_content2_shade3">26 . จิตวิทยา (Psychology) </p>
                 <div class="range-wrap78">
                     <div class="range-value78" id="rangeV78"></div>
                     <input name="range78" id="range78" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">

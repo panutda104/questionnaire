@@ -66,9 +66,9 @@
         </tr>
         <tr>
           <th><button type="button" onclick="location.href='dt.php'" class="button is-success animated bounceIn" style="border-radius: 20px;width: 200px; height: 50px;font-size: 18px;background-color: #0a428f;border: white;display: block;margin-left: auto;margin-right: auto;margin-top: 20px;">
-            ดูหลักสูตร</button></th>
+            เข้าทำแบบสอบถาม</button></th>
           <th><button type="button" onclick="location.href='DC/dc/DC.php'" class="button is-success animated bounceIn" style="border-radius: 20px;width: 200px; height: 50px;font-size: 18px;background-color: #0a428f;border: white;display: block;margin-left: auto;margin-right: auto;margin-top: 20px;">
-            ดูหลักสูตร</button></th>
+          เข้าทำแบบสอบถาม</button></th>
         </tr>
     </table>
 
