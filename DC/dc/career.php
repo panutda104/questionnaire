@@ -146,7 +146,7 @@ mysqli_close($con);
       <div class="shade">
             <p id="text_content1_shade1_1">อาชีพที่เหมาะสม 10 อาชีพ </p>
             <i>
-                <p id="text_content1_shade1">ให้เลือกอาชีพที่ท่านคิดว่าเหมาะสมกับทักษะ ความรู้ และเจตคติของท่านมากที่สุด จำนวน 10 อาชีพ</p>
+                <p id="text_content1_shade1" style= "color: red; font-weight: bolder; " >ให้เลือกอาชีพที่ท่านคิดว่าเหมาะสมกับทักษะ ความรู้ และเจตคติของท่านมากที่สุด จำนวน 10 อาชีพ</p>
             </i>
       </div>
 
@@ -157,48 +157,44 @@ mysqli_close($con);
               <div class="col-sm-12">
                 <select name="branch1" id="branch1" class="css_s2 form-control input-sm" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px " oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')"  >
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="นักออกแบบกราฟิก">นักออกแบบกราฟิก</option>
-                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">นักออกแบบกราฟิกเคลื่อนไหว</option>
-                        <option value="นักออกแบบ UI">นักออกแบบ UI</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="ช่างภาพ">ช่างภาพ</option>
-                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">นักเขียนสำเนาดิจิทัล / บล็อกเกอร์</option>
-                        <option value="Youtuber / Vlogger">Youtuber / Vlogger</option>
-                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย</option>
-                        <option value="ผู้ดูแลโซเชียลมีเดีย">ผู้ดูแลโซเชียลมีเดีย</option>
-                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
-                        <option value="นักออกแบบตัวละคร">นักออกแบบตัวละคร</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ศิลปินมัลติมีเดีย">ศิลปินมัลติมีเดีย</option>
-                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง</option>
-                        <option value="ผู้อำนวยการ">ผู้อำนวยการ</option>
-                        <option value="ตากล้อง">ตากล้อง</option>
-                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">โปรแกรมตัดต่อวิดีโอและเสียง</option>
-                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง</option>
-                        <option value="ตัวละครและนักออกแบบฉาก">ตัวละครและนักออกแบบฉาก</option>
-                        <option value="2D / 3D Modeller">2D / 3D Modeller</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบเทคนิคพิเศษ</option>
-                        <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม</option>
-                        <option value="ตัวออกแบบ UI เกม">ตัวออกแบบ UI เกม</option>
-                        <option value="โปรดิวเซอร์">โปรดิวเซอร์</option>
-                        <option value="สร้างสรรค์">สร้างสรรค์</option>
-                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี</option>
-                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">เจ้าหน้าที่ประชาสัมพันธ์</option>
-                        <option value="ผู้ประสานงานการตลาด">ผู้ประสานงานการตลาด</option>
-                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย</option>
-                        <option value="นักกลยุทธ์โซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย</option>
-                        <option value="ช่างภาพข่าวดิจิทัล">ช่างภาพข่าวดิจิทัล</option>
-                        <option value="นักข่าวข้อมูล">นักข่าวข้อมูล</option>
-                        <option value="ผู้สื่อข่าวออนไลน์">ผู้สื่อข่าวออนไลน์</option>
-                        <option value="นักข่าววงเดียว">นักข่าววงเดียว</option>
-                        <option value="นักออกแบบ UX">นักออกแบบ UX</option>
-                        <option value="ตัวออกแบบ UI มือถือ">ตัวออกแบบ UI มือถือ</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="ผู้ประเมิน / ทดสอบสื่อดิจิทัล">ผู้ประเมิน / ทดสอบสื่อดิจิทัล</option>
-                        <option value="นักวิจัย">นักวิจัย</option>
-                        <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
+                       
                 </select><br />
               </div>
             </div>            
@@ -210,6 +206,44 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch2" id="branch2" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -222,6 +256,44 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch3" id="branch3" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -233,6 +305,44 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch4" id="branch4" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -244,6 +354,44 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch5" id="branch5" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -255,6 +403,44 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch6" id="branch6" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -266,6 +452,44 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch7" id="branch7" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -277,6 +501,44 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch8" id="branch8" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -288,6 +550,44 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch9" id="branch9" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -299,6 +599,44 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch10" id="branch10" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="นักออกแบบกราฟิก">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
+                        <option value="นักออกแบบกราฟิกเคลื่อนไหว">แอนิเมเตอร์ (Animator)</option>
+                        <option value="นักออกแบบ UI">โปรแกรมเมอร์เกม (Game Programmer)</option>
+                        <option value="นักออกแบบเว็บไซต์">ช่างกล้อง (Cameraman)</option>
+                        <option value="ช่างภาพ">ช่างภาพ (Photographer)</option>
+                        <option value="นักเขียนสำเนาดิจิทัล / บล็อกเกอร์">ช่างภาพข่าวดิจิทัล (Digital Photojournalist)</option>
+                        <option value="Youtuber / Vlogger">นักเขียนดิจิทัล / บล็อกเกอร์ (Digital Copy Writer / Blogger)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">นักกลยุทธ์โซเชียลมีเดีย (Social Media Strategist)</option>
+                        <option value="ผู้ดูแลโซเชียลมีเดีย">นักข่าวข้อมูล (Data Journalist)</option>
+                        <option value="2D / 3D Modeller">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="นักออกแบบตัวละคร">นักวิจัย (Researcher)</option>
+                        <option value="แอนิเมเตอร์">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>
+                        <option value="ศิลปินมัลติมีเดีย">นักออกแบบเทคนิคพิเศษ (Special Effect Designer)</option>
+                        <option value="ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="ผู้อำนวยการ">นักออกแบบกราฟิก (Graphic Designer)</option>
+                        <option value="ตากล้อง">นักออกแบบกราฟิกเคลื่อนไหว (Motion Graphic Designer) </option>
+                        <option value="โปรแกรมตัดต่อวิดีโอและเสียง">นักออกแบบตัวละคร (Character Designer)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
+                        <option value="ผู้สร้างโครงเรื่อง">นักออกแบบปั้นงาน 2D/ 3D (2D/ 3D Modeller)</option>
+                        <option value="ตัวละครและนักออกแบบฉาก">นักออกแบบวิดีโอเกม (Video & Audio Editor)</option>
+                        <option value="2D / 3D Modeller">ผู้เขียนบทภาพยนตร์ / ผู้เล่าเรื่อง (Screenplay Writer / Storyteller)</option>
+                        <option value="แอนิเมเตอร์">ผู้เชี่ยวชาญด้านโซเชียลมีเดีย (Social Media Specialist)</option>
+                        <option value="นักออกแบบเทคนิคพิเศษ">ผู้เชี่ยวชาญด้านโซเชียลมีเดียที่โดดเด่น (Social Media Expert)</option>
+                        <option value="โปรแกรมเมอร์เกม">ผู้กำกับ (Director)</option>
+                        <option value="ตัวออกแบบ UI เกม">ผู้ดูแลโซเชียลมีเดีย (Social Media Administrator)</option>
+                        <option value="โปรดิวเซอร์">ผู้ทำ Youtuber/Vlogger (Youtuber/ Vlogger)</option>
+                        <option value="สร้างสรรค์">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>
+                        <option value="ผู้บริหารฝ่ายบัญชี">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>
+                        <option value="เจ้าหน้าที่ประชาสัมพันธ์">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
+                        <option value="ผู้ประสานงานการตลาด">ผู้ผลิต (Producer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านโซเชียลมีเดีย">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
+                        <option value="นักกลยุทธ์โซเชียลมีเดีย">ผู้สื่อข่าววัน - แมน - แบนด์ (One-Man-Band Journalist)</option>
+                        <option value="ช่างภาพข่าวดิจิทัล">ผู้สื่อข่าวออนไลน์ (Online Reporter)</option>
+                        <option value="นักข่าวข้อมูล">ผู้ออกแบบ UI (UI Designer)</option>
+                        <option value="ผู้สื่อข่าวออนไลน์">ผู้ออกแบบ UX (UX Designer)</option>
+                        <option value="นักข่าววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                        <option value="นักออกแบบ UX">ศิลปินมัลติมีเดีย (Multimedia Artist)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -310,7 +648,7 @@ mysqli_close($con);
 </doby>
      
  
-    <script src="../../js/jquery.unduplicated.js"></script>  
+    <!-- <script src="../../js/jquery.unduplicated.js"></script>  
       <script>  
         $(function(){
             
@@ -327,6 +665,6 @@ mysqli_close($con);
                     initialVal:['การตลาด','การบัญชี','การโรงแรม','การเงิน']
                 });
         });
-      </script>
+      </script> -->
 </html>
 

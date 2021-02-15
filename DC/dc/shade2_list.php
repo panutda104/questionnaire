@@ -104,7 +104,7 @@ mysqli_close($con);
     
                 <div class="shade2">
                     <div>
-                        <p id="text_content1_shade1_1">คำถามเชิงจิตวิทยาเก็บรวบรวมข้อมูลเจตคติ </p>
+                        <p id="text_content1_shade1_1">คำถามเชิงจิตวิทยาเก็บรวบรวมข้อมูลเจตคติของนักศึกษา </p>
                         <i>
                             <p id="text_content1_shade1">คำชี้แจง: โปรดให้คะแนนที่ตรงกับระดับความชอบของท่านมากที่สุด โดยลากแถบเลื่อน (Slider Scales) กำหนดเกณฑ์ 0 หมายถึง ไม่ชอบ จนถึง 100 หมายถึง ชอบมากที่สุด</p>
                         </i>
@@ -113,182 +113,182 @@ mysqli_close($con);
                         <p id="text_content2_shade2">1 . คุณชอบเขียนบรรยายเพื่อเล่าเรื่องจากประสบการณ์ของตนเอง</p>
                         <div class="range-wrap27">
                             <div class="range-value27" id="rangeV27"></div>
-                                <input name="range27" id="range27" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range27" id="range27" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">2 . คุณชอบเขียนบรรยายจากจิตนาการ </p>
                         <div class="range-wrap28">
                             <div class="range-value28" id="rangeV28"></div>
-                                <input name="range28" id="range28" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range28" id="range28" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">3 . คุณชอบพึ่งพามโนภาพในการออกแบบ </p>
                         <div class="range-wrap29">
                             <div class="range-value29" id="rangeV29"></div>
-                                <input name="range29"  id="range29" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range29"  id="range29" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">4 . คุณชอบทำงานกับสิ่งที่ปฏิบัติได้ทันที  </p>
                         <div class="range-wrap30">
                             <div class="range-value30" id="rangeV30"></div>
-                                <input name="range30" id="range30" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range30" id="range30" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">5 . คุณชอบผสานการทำงานเข้ากับการเรียนรู้  </p>
                         <div class="range-wrap31">
                             <div class="range-value31" id="rangeV31"></div>
-                                <input name="range31" id="range31" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range31" id="range31" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">6 . คุณชอบเรียนรู้ ทำงานหนัก และมีระเบียบวินัย  </p>
                         <div class="range-wrap32">
                             <div class="range-value32" id="rangeV32"></div>
-                                <input name="range32" id="range32" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range32" id="range32" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">7 . คุณชอบทำงานที่มีวิธีการเชิงตรรกะอย่างละเอียด  </p>
                         <div class="range-wrap33">
                             <div class="range-value33" id="rangeV33"></div>
-                                <input name="range33" id="range33" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range33" id="range33" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">8 . คุณชอบการฝึกอบรมความเป็นผู้นำ  </p>
                         <div class="range-wrap34">
                             <div class="range-value34" id="rangeV34"></div>
-                                <input name="range34" id="range34" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range34" id="range34" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">9 . คุณชอบช่วยเหลือผู้อื่นในการแก้ไขสถานการณ์ความขัดแย้ง   </p>
                         <div class="range-wrap35">
                             <div class="range-value35" id="rangeV35"></div>
-                                <input name="range35" id="range35" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range35" id="range35" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">10 . คุณชอบพูดคุยและถ่ายทอดข้อมูลให้กับผู้อื่นในที่ทำงานให้เข้าใจ   </p>
                         <div class="range-wrap36">
                             <div class="range-value36" id="rangeV36"></div>
-                                <input name="range36" id="range36" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range36" id="range36" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">11 . คุณชอบบอกให้ผู้อื่นทำบางสิ่งบางอย่างตามที่คุณต้องการ   </p>
                         <div class="range-wrap37">
                             <div class="range-value37" id="rangeV37"></div>
-                                <input name="range37" id="range37" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range37" id="range37" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">12 . คุณชอบทำงานในสภาพแวดล้อมทางธุรกิจ    </p>
                         <div class="range-wrap38">
                             <div class="range-value38" id="rangeV38"></div>
-                                <input name="range38" id="range38" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range38" id="range38" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div> 
                     <div>
                         <p id="text_content2_shade2">13 . คุณชอบมีส่วนร่วมในการแก้ปัญหาทางวิทยาศาสตร์    </p>
                         <div class="range-wrap39">
                             <div class="range-value39" id="rangeV39"></div>
-                                <input name="range39" id="range39" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range39" id="range39" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">14 . คุณชอบเรียนรู้วิชาที่มีความเชื่อมโยงกับอาชีพที่อยากทำด้วยตนเอง    </p>
                         <div class="range-wrap40">
                             <div class="range-value40" id="rangeV40"></div>
-                                <input name="range40" id="range40" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range40" id="range40" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">15 . คุณชอบช่วยผู้อื่นในการแก้ปัญหา    </p>
                         <div class="range-wrap41">
                             <div class="range-value41" id="rangeV41"></div>
-                                <input name="range41" id="range41" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range41" id="range41" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">16 . คุณชอบใช้ทักษะแบบทำด้วยมือและแบบทำด้วยเครื่องจักร    </p>
                         <div class="range-wrap42">
                             <div class="range-value42" id="rangeV42"></div>
-                                <input name="range42" id="range42" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range42" id="range42" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">17 . คุณชอบเข้าไปมีส่วนร่วมในภาวะตึงเครียดและเสี่ยงอันตรายได้     </p>
                         <div class="range-wrap43">
                             <div class="range-value43" id="rangeV43"></div>
-                                <input name="range43" id="range43" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range43" id="range43" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">18 . คุณชอบทำงานกลางแจ้ง      </p>
                         <div class="range-wrap44">
                             <div class="range-value44" id="rangeV44"></div>
-                                <input name="range44" id="range44" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range44" id="range44" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">19 . คุณชอบทำงานกับองค์กรและกลุ่ม      </p>
                         <div class="range-wrap45">
                             <div class="range-value45" id="rangeV45"></div>
-                                <input name="range45"id="range45" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range45"id="range45" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">20 . คุณชอบทำงานเป็นทีมหรือกลุ่มใหญ่      </p>
                         <div class="range-wrap46">
                             <div class="range-value46" id="rangeV46"></div>
-                                <input name="range46" id="range46" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range46" id="range46" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">21 . คุณชอบให้บริการที่เกี่ยวกับการพยาบาลหรือการดูแลสุขภาพ       </p>
                         <div class="range-wrap47">
                             <div class="range-value47" id="rangeV47"></div>
-                                <input name="range47" id="range47" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range47" id="range47" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">22 . คุณขอบพึ่งพาและเชื่อมั่นเพื่อนร่วมงานในการทำงาน       </p>
                         <div class="range-wrap48">
                             <div class="range-value48" id="rangeV48"></div>
-                                <input name="range48" id="range48" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range48" id="range48" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">23 . คุณชอบเข้าไปมีส่วนร่วมในประเด็นปัญหาสังคม       </p>
                         <div class="range-wrap49">
                             <div class="range-value49" id="rangeV49"></div>
-                                <input name="range49" id="range49" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range49" id="range49" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">24 . คุณชอบเข้าไปมีส่วนร่วมในเหตุการณ์ปัจจุบัน       </p>
                         <div class="range-wrap50">
                             <div class="range-value50" id="rangeV50"></div>
-                                <input name="range50" id="range50" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range50" id="range50" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">25 . คุณชอบทำงานกับเด็กหรือคนหนุ่มสาว       </p>
                         <div class="range-wrap51">
                             <div class="range-value51" id="rangeV51"></div>
-                                <input  name="range51" id="range51" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input  name="range51" id="range51" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <div>
                         <p id="text_content2_shade2">26 . คุณชอบสอนเด็ก วัยรุ่น หรือวัยผู้ใหญ่       </p>
                         <div class="range-wrap52">
                             <div class="range-value52" id="rangeV52"></div>
-                                <input name="range52" id="range52" type="range" min="0" max="100" value="50" step="1" style="margin: auto;">
+                                <input name="range52" id="range52" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                         </div>
                     </div>
                     <br><br>             

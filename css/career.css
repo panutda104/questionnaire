@@ -144,6 +144,7 @@ input[type=text] {
     font-family: 'Mitr', sans-serif;
     /* margin-left: 20px; */
     text-align: center;
+    font-weight: bolder;
   }
   
 #text_content1_shade1_1{

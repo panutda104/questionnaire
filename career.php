@@ -151,7 +151,7 @@ mysqli_close($con);
       <div class="shade">
             <p id="text_content1_shade1_1">อาชีพที่เหมาะสม 10 อาชีพ </p>
             <i>
-                <p id="text_content1_shade1">ให้เลือกอาชีพที่ท่านคิดว่าเหมาะสมกับทักษะ ความรู้ และเจตคติของท่านมากที่สุด จำนวน 10 อาชีพ</p>
+                <p id="text_content1_shade1" style= "color: red; font-weight: bolder; " >ให้เลือกอาชีพที่ท่านคิดว่าเหมาะสมกับทักษะ ความรู้ และเจตคติของท่านมากที่สุด จำนวน 10 อาชีพ</p>
             </i>
       </div>
 
@@ -162,40 +162,39 @@ mysqli_close($con);
               <div class="col-sm-12">
                 <select name="branch1" id="branch1" class="css_s2 form-control input-sm" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px " oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ')"oninput="setCustomValidity('')"  >
                     <option value="">- กรุณาเลือก -</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">ผู้เขียนเนื้อหาเว็บ</option>
-                        <option value="ผู้เขียนเนื้อหาเว็บ">นักออกแบบเว็บไซต์</option>
-                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ</option>
-                        <option value="นักออกแบบเว็บไซต์">นักออกแบบเว็บไซต์</option>
-                        <option value="นักพัฒนาเว็บ">นักพัฒนาเว็บ</option>
-                        <option value=".NET โปรแกรมเมอร์">.NET โปรแกรมเมอร์</option>
-                        <option value="เว็บมาสเตอร์">เว็บมาสเตอร์</option>
-                        <option value="UI / UX Designer">UI / UX Designer</option>
-                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม</option>
-                        <option value="Xamarin Mobile Developer">Xamarin Mobile Developer</option>
-                        <option value="นักพัฒนามือถือ Android">นักพัฒนามือถือ Android</option>
-                        <option value="นักพัฒนามือถือ iOS">นักพัฒนามือถือ iOS</option>
-                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักพัฒนาแอปพลิเคชันมือถือ</option>
-                        <option value="นักพัฒนาซอฟต์แวร์">นักพัฒนาซอฟต์แวร์</option>
-                        <option value="วิเคราะห์ระบบ">วิเคราะห์ระบบ</option>
-                        <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์</option>
-                        <option value="เครื่องทดสอบซอฟต์แวร์">เครื่องทดสอบซอฟต์แวร์</option>
-                        <option value="โปรแกรมเมอร์ระบบฝังตัว">โปรแกรมเมอร์ระบบฝังตัว</option>
-                        <option value="นักเก็บข้อมูล">นักเก็บข้อมูล</option>
-                        <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล</option>
-                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล</option>
-                        <option value="แอนิเมเตอร์">แอนิเมเตอร์</option>
-                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล</option>
-                        <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล</option>
-                        <option value="วิศวกรข้อมูล">วิศวกรข้อมูล</option>
-                        <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล</option>
-                        <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล</option>
-                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ดูแลระบบเครือข่าย</option>
-                        <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย</option>
-                        <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย</option>
-                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย</option>
-                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย</option>
-                        <option value="เครื่องทดสอบการเจาะ">เครื่องทดสอบการเจาะ</option>
-                        <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
+
                 </select><br />
               </div>
             </div>            
@@ -207,6 +206,39 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch2" id="branch2" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -219,6 +251,39 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch3" id="branch3" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -230,6 +295,39 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch4" id="branch4" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -241,6 +339,39 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch5" id="branch5" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -252,6 +383,39 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch6" id="branch6" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -263,6 +427,39 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch7" id="branch7" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -274,6 +471,39 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch8" id="branch8" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -285,6 +515,39 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch9" id="branch9" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -296,6 +559,39 @@ mysqli_close($con);
                 <div class="form-group row">
                   <div class="col-sm-12">
                     <select name="branch10" id="branch10" class="form-control" required="" style="border: 2px solid #ced4da;border-radius: 9px;font-family: 'Mitr', sans-serif; width: 100%; height: 40px; font-size: 18px" oninvalid="this.setCustomValidity('โปรดเลือกอาชีพ') "oninput="setCustomValidity('')">
+                    <option value="">- กรุณาเลือก -</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์พัฒนา .NET (.NET Programmer)</option>
+                        <option value="ผู้เขียนเนื้อหาเว็บ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
+                        <option value="นักการตลาดบนเว็บ">นักการตลาดบนเว็บ (Web Marketer)</option>
+                        <option value="นักออกแบบเว็บไซต์">นักพัฒนาเว็บ (Web Developer)</option>
+                        <option value="นักพัฒนาเว็บ">นักพัฒนาแอปพลิเคชันมือถือ (Mobile Application Developer)</option>
+                        <option value=".NET โปรแกรมเมอร์">นักพัฒนาซอฟต์แวร์ (Software Developer)</option>
+                        <option value="เว็บมาสเตอร์">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
+                        <option value="UI / UX Designer">นักพัฒนามือถือซามารีน (Xamarin Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือระบบปฎิบัติการ Android (Android Mobile Developer)</option>
+                        <option value="Xamarin Mobile Developer">นักพัฒนามือถือระบบปฎิบัติการ IOS (IOS Mobile Developer)</option>
+                        <option value="นักพัฒนามือถือ Android">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
+                        <option value="นักพัฒนามือถือ iOS">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
+                        <option value="นักพัฒนาแอปพลิเคชันมือถือ">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                        <option value="นักพัฒนาซอฟต์แวร์">นักวิเคราะห์ระบบ (System Analyst)</option>
+                        <option value="วิเคราะห์ระบบ">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
+                        <option value="วิศวกรรมซอฟต์แวร์">นักออกแบบเว็บไซต์ (Web Designer)</option>
+                        <option value="เครื่องทดสอบซอฟต์แวร์">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
+                        <option value="โปรแกรมเมอร์ระบบฝังตัว">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                        <option value="นักเก็บข้อมูล">ผู้เขียนเนื้อหาเว็บ (Web Content Writer)</option>
+                        <option value="บรรณารักษ์ดิจิทัล">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                        <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลเครือข่าย (Network Administrator)</option>
+                        <option value="แอนิเมเตอร์">ผู้ดูแลเว็บ (Web Master)</option>
+                        <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Sterwards)</option>
+                        <option value="สถาปนิกข้อมูล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
+                        <option value="วิศวกรข้อมูล">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
+                        <option value="นักวิทยาศาสตร์ข้อมูล">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
+                        <option value="นักวิเคราะห์ข้อมูล">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
+                        <option value="ผู้ดูแลระบบเครือข่าย">ผู้ออกแบบ UI/UX (UI/UX Designer)</option>
+                        <option value="วิศวกรระบบเครือข่าย">วิศวกรข้อมูล (Data Engineer)</option>
+                        <option value="นักวิเคราะห์เครือข่าย">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
+                        <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
+                        <option value="ผู้ดูแลระบบรักษาความปลอดภัย">สถาปนิกข้อมูล (Data Architect)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -307,7 +603,7 @@ mysqli_close($con);
 </doby>
      
  
-    <script src="js/jquery.unduplicated.js"></script>  
+    <!-- <script src="js/jquery.unduplicated.js"></script>  
       <script>  
         $(function(){
             
@@ -324,6 +620,6 @@ mysqli_close($con);
                     initialVal:['การตลาด','การบัญชี','การโรงแรม','การเงิน']
                 });
         });
-      </script>
+      </script> -->
       
 </html>
