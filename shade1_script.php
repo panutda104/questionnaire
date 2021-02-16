@@ -1,479 +1,426 @@
 <style>
   #doneena1 {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena2 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena3 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena4 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena5 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena6 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena7 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena8 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena9 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena10 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena11 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena12 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena13 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena14 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena15 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena16 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena17 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena18 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena19 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena20 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena21 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena22 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena23 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena24 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena25 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena26 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena27 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena28 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena29 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena30 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena31 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena32 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena33 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena34 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena35 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena36 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena37 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena38 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena39 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena40 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena41 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena42 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena43 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena44 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena45 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena46 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena47 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena48 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena49 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena50 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena51 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena52 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 
   #doneena53 {
-       font-size: 16px;
+       font-size: 14px;
     font-family: 'Mitr', sans-serif;
     font-style: italic;
     color: #6b7a87;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
   }
 </style>
 

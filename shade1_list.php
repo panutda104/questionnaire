@@ -59,6 +59,7 @@ mysqli_close($con);
                     <input min="0" max="100" name="range" id="range" type="range" value="0" step="1" style="margin: auto;" style="margin: auto;">
                     <div id="doneena1"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -69,6 +70,7 @@ mysqli_close($con);
                     <input name="range2" id="range2" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena2"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -79,6 +81,7 @@ mysqli_close($con);
                     <input name="range3" id="range3" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena3"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -89,6 +92,7 @@ mysqli_close($con);
                     <input name="range4" id="range4" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena4"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -99,6 +103,7 @@ mysqli_close($con);
                     <input name="range5" id="range5" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena5"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -109,6 +114,7 @@ mysqli_close($con);
                     <input name="range6" id="range6" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena6"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -119,6 +125,7 @@ mysqli_close($con);
                     <input name="range7" id="range7" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena7"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -129,6 +136,7 @@ mysqli_close($con);
                     <input name="range8" id="range8" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena8"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -139,6 +147,7 @@ mysqli_close($con);
                     <input name="range9" id="range9" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena9"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -149,6 +158,7 @@ mysqli_close($con);
                     <input name="range10" id="range10" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena10"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -159,6 +169,7 @@ mysqli_close($con);
                     <input name="range11" id="range11" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena11"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -169,6 +180,7 @@ mysqli_close($con);
                     <input name="range12" id="range12" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena12"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -179,6 +191,7 @@ mysqli_close($con);
                     <input name="range13" id="range13" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena13"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -189,6 +202,7 @@ mysqli_close($con);
                     <input name="range14" id="range14" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena14"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -199,6 +213,7 @@ mysqli_close($con);
                     <input name="range15" id="range15" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena15"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -209,6 +224,7 @@ mysqli_close($con);
                     <input name="range16" id="range16" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena16"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -219,6 +235,7 @@ mysqli_close($con);
                     <input name="range17" id="range17" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena17"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -229,6 +246,7 @@ mysqli_close($con);
                     <input name="range18" id="range18" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena18"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -239,6 +257,7 @@ mysqli_close($con);
                     <input name="range19" id="range19" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena19"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -249,6 +268,7 @@ mysqli_close($con);
                     <input name="range20" id="range20" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena20"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -259,6 +279,7 @@ mysqli_close($con);
                     <input name="range21" id="range21" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena21"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -269,6 +290,7 @@ mysqli_close($con);
                     <input name="range22" id="range22" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena22"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -279,6 +301,7 @@ mysqli_close($con);
                     <input name="range23" id="range23" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena23"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -289,6 +312,7 @@ mysqli_close($con);
                     <input name="range24" id="range24" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena24"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -299,6 +323,7 @@ mysqli_close($con);
                     <input name="range25" id="range25" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena25"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -309,6 +334,7 @@ mysqli_close($con);
                     <input name="range26" id="range26" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena26"> </div>
                 </div>
+                <br>
                 <hr />
             </div>
 
@@ -320,238 +346,212 @@ mysqli_close($con);
 
     <style>
         #doneena1 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena2 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
 
         }
 
         #doneena3 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena4 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena5 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena6 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena7 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena8 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena9 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena10 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena11 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena12 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena13 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena14 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena15 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena16 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena17 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena18 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena19 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena20 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena21 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena22 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena23 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena24 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena25 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
 
         #doneena26 {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            margin-top: 10px;
-            margin-bottom: 20px;
+           
         }
     </style>
 
