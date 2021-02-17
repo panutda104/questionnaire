@@ -411,7 +411,7 @@ mysqli_close($con);
         }
 
         #doneena9 {
-            font-size: 14px;
+            font-size: 12.5px;
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
