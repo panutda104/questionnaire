@@ -116,6 +116,7 @@ mysqli_close($con);
                     <input name="range53" id="range53" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena53"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -125,6 +126,7 @@ mysqli_close($con);
                     <input name="range54" id="range54" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena54"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -134,6 +136,7 @@ mysqli_close($con);
                     <input name="range55" id="range55" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena55"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -152,6 +155,7 @@ mysqli_close($con);
                     <input name="range57" id="range57" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena57"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -161,6 +165,7 @@ mysqli_close($con);
                     <input name="range58" id="range58" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena58"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -177,6 +182,7 @@ mysqli_close($con);
                     <input name="range60" id="range60" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena60"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -186,6 +192,7 @@ mysqli_close($con);
                     <input name="range61" id="range61" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena61"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -195,6 +202,7 @@ mysqli_close($con);
                     <input name="range62" id="range62" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena62"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -204,6 +212,7 @@ mysqli_close($con);
                     <input name="range63" id="range63" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena63"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -213,6 +222,7 @@ mysqli_close($con);
                     <input name="range64" id="range64" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena64"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -222,6 +232,7 @@ mysqli_close($con);
                     <input name="range65" id="range65" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena65"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -231,6 +242,7 @@ mysqli_close($con);
                     <input name="range66" id="range66" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena66"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -240,6 +252,7 @@ mysqli_close($con);
                     <input name="range67" id="range67" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena67"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -249,6 +262,7 @@ mysqli_close($con);
                     <input name="range68" id="range68" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena68"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -258,6 +272,7 @@ mysqli_close($con);
                     <input name="range69" id="range69" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena69"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -267,6 +282,7 @@ mysqli_close($con);
                     <input name="range70" id="range70" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena70"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -276,6 +292,7 @@ mysqli_close($con);
                     <input name="range71" id="range71" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena71"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -285,6 +302,7 @@ mysqli_close($con);
                     <input name="range72" id="range72" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena72"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -294,6 +312,7 @@ mysqli_close($con);
                     <input name="range73" id="range73" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena73"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -303,6 +322,7 @@ mysqli_close($con);
                     <input name="range74" id="range74" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena74"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -312,6 +332,7 @@ mysqli_close($con);
                     <input name="range75" id="range75" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena75"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -321,6 +342,7 @@ mysqli_close($con);
                     <input name="range76" id="range76" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena76"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -330,6 +352,7 @@ mysqli_close($con);
                     <input name="range77" id="range77" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena77"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -339,6 +362,7 @@ mysqli_close($con);
                     <input name="range78" id="range78" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena78"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -348,6 +372,7 @@ mysqli_close($con);
                     <input name="range79" id="range79" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena79"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -357,6 +382,7 @@ mysqli_close($con);
                     <input name="range80" id="range80" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena80"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <div>
@@ -366,6 +392,7 @@ mysqli_close($con);
                     <input name="range81" id="range81" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena81"> </div>
                 </div>
+                                <br>
                 <hr />
             </div>
             <br>
