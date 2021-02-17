@@ -146,7 +146,8 @@ mysqli_close($con);
                     <input name="range56" id="range56" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena56"> </div>
                 </div>
-                </hr>
+                <br>
+                <hr />
             </div>
             <div>
                 <p id="text_content2_shade3">5 . งานด้านเสมียนหรือธุรการ (Clerical) </p>
