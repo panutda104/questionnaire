@@ -96,7 +96,7 @@ mysqli_close($con);
 
 <body>
     <form id="page1" class="page1" action="career.php" method="post">
-    <div class="shade">
+        <div class="shade">
             <div class="text_header_shade3">
                 ส่วนที่ 4 เก็บรวบรวมข้อมูลความรู้
             </div>
@@ -116,7 +116,7 @@ mysqli_close($con);
                     <input name="range53" id="range53" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena53"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -126,7 +126,7 @@ mysqli_close($con);
                     <input name="range54" id="range54" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena54"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -136,7 +136,7 @@ mysqli_close($con);
                     <input name="range55" id="range55" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena55"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -146,7 +146,7 @@ mysqli_close($con);
                     <input name="range56" id="range56" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena56"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -156,7 +156,7 @@ mysqli_close($con);
                     <input name="range57" id="range57" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena57"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -166,7 +166,7 @@ mysqli_close($con);
                     <input name="range58" id="range58" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena58"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -174,7 +174,10 @@ mysqli_close($con);
                 <div class="range-wrap59">
                     <div class="range-value59" id="rangeV59"></div>
                     <input name="range59" id="range59" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
+                    <div id="doneena59"> </div>
                 </div>
+                <br>
+                <hr />
             </div>
             <div>
                 <p id="text_content2_shade3">8 . ลูกค้าและบริการส่วนบุคคล (Customer and Personal Service) </p>
@@ -183,7 +186,7 @@ mysqli_close($con);
                     <input name="range60" id="range60" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena60"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -193,7 +196,7 @@ mysqli_close($con);
                     <input name="range61" id="range61" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena61"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -203,7 +206,7 @@ mysqli_close($con);
                     <input name="range62" id="range62" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena62"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -213,7 +216,7 @@ mysqli_close($con);
                     <input name="range63" id="range63" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena63"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -223,7 +226,7 @@ mysqli_close($con);
                     <input name="range64" id="range64" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena64"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -233,7 +236,7 @@ mysqli_close($con);
                     <input name="range65" id="range65" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena65"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -243,7 +246,7 @@ mysqli_close($con);
                     <input name="range66" id="range66" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena66"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -253,7 +256,7 @@ mysqli_close($con);
                     <input name="range67" id="range67" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena67"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -263,7 +266,7 @@ mysqli_close($con);
                     <input name="range68" id="range68" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena68"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -273,7 +276,7 @@ mysqli_close($con);
                     <input name="range69" id="range69" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena69"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -283,7 +286,7 @@ mysqli_close($con);
                     <input name="range70" id="range70" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena70"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -293,7 +296,7 @@ mysqli_close($con);
                     <input name="range71" id="range71" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena71"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -303,7 +306,7 @@ mysqli_close($con);
                     <input name="range72" id="range72" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena72"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -313,7 +316,7 @@ mysqli_close($con);
                     <input name="range73" id="range73" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena73"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -323,7 +326,7 @@ mysqli_close($con);
                     <input name="range74" id="range74" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena74"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -333,7 +336,7 @@ mysqli_close($con);
                     <input name="range75" id="range75" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena75"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -343,7 +346,7 @@ mysqli_close($con);
                     <input name="range76" id="range76" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena76"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -353,7 +356,7 @@ mysqli_close($con);
                     <input name="range77" id="range77" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena77"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -363,7 +366,7 @@ mysqli_close($con);
                     <input name="range78" id="range78" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena78"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -373,7 +376,7 @@ mysqli_close($con);
                     <input name="range79" id="range79" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena79"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -383,7 +386,7 @@ mysqli_close($con);
                     <input name="range80" id="range80" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena80"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <div>
@@ -393,7 +396,7 @@ mysqli_close($con);
                     <input name="range81" id="range81" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
                     <div id="doneena81"> </div>
                 </div>
-                                <br>
+                <br>
                 <hr />
             </div>
             <br>
@@ -409,7 +412,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena54 {
@@ -417,7 +420,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena55 {
@@ -425,7 +428,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena56 {
@@ -433,7 +436,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena57 {
@@ -441,7 +444,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena58 {
@@ -449,7 +452,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena59 {
@@ -457,7 +460,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena60 {
@@ -465,7 +468,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena61 {
@@ -473,7 +476,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena62 {
@@ -481,7 +484,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena63 {
@@ -489,7 +492,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena64 {
@@ -497,7 +500,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena65 {
@@ -505,7 +508,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena66 {
@@ -513,7 +516,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena67 {
@@ -521,7 +524,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena68 {
@@ -529,7 +532,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena69 {
@@ -537,7 +540,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena70 {
@@ -545,7 +548,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena71 {
@@ -553,7 +556,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena72 {
@@ -561,7 +564,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena73 {
@@ -569,7 +572,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena74 {
@@ -577,7 +580,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena75 {
@@ -585,7 +588,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena76 {
@@ -593,7 +596,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena77 {
@@ -601,7 +604,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena78 {
@@ -609,7 +612,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena79 {
@@ -617,7 +620,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena80 {
@@ -625,7 +628,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
 
         #doneena81 {
@@ -633,7 +636,7 @@ mysqli_close($con);
             font-family: 'Mitr', sans-serif;
             font-style: italic;
             color: #6b7a87;
-            
+
         }
     </style>
     <!-- script Range53 -->

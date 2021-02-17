@@ -56,7 +56,7 @@ mysqli_close($con);
                 <p id="text_content2_shade1">1 . คุณสามารถเขียนบรรยายเพื่อเล่าเรื่องจากประสบการณ์ของตนเองได้</p>
                 <div class="range-wrap">
                     <div class="range-value" id="rangeV"></div>
-                    <input min="0" max="100" name="range" id="range" type="range" value="0" step="1" style="margin: auto;" style="margin: auto;">
+                    <input min="0" max="100" name="range" id="range" type="range" value="0"  step="1" style="margin: auto;" style="margin: auto;">
                     <div id="doneena1"> </div>
                 </div>
                 <br>
