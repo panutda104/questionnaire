@@ -37,10 +37,29 @@ mysqli_close($con);
     <title>DT-shade1</title>
 </head>
 
+<script language="javascript">
+function fncSubmit()
+{
+	if(document.form1.range.value == "")
+	{
+		alert('Please input Input 1');
+		document.form1.range.focus();
+		return false;
+	}	
+	if(document.form1.range2.value == "")
+	{
+		alert('Please input Input 2');
+		document.form1.range2.focus();		
+		return false;
+	}	
+	document.form1.submit();
+}
+</script>
+
 <body>
     <!-- <form action="shade1_list.php" method="post"> -->
 
-    <form id="page1" class="page1" action="shade2_list.php" method="post">
+    <form id="page1" class="page1" action="shade2_list.php" method="post" name="form1" onSubmit="JavaScript:return fncSubmit();">
         <div class="shade">
             <div class="text_header_shade">
                 ส่วนที่ 2 เก็บรวบรวมข้อมูลทักษะ
@@ -56,7 +75,7 @@ mysqli_close($con);
                 <p id="text_content2_shade1">1 . คุณสามารถเขียนบรรยายเพื่อเล่าเรื่องจากประสบการณ์ของตนเองได้</p>
                 <div class="range-wrap">
                     <div class="range-value" id="rangeV"></div>
-                    <input min="0" max="100" name="range" id="range" type="range" value="0"  step="1" style="margin: auto;" style="margin: auto;">
+                    <input min="0" max="100" name="range" id="range" type="range" value="0" required="required"  step="1" style="margin: auto;" style="margin: auto;">
                     <div id="doneena1"> </div>
                 </div>
                 <br>
@@ -67,7 +86,7 @@ mysqli_close($con);
                 <p id="text_content2_shade1">2 . คุณสามารถเขียนบรรยายจากจินตนาการได้</p>
                 <div class="range-wrap2">
                     <div class="range-value2" id="rangeV2"></div>
-                    <input name="range2" id="range2" type="range" min="0" max="100" value="0" step="1" style="margin: auto;">
+                    <input name="range2" id="range2" type="range" min="0" max="100" value="0"  step="1" style="margin: auto;">
                     <div id="doneena2"> </div>
                 </div>
                 <br>
@@ -340,7 +359,7 @@ mysqli_close($con);
 
             <br><br>
         </div>
-        <center><input type='submit' class="button" type="submit" value="ถัดไป">
+        <center><input type='submit' class="button"    value="ถัดไป">
 
     </form>
 

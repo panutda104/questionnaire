@@ -150,9 +150,9 @@ mysqli_close($con);
     <form id="page1" class="page1" onsubmit="return check(this)" action="suggestion.php" method="POST">
       <div class="shade">
             <p id="text_content1_shade1_1">อาชีพที่เหมาะสม 10 อาชีพ </p>
-            <i>
+            
                 <p id="text_content1_shade1" style= "color: red; font-weight: bolder; " >ให้เลือกอาชีพที่ท่านคิดว่าเหมาะสมกับทักษะ ความรู้ และเจตคติของท่านมากที่สุด จำนวน 10 อาชีพ</p>
-            </i>
+            
       </div>
 
       <div class="shade1" >
