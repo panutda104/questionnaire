@@ -737,9 +737,9 @@ function fncSubmit()
                 rangeV7.innerHTML = `<span>${range7.value}</span>`;
                 rangeV7.style.left = `calc(${newValue7}% + (${newPosition7}px))`;
                 if (range7.value == 100) {
-                    doneena7.innerHTML = ` คุณสามารถวิเคราะห์ความต้องการและข้อกำหนดของผลิตภัณฑ์เพื่อสร้างการออกแบบที่เหมาะสมด้วยตนเองได้ดี`; /////// let to show value at S1_list
+                    doneena7.innerHTML = ` คุณสามารถระบุปัญหาที่ซับซ้อนและตรวจสอบข้อมูลที่เกี่ยวข้องเพื่อพัฒนา ประเมินทางเลือกและดำเนินการแก้ไขปัญหาได้อย่างมีประสิทธิภาพมาก`; /////// let to show value at S1_list
                 } else if (range7.value == 0) {
-                    doneena7.innerHTML = `คุณไม่สามารถวิเคราะห์ความต้องการและข้อกำหนดของผลิตภัณฑ์เพื่อสร้างการออกแบบที่เหมาะสมได้`;
+                    doneena7.innerHTML = `คุณไม่สามารถระบุปัญหาที่ซับซ้อนและตรวจสอบข้อมูลที่เกี่ยวข้องเพื่อพัฒนา ประเมินทางเลือกและดำเนินการแก้ไขปัญหา`;
 
                 } else {
                     doneena7.innerHTML = '';
@@ -1162,9 +1162,9 @@ function fncSubmit()
                 rangeV24.innerHTML = `<span>${range24.value}</span>`;
                 rangeV24.style.left = `calc(${newValue24}% + (${newPosition24}px))`;
                 if (range24.value == 100) {
-                    doneena24.innerHTML = `คุณสามารถเขียนโปรแกรมคอมพิวเตอร์เพื่อวัตถุประสงค์ต่าง ๆได้ดีด้วยตนเอง `; /////// let to show value at S1_list
+                    doneena24.innerHTML = `คุณสามารถเข้าไปมีส่วนร่วมในเหตุการณ์ปัจจุบัน และตระหนักถึงปฏิกิริยาของผู้อื่นและทำความเข้าใจปฏิกิริยาเหล่านั้นได้อย่างดีมาก `; /////// let to show value at S1_list
                 } else if (range24.value == 0) {
-                    doneena24.innerHTML = `คุณไม่สามารถเขียนโปรแกรมคอมพิวเตอร์เพื่อวัตถุประสงค์ต่าง ๆได้`;
+                    doneena24.innerHTML = `คุณไม่สามารถเข้าไปมีส่วนร่วมในเหตุการณ์ปัจจุบัน และตระหนักถึงปฏิกิริยาของผู้อื่นและทำความเข้าใจปฏิกิริยาเหล่านั้น`;
 
                 } else {
                     doneena24.innerHTML = '';
@@ -1212,9 +1212,9 @@ function fncSubmit()
                 rangeV26.innerHTML = `<span>${range26.value}</span>`;
                 rangeV26.style.left = `calc(${newValue26}% + (${newPosition26}px))`;
                 if (range26.value == 100) {
-                    doneena26.innerHTML = `คุณสามารถสื่อสารโดยการเขียนบรรยายจากจินตนาการของตนเองตามความเหมาะสมกับความต้องการของผู้อ่านได้อย่างมีประสิทธิภาพมาก `; /////// let to show value at S1_list
+                    doneena26.innerHTML = `คุณสามารถสอนผู้อื่นถึงวิธีการทำสิ่งต่าง ๆ ได้อย่างดีมาก`; /////// let to show value at S1_list
                 } else if (range26.value == 0) {
-                    doneena26.innerHTML = `คุณไม่สามารถสื่อสารโดยการเขียนบรรยายจากจินตนาการของตนเองตามความเหมาะสมกับความต้องการของผู้อ่าน`;
+                    doneena26.innerHTML = `คุณไม่สามารถสอนผู้อื่นถึงวิธีการทำสิ่งต่าง ๆ`;
 
                 } else {
                     doneena26.innerHTML = '';

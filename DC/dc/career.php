@@ -177,13 +177,14 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
                     <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
+                    <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี (Account Executive)</option>                   
                     <!-- <option value="ผู้บริหารฝ่ายบัญชี">ผู้บริหารฝ่ายบัญชี (Account Executive)</option> -->
                     <option value="ผู้บริหารเจ้าหน้าที่ประชาสัมพันธ์ฝ่ายบัญชี">เจ้าหน้าที่ประชาสัมพันธ์ (Public Relations Officer)</option>
                     <option value="ผู้ประสานงานการตลาด">ผู้ประสานงานการตลาด (Marketing Coordinator)</option>
@@ -231,10 +232,9 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
-                    <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
-                    <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
+                    <option value="ตัวออกแบบ UI เกม">นักออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
@@ -286,10 +286,9 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
-                    <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
-                    <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
+                    <option value="ตัวออกแบบ UI เกม">นักออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
@@ -307,7 +306,7 @@ mysqli_close($con);
                     <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
                     <option value="ผู้ประเมิน">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>                     
                     <option value="นักวิจัย">นักวิจัย (Researcher)</option>
-                    <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>      
+                    <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>     
                     </select><br />
                   </div>
                 </div>               
@@ -340,10 +339,9 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
-                    <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
-                    <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
+                    <option value="ตัวออกแบบ UI เกม">นักออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
@@ -361,7 +359,7 @@ mysqli_close($con);
                     <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
                     <option value="ผู้ประเมิน">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>                     
                     <option value="นักวิจัย">นักวิจัย (Researcher)</option>
-                    <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>      
+                    <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>       
                     </select><br />
                   </div>
                 </div>               
@@ -394,10 +392,9 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
-                    <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
-                    <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
+                    <option value="ตัวออกแบบ UI เกม">นักออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
@@ -448,10 +445,9 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
-                    <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
-                    <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
+                    <option value="ตัวออกแบบ UI เกม">นักออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
@@ -502,10 +498,9 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
-                    <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
-                    <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
+                    <option value="ตัวออกแบบ UI เกม">นักออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
@@ -556,10 +551,9 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
-                    <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
-                    <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
+                    <option value="ตัวออกแบบ UI เกม">นักออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
@@ -610,10 +604,9 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
-                    <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
-                    <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
+                    <option value="ตัวออกแบบ UI เกม">นักออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>
@@ -631,7 +624,7 @@ mysqli_close($con);
                     <option value="นักพัฒนามือถือข้ามแพลตฟอร์ม">นักพัฒนามือถือข้ามแพลตฟอร์ม (Cross-platform Mobile Developer)</option>
                     <option value="ผู้ประเมิน">ผู้ประเมิน / ทดสอบสื่อดิจิทัล (Digital Media Evaluator / Testing)</option>                     
                     <option value="นักวิจัย">นักวิจัย (Researcher)</option>
-                    <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>     
+                    <option value="นักศึกษาระดับบัณฑิตศึกษา">นักศึกษาระดับบัณฑิตศึกษา (Graduate Student)</option>      
                     </select><br />
                   </div>
                 </div>               
@@ -664,10 +657,9 @@ mysqli_close($con);
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ">นักออกแบบเอฟเฟกต์พิเศษของวิดีโอ (Video Special Effect Designerr)</option>
                     <option value="ผู้สร้างโครงเรื่อง">ผู้สร้างโครงเรื่อง (Storyline Creator)</option>
                     <option value="นักออกแบบเทคนินักออกแบบตัวละครและฉากคพิเศษ">นักออกแบบตัวละครและฉาก (Character & Scene Designer)</option>
-                    <option value="2D / 3D Modeller">2D / 3D Modeller (2D / 3D Modeller)</option>  
-                    <option value="แอนิเมเตอร์">แอนิเมเตอร์ (Animator)</option>
+                    <option value="2D / 3D Modeller">นักออกแบบ 2D / 3D Modeller (2D / 3D Modeller)</option>  
                     <option value="นักออกแบบเอฟเฟกต์พิเศษของเกม">นักออกแบบเอฟเฟกต์พิเศษของเกม (Game Special Effect Designer )</option>
-                    <option value="ตัวออกแบบ UI เกม">ออกแบบ UI เกม ( Game UI Designer)</option>
+                    <option value="ตัวออกแบบ UI เกม">นักออกแบบ UI เกม ( Game UI Designer)</option>
                     <option value="โปรแกรมเมอร์เกม">โปรแกรมเมอร์เกม (Game Programmer)</option>
                     <option value="ผู้ผลิต">ผู้ผลิต (Producer)</option>
                     <option value="นักข่าผู้ออกแบบเชิงสร้างสรรค์ววงเดียว">ผู้ออกแบบเชิงสร้างสรรค์ (Creative)</option>

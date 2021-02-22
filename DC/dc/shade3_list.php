@@ -639,8 +639,8 @@ mysqli_close($con);
 
         }
     </style>
-    <!-- script Range53 -->
-    <script>
+   <!-- script Range53 -->
+   <script>
         const
             range53 = document.getElementById('range53'),
             rangeV53 = document.getElementById('rangeV53'),
@@ -1336,6 +1336,4 @@ mysqli_close($con);
         document.addEventListener("DOMContentLoaded", setValue81);
         range81.addEventListener('input', setValue81);
     </script>
-
-
 </html>
