@@ -179,21 +179,22 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    
                    
             </select><br />
               </div>
@@ -224,21 +225,21 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -269,21 +270,21 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -313,21 +314,21 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -357,21 +358,21 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -401,21 +402,21 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -445,21 +446,21 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -489,21 +490,21 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -533,21 +534,21 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
                     </select><br />
                   </div>
                 </div>               
@@ -577,21 +578,21 @@ mysqli_close($con);
                     <option value="วิศวกรรมซอฟต์แวร์">วิศวกรรมซอฟต์แวร์ (Software Engineer)</option>
                     <option value="ผู้ทดสอบซอฟต์แวร์">ผู้ทดสอบซอฟต์แวร์ (Software Tester)</option>
                     <option value="โปรแกรมเมอร์ระบบ">โปรแกรมเมอร์ระบบ Embedded (Embedded System Programmer)</option>
-                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
+                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
                     <option value="บรรณารักษ์ดิจิทัล">บรรณารักษ์ดิจิทัล (Digital Librarians)</option>
                     <option value="ผู้ดูแลข้อมูลดิจิทัล">ผู้ดูแลข้อมูลดิจิทัล (Digital Data Curator)</option>
                     <option value="ผู้ดูแลข้อมูล">ผู้ดูแลข้อมูล (Data Stewards)</option>
-                    <option value="ผู้เก็บรวบรวมข้อมูล">ผู้เก็บรวบรวมข้อมูล (Data Archivists)</option>
+                    <option value="สถาปนิกข้อมูล">สถาปนิกข้อมูล (Data Architect)</option>      
                     <option value="วิศวกรข้อมูล">วิศวกรข้อมูล (Data Engineer)</option>
                     <option value="นักวิทยาศาสตร์ข้อมูล">นักวิทยาศาสตร์ข้อมูล (Data Scientist)</option>
                     <option value="นักวิเคราะห์ข้อมูล">นักวิเคราะห์ข้อมูล (Data Analyst)</option>
                     <option value="ผู้ดูแลเครือข่าย">ผู้ดูแลเครือข่าย (Network Administrator)</option>
                     <option value="วิศวกรระบบเครือข่าย">วิศวกรระบบเครือข่าย (Network System Engineer)</option>
                     <option value="นักวิเคราะห์เครือข่าย">นักวิเคราะห์เครือข่าย (Network Analyst)</option>
-                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
+                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
                     <option value="ผู้ดูแลระบบรักษาความปลอดภัย">ผู้ดูแลระบบรักษาความปลอดภัย (Security Administrator)</option>
                     <option value="ผู้ทดสอบการบุกรุกระบบ">ผู้ทดสอบการบุกรุกระบบ (Penetration Tester)</option>
-                    <option value="ผู้เชี่ยวชาญด้านความปลอดภัย">ผู้เชี่ยวชาญด้านความปลอดภัย (Security Specialist)</option>
+                    <option value="นักวิเคราะห์ความปลอดภัย">นักวิเคราะห์ความปลอดภัย (Security Analyst)</option>
                     </select><br />
                   </div>
                 </div>               
